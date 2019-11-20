@@ -6,3 +6,4 @@ INFO 2019-11-20 12:41:00,335 basehttp 154 "GET / HTTP/1.1" 200 16348
 INFO 2019-11-20 12:41:01,013 basehttp 154 "GET / HTTP/1.1" 200 16348
 INFO 2019-11-20 12:52:54,737 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
 INFO 2019-11-20 12:52:55,739 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-20 13:25:44,199 autoreload 597 Watching for file changes with StatReloader
