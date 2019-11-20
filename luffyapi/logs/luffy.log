@@ -1,0 +1,8 @@
+INFO 2019-11-20 12:40:13,192 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-20 12:40:54,384 basehttp 154 "GET / HTTP/1.1" 200 16348
+WARNING 2019-11-20 12:40:56,128 log 228 Not Found: /favicon.ico
+WARNING 2019-11-20 12:40:56,129 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1974
+INFO 2019-11-20 12:41:00,335 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-11-20 12:41:01,013 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-11-20 12:52:54,737 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-20 12:52:55,739 autoreload 597 Watching for file changes with StatReloader

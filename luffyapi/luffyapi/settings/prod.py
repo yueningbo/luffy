@@ -118,3 +118,55 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# 日志配置
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(lineno)d %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(module)s %(lineno)d %(message)s'
+        },
+    },
+    'filters': {
+        'require_debug_true': {
+            '()': 'django.utils.log.RequireDebugTrue',
+        },
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'filters': ['require_debug_true'],
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            # 日志位置,日志文件名,日志保存目录必须手动创建
+            'filename': os.path.join(os.path.dirname(BASE_DIR), "logs/luffy.log"),
+            # 日志文件的最大值,这里我们设置300M
+            'maxBytes': 300 * 1024 * 1024,
+            # 日志文件的数量,设置最大日志数量为10
+            'backupCount': 10,
+            # 日志格式:详细格式
+            'formatter': 'verbose'
+        },
+    },
+    # 日志对象
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'file'],
+            'propagate': True, # 是否让日志信息继续冒泡给其他的日志处理系统
+        },
+    }
+}
+
+REST_FRAMEWORK = {
+    # 异常处理
+    'EXCEPTION_HANDLER': 'luffyapi.utils.exceptions.custom_exception_handler',
+}

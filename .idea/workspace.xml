@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5049807b-3a8b-4aa4-afa9-a0a2aa2905e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/luffyapi/luffyapi/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffyapi/luffyapi/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luffyapi/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffyapi/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luffyapi/luffyapi/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffyapi/luffyapi/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luffyapi/luffyapi/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffyapi/luffyapi/settings/prod.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,20 +23,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luffyapi/luffyapi/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="234">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luffyapi/luffyapi/settings/prod.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luffyapi/luffyapi/utils/exceptions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/logging/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="1326" column="8" selection-start-line="1326" selection-start-column="8" selection-end-line="1326" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/luffyapi/luffyapi/settings/dev.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="142">
+              <caret line="141" column="14" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -57,6 +88,9 @@
       <list>
         <option value="$PROJECT_DIR$/luffyapi/manage.py" />
         <option value="$PROJECT_DIR$/luffyapi/luffyapi/wsgi.py" />
+        <option value="$PROJECT_DIR$/luffyapi/luffyapi/utils/exceptions.py" />
+        <option value="$PROJECT_DIR$/luffyapi/luffyapi/settings/prod.py" />
+        <option value="$PROJECT_DIR$/luffyapi/luffyapi/settings/dev.py" />
       </list>
     </option>
   </component>
@@ -101,6 +135,12 @@
               <item name="luffy" type="b2602c69:ProjectViewProjectNode" />
               <item name="luffy" type="462c0819:PsiDirectoryNode" />
               <item name="luffyapi" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luffy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luffy" type="462c0819:PsiDirectoryNode" />
+              <item name="luffyapi" type="462c0819:PsiDirectoryNode" />
               <item name="luffyapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -109,6 +149,13 @@
               <item name="luffyapi" type="462c0819:PsiDirectoryNode" />
               <item name="luffyapi" type="462c0819:PsiDirectoryNode" />
               <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luffy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luffy" type="462c0819:PsiDirectoryNode" />
+              <item name="luffyapi" type="462c0819:PsiDirectoryNode" />
+              <item name="luffyapi" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,12 +225,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574130152773</updated>
-      <workItem from="1574130158724" duration="3123000" />
+      <workItem from="1574130158724" duration="4680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3123000" />
+    <option name="totallyTimeSpent" value="4680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1295" height="590" extended-state="6" />
@@ -199,8 +246,8 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3295964" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24887893" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -216,16 +263,9 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/luffy$manage.coverage" NAME="manage Coverage Results" MODIFIED="1574130939955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/luffyapi" />
+    <SUITE FILE_PATH="coverage/luffy$manage.coverage" NAME="manage Coverage Results" MODIFIED="1574253523396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/luffyapi" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/luffyapi/luffyapi/settings/dev.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/luffyapi/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -235,8 +275,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/luffyapi/luffyapi/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="234">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffyapi/logs/luffy.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="1326" column="8" selection-start-line="1326" selection-start-column="8" selection-end-line="1326" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffyapi/luffyapi/utils/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffyapi/luffyapi/settings/prod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffyapi/luffyapi/settings/dev.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="141" column="14" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
         </state>
       </provider>
     </entry>
