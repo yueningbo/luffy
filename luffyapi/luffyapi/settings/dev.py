@@ -18,6 +18,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
+# 新增一个系统导包路径
+import sys
+sys.path.insert(0,os.path.join(BASE_DIR,"apps"))
+
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'g0ybp$7$73-*v4c3sute)#f2la_zghos%!(y=^!r*ym*#f8e^0'
 
@@ -25,6 +30,24 @@ SECRET_KEY = 'g0ybp$7$73-*v4c3sute)#f2la_zghos%!(y=^!r*ym*#f8e^0'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+
+# CORS组的配置信息
+CORS_ORIGIN_WHITELIST = (
+    'http://www.luffycity.cn:8080',
+)
+CORS_ALLOW_CREDENTIALS = False  # 允许ajax跨域请求时携带cookie
+
+# 访问静态文件的url地址前缀
+STATIC_URL = '/static/'
+# 设置django的静态文件目录
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,"static")
+]
+
+# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
+MEDIA_ROOT=os.path.join(BASE_DIR,"uploads")
+# 访问上传文件的url地址前缀
+MEDIA_URL ="/media/"
 
 # Application definition
 
@@ -35,9 +58,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'corsheaders',
+    'rest_framework',# 注意，加上drf框架的注册
+
+    # 子应用
+    'home',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

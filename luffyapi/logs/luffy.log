@@ -41,3 +41,56 @@ INFO 2019-11-21 12:38:29,245 basehttp 154 "GET /static/admin/fonts/Roboto-Regula
 INFO 2019-11-21 12:38:29,257 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
 WARNING 2019-11-21 12:38:29,503 log 228 Not Found: /favicon.ico
 WARNING 2019-11-21 12:38:29,506 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1978
+INFO 2019-11-21 12:45:38,193 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-11-21 14:16:15,288 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:21:17,743 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 14:21:20,939 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:21:44,295 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 14:21:44,997 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:22:17,749 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 14:22:18,343 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:22:39,741 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 14:22:40,446 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:30:38,110 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 14:30:41,820 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:31:07,904 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:31:19,803 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-11-21 14:31:20,352 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-11-21 14:31:21,304 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2019-11-21 14:31:21,378 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2019-11-21 14:31:21,395 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+WARNING 2019-11-21 14:31:31,828 log 228 Not Found: /favicon.ico
+WARNING 2019-11-21 14:31:31,830 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1981
+INFO 2019-11-21 14:39:31,933 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 14:39:32,393 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 14:39:33,911 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:39:33,911 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:42:19,370 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/urls.py changed, reloading.
+INFO 2019-11-21 14:42:19,433 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/urls.py changed, reloading.
+INFO 2019-11-21 14:42:20,432 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:42:20,432 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:48:40,964 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 14:48:41,138 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 14:48:42,339 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:48:42,361 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:49:12,365 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/home/models.py changed, reloading.
+INFO 2019-11-21 14:49:12,453 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/home/models.py changed, reloading.
+INFO 2019-11-21 14:49:13,364 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 14:49:13,386 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:02:47,281 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/urls.py changed, reloading.
+INFO 2019-11-21 15:02:47,308 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/urls.py changed, reloading.
+INFO 2019-11-21 15:02:48,934 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:02:48,935 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:05:07,281 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:05:12,356 basehttp 154 "GET /banner/ HTTP/1.1" 200 5192
+INFO 2019-11-21 15:05:12,678 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2019-11-21 15:05:12,684 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2019-11-21 15:05:12,688 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2019-11-21 15:05:12,688 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2019-11-21 15:05:12,707 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2019-11-21 15:05:12,707 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2019-11-21 15:05:12,717 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2019-11-21 15:05:12,786 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2019-11-21 15:05:12,787 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2019-11-21 15:05:12,794 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2019-11-21 15:05:13,239 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
