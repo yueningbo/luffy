@@ -7,3 +7,37 @@ INFO 2019-11-20 12:41:01,013 basehttp 154 "GET / HTTP/1.1" 200 16348
 INFO 2019-11-20 12:52:54,737 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
 INFO 2019-11-20 12:52:55,739 autoreload 597 Watching for file changes with StatReloader
 INFO 2019-11-20 13:25:44,199 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 12:34:57,125 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 12:35:08,882 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 12:35:20,036 autoreload 217 /home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/db/backends/mysql/base.py changed, reloading.
+INFO 2019-11-21 12:35:21,100 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 12:35:42,512 autoreload 217 /home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/db/backends/mysql/base.py changed, reloading.
+INFO 2019-11-21 12:35:43,251 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 12:35:50,631 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 12:35:57,308 autoreload 217 /home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/db/backends/mysql/operations.py changed, reloading.
+INFO 2019-11-21 12:35:57,951 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 12:36:13,437 autoreload 217 /home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/db/backends/mysql/operations.py changed, reloading.
+INFO 2019-11-21 12:36:14,318 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 12:36:18,684 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-11-21 12:36:41,519 exception 77 Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2019-11-21 12:36:41,838 log 228 Bad Request: /
+WARNING 2019-11-21 12:36:41,839 basehttp 154 "GET / HTTP/1.1" 400 68590
+ERROR 2019-11-21 12:36:47,679 exception 77 Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2019-11-21 12:36:47,764 log 228 Bad Request: /favicon.ico
+WARNING 2019-11-21 12:36:47,765 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 68633
+INFO 2019-11-21 12:37:22,245 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-11-21 12:37:22,940 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-11-21 12:37:26,591 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2019-11-21 12:37:26,591 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2019-11-21 12:37:26,599 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2019-11-21 12:37:27,556 log 228 Not Found: /favicon.ico
+WARNING 2019-11-21 12:37:27,557 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1974
+INFO 2019-11-21 12:38:01,846 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 12:38:03,258 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 12:38:27,186 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-11-21 12:38:27,562 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-11-21 12:38:29,233 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2019-11-21 12:38:29,245 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2019-11-21 12:38:29,257 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+WARNING 2019-11-21 12:38:29,503 log 228 Not Found: /favicon.ico
+WARNING 2019-11-21 12:38:29,506 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1978
