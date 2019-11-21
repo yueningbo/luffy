@@ -1,0 +1,44 @@
+body,h1,h2,h3,h4,h5,ul,p{
+    padding: 0;
+    margin:0;
+    font-weight: normal;
+  }
+  body{
+    margin-top: 80px;
+  }
+  a{
+    text-decoration: none;
+    color: #4a4a4a;
+  }
+  a:hover{
+    color: #000;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .header .el-menu li .el-submenu__title{
+    height: 26px!important;
+    line-height: 26px!important;
+  }
+  .el-menu--popup{
+    min-width: 140px;
+  }
+  .el-checkbox__inner{
+    width:16px;
+    height: 16px;
+    border: 1px solid #999;
+  }
+  .el-checkbox__inner:after{
+    width: 6px;
+    height: 8px;
+  }
+  .el-form-item__content{
+    margin-left:0px!important;
+    width: 120px;
+  }

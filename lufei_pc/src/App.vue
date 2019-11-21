@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
@@ -12,12 +11,56 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+/* 声明全局样式和项目的初始化样式 */
+body,h1,h2,h3,h4,p,table,tr,td,ul,li,a,form,input,select,option,textarea{
+  margin:0;
+  padding: 0;
+  font-size: 15px;
 }
+a{
+  text-decoration: none;
+  color: #333;
+}
+ul,li{
+  list-style: none;
+}
+table{
+  border-collapse: collapse; /* 合并边框 */
+}
+
+/* 工具的全局样式 */
+.full-left{
+  float: left!important;
+}
+.full-right{
+  float: right!important;
+}
+
+[class*=" el-icon-"], [class^=el-icon-]{
+  font-size: 50px;
+}
+.el-carousel__arrow{
+  width: 120px;
+  height: 120px;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner{
+  background: #ffc210;
+  border-color: #ffc210;
+  border: none;
+}
+.el-checkbox__inner:hover{
+  border-color: #9b9b9b;
+}
+.el-checkbox__inner{
+  width: 16px;
+  height: 16px;
+  border: 1px solid #9b9b9b;
+  border-radius: 0;
+}
+.el-checkbox__inner::after{
+  height: 9px;
+  width: 5px;
+}
+
 </style>
