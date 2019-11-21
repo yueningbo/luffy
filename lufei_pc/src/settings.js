@@ -1,4 +1,4 @@
 export default {
-  Host:"http://127.0.0.1",
+  Host:"http://api.luffycity.cn:8000",
 }
 

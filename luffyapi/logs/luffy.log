@@ -94,3 +94,193 @@ INFO 2019-11-21 15:05:12,786 basehttp 154 "GET /static/rest_framework/js/prettif
 INFO 2019-11-21 15:05:12,787 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
 INFO 2019-11-21 15:05:12,794 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
 INFO 2019-11-21 15:05:13,239 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2019-11-21 15:13:58,694 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/home/models.py changed, reloading.
+INFO 2019-11-21 15:13:58,952 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/home/models.py changed, reloading.
+INFO 2019-11-21 15:14:00,284 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:14:00,302 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:29:12,014 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 15:29:12,768 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 23:29:13,305 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 23:29:13,479 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 23:29:48,183 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 23:29:49,184 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-21 23:29:50,013 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 23:29:50,576 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 23:31:49,921 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/urls.py changed, reloading.
+INFO 2019-11-21 23:31:50,257 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/urls.py changed, reloading.
+INFO 2019-11-21 23:31:51,325 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 23:31:51,558 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 23:35:10,295 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/home/__init__.py changed, reloading.
+INFO 2019-11-21 23:35:10,327 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/home/__init__.py changed, reloading.
+INFO 2019-11-21 23:35:12,040 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 23:35:12,054 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 23:35:31,708 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/home/__init__.py changed, reloading.
+INFO 2019-11-21 23:35:31,961 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/home/__init__.py changed, reloading.
+INFO 2019-11-21 23:35:33,073 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 23:35:33,363 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 23:35:43,209 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 23:35:59,620 basehttp 154 "GET /xadmin HTTP/1.1" 301 0
+INFO 2019-11-21 23:35:59,906 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-11-21 23:36:00,266 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2019-11-21 23:36:00,316 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2019-11-21 23:36:00,325 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2019-11-21 23:36:00,358 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2019-11-21 23:36:00,464 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-11-21 23:36:00,475 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2019-11-21 23:36:00,478 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2019-11-21 23:36:00,498 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2019-11-21 23:36:00,502 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-11-21 23:36:00,503 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-11-21 23:36:00,507 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-11-21 23:36:00,510 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-11-21 23:36:00,543 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2019-11-21 23:36:00,561 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2019-11-21 23:36:00,568 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-11-21 23:36:00,592 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2019-11-21 23:36:00,600 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2019-11-21 23:36:01,402 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2019-11-21 23:36:06,420 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-11-21 23:36:07,868 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14374
+INFO 2019-11-21 23:36:07,978 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2019-11-21 23:36:07,993 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2019-11-21 23:36:08,099 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-21 23:36:08,106 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2019-11-21 23:36:22,382 basehttp 154 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 29014
+INFO 2019-11-21 23:36:22,428 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2019-11-21 23:36:22,437 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2019-11-21 23:36:22,440 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2019-11-21 23:36:22,441 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2019-11-21 23:36:22,453 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2019-11-21 23:36:22,527 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2019-11-21 23:36:22,533 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2019-11-21 23:36:22,540 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2019-11-21 23:36:22,543 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2019-11-21 23:36:22,547 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2019-11-21 23:36:22,554 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2019-11-21 23:36:22,565 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-21 23:36:22,565 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+INFO 2019-11-21 23:36:22,572 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+WARNING 2019-11-21 23:36:22,597 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-21 23:36:22,616 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2019-11-21 23:36:22,620 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+WARNING 2019-11-21 23:36:22,879 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-21 23:36:26,251 basehttp 154 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 29014
+WARNING 2019-11-21 23:36:26,310 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-21 23:36:26,325 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-21 23:36:26,415 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-21 23:36:27,967 basehttp 154 "GET /xadmin/reversion/revision/add/ HTTP/1.1" 200 27510
+INFO 2019-11-21 23:36:28,064 basehttp 154 "GET /static/xadmin/css/xadmin.plugin.formset.css HTTP/1.1" 200 1114
+WARNING 2019-11-21 23:36:28,077 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-21 23:36:28,122 basehttp 154 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js HTTP/1.1" 200 21112
+INFO 2019-11-21 23:36:28,124 basehttp 154 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css HTTP/1.1" 200 3729
+INFO 2019-11-21 23:36:28,131 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.formset.js HTTP/1.1" 200 5969
+INFO 2019-11-21 23:36:28,133 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2019-11-21 23:36:28,159 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-21 23:36:28,389 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-21 23:36:36,293 basehttp 154 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 29014
+WARNING 2019-11-21 23:36:36,385 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-21 23:36:36,471 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-21 23:36:36,547 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-21 23:36:38,879 basehttp 154 "GET /xadmin/xadmin/log/ HTTP/1.1" 200 30176
+WARNING 2019-11-21 23:36:38,965 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-21 23:36:39,035 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-21 23:36:39,159 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-21 23:36:41,156 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 24198
+INFO 2019-11-21 23:36:41,499 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-21 23:36:44,115 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 19959
+INFO 2019-11-21 23:36:44,188 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2019-11-21 23:36:44,199 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2019-11-21 23:36:44,204 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2019-11-21 23:36:44,398 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-21 23:59:53,005 basehttp 154 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2019-11-21 23:59:53,633 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 28208
+INFO 2019-11-21 23:59:54,025 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,029 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,033 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,295 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,297 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,316 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,318 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,332 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,356 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2019-11-21 23:59:54,367 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,454 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,474 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,476 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,479 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,482 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,482 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,502 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,505 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,505 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,511 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-21 23:59:54,516 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,576 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,588 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:54,594 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:57,901 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 19959
+INFO 2019-11-21 23:59:57,953 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:57,965 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:57,967 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:58,020 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-11-21 23:59:58,061 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 00:00:15,906 basehttp 154 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2019-11-22 00:00:16,206 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 28803
+INFO 2019-11-22 00:00:16,401 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 00:00:26,874 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 28502
+INFO 2019-11-22 00:00:26,957 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 00:00:28,192 basehttp 154 "GET /xadmin/home/banner/2/update/ HTTP/1.1" 200 20450
+INFO 2019-11-22 00:00:28,230 basehttp 154 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2019-11-22 00:00:28,282 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 00:00:30,596 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 28502
+INFO 2019-11-22 00:00:30,751 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 00:00:47,041 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 19959
+INFO 2019-11-22 00:00:47,136 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 00:01:10,993 basehttp 154 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2019-11-22 00:01:11,333 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29398
+INFO 2019-11-22 00:01:11,524 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 00:09:04,046 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 00:09:16,914 basehttp 154 "GET /xadmin/home/banner/3/update/ HTTP/1.1" 200 20462
+INFO 2019-11-22 00:09:17,403 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,414 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,421 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,426 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,427 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,431 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,435 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,439 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,442 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,487 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,548 basehttp 154 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+INFO 2019-11-22 00:09:17,561 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 00:09:17,818 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,976 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,991 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:17,995 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:18,003 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:18,005 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:18,014 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:18,021 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:18,034 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:18,066 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:18,075 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:18,080 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:09:18,142 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-11-22 00:10:57,418 basehttp 154 "GET /xadmin/home/banner/3/update/ HTTP/1.1" 200 20462
+INFO 2019-11-22 00:10:57,540 basehttp 154 "GET /media/banner/banner3.png HTTP/1.1" 304 0
+INFO 2019-11-22 00:10:57,599 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 00:11:01,251 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29094
+INFO 2019-11-22 00:11:01,344 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:11:01,358 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:11:01,363 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 00:11:01,370 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:11:01,373 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:11:01,375 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-11-22 00:11:03,082 basehttp 154 "GET /xadmin/home/banner/1/update/ HTTP/1.1" 200 20428
+INFO 2019-11-22 00:11:03,108 basehttp 154 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2019-11-22 00:11:03,156 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 00:12:32,323 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-22 00:12:32,354 basehttp 154 "GET /media/banner/banner1.png HTTP/1.1" 304 0
+INFO 2019-11-22 00:12:32,374 basehttp 154 "GET /media/banner/banner2.png HTTP/1.1" 304 0
+INFO 2019-11-22 00:12:32,377 basehttp 154 "GET /media/banner/banner3.png HTTP/1.1" 304 0
+INFO 2019-11-22 00:12:42,919 basehttp 154 "GET /banner/ HTTP/1.1" 200 307

@@ -14,8 +14,8 @@ class Banner(models.Model):
     orders = models.IntegerField(default=1, verbose_name="排序")
     is_deleted = models.BooleanField(default=False, verbose_name="是否删除")
     # 表信息
-    class Mate:
-        tb_name = "ly_banner"
+    class Meta:
+        db_table = "ly_banner"
         verbose_name = "广告轮播"
         verbose_name_plural = verbose_name
 
