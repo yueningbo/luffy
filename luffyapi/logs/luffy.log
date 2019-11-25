@@ -852,3 +852,31 @@ INFO 2019-11-25 21:16:52,507 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 219
 INFO 2019-11-25 21:24:20,063 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 219
 INFO 2019-11-25 21:24:20,065 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
 INFO 2019-11-25 21:24:20,070 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 219
+INFO 2019-11-25 21:54:02,169 autoreload 597 Watching for file changes with StatReloader
+WARNING 2019-11-25 21:54:06,386 log 228 Not Found: /
+WARNING 2019-11-25 21:54:06,387 basehttp 154 "GET / HTTP/1.1" 404 2631
+INFO 2019-11-25 21:54:17,252 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-11-25 21:54:17,541 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-11-25 21:54:17,845 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:17,910 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:17,911 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:17,913 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:17,928 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:18,050 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:18,154 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:18,162 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:18,170 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:18,172 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:18,173 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:18,175 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:18,255 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:18,258 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:18,260 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:18,265 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:19,195 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:45,444 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-11-25 21:54:58,963 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 15542
+INFO 2019-11-25 21:54:59,094 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:59,120 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:59,129 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-11-25 21:54:59,267 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722

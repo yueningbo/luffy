@@ -67,6 +67,7 @@ INSTALLED_APPS = [
 
     # 子应用
     'home',
+    'user',    
 ]
 
 MIDDLEWARE = [
@@ -202,3 +203,5 @@ REST_FRAMEWORK = {
     # 异常处理
     'EXCEPTION_HANDLER': 'luffyapi.utils.exceptions.custom_exception_handler',
 }
+
+AUTH_USER_MODEL = 'user.User'
