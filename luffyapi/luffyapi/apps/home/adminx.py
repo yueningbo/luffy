@@ -29,3 +29,12 @@ class BannerAdmin(object):
 
 
 xadmin.site.register(Banner, BannerAdmin)
+
+from .models import Nav
+
+
+class NavModelAdmin(object):
+    list_display = ["title", "link", "is_show", "is_http", "position"]
+
+
+xadmin.site.register(Nav, NavModelAdmin)

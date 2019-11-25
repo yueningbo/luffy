@@ -284,3 +284,544 @@ INFO 2019-11-22 00:12:32,354 basehttp 154 "GET /media/banner/banner1.png HTTP/1.
 INFO 2019-11-22 00:12:32,374 basehttp 154 "GET /media/banner/banner2.png HTTP/1.1" 304 0
 INFO 2019-11-22 00:12:32,377 basehttp 154 "GET /media/banner/banner3.png HTTP/1.1" 304 0
 INFO 2019-11-22 00:12:42,919 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 09:17:28,801 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 09:17:57,743 autoreload 597 Watching for file changes with StatReloader
+WARNING 2019-11-25 09:18:57,165 log 228 Not Found: /
+WARNING 2019-11-25 09:18:57,169 basehttp 154 "GET / HTTP/1.1" 404 2631
+WARNING 2019-11-25 09:18:58,236 log 228 Not Found: /
+WARNING 2019-11-25 09:18:58,237 basehttp 154 "GET / HTTP/1.1" 404 2631
+WARNING 2019-11-25 09:18:58,287 log 228 Not Found: /
+WARNING 2019-11-25 09:18:58,288 basehttp 154 "GET / HTTP/1.1" 404 2631
+WARNING 2019-11-25 09:18:58,304 log 228 Not Found: /
+WARNING 2019-11-25 09:18:58,305 basehttp 154 "GET / HTTP/1.1" 404 2631
+WARNING 2019-11-25 09:18:58,380 log 228 Not Found: /
+WARNING 2019-11-25 09:18:58,380 basehttp 154 "GET / HTTP/1.1" 404 2631
+WARNING 2019-11-25 09:19:01,559 log 228 Not Found: /favicon.ico
+WARNING 2019-11-25 09:19:01,561 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2682
+INFO 2019-11-25 09:19:14,492 basehttp 154 "GET /xadmin/home/banner/1/update/ HTTP/1.1" 200 20851
+WARNING 2019-11-25 09:19:15,737 log 228 Not Found: /favicon.ico
+WARNING 2019-11-25 09:19:15,738 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2682
+INFO 2019-11-25 09:19:29,392 basehttp 154 "GET /xadmin HTTP/1.1" 301 0
+INFO 2019-11-25 09:19:29,471 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-11-25 09:19:29,658 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2019-11-25 09:19:29,658 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2019-11-25 09:19:29,659 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2019-11-25 09:19:29,679 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2019-11-25 09:19:29,683 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2019-11-25 09:19:29,710 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-11-25 09:19:29,711 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2019-11-25 09:19:29,730 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-11-25 09:19:29,732 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-11-25 09:19:29,735 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2019-11-25 09:19:29,746 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-11-25 09:19:29,753 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-11-25 09:19:29,765 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2019-11-25 09:19:29,768 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-11-25 09:19:29,778 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2019-11-25 09:19:29,785 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2019-11-25 09:19:29,789 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2019-11-25 09:19:29,977 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2019-11-25 09:19:32,429 basehttp 154 "POST /xadmin/ HTTP/1.1" 200 4462
+INFO 2019-11-25 09:19:32,476 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-11-25 09:19:36,149 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-11-25 09:19:36,394 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14797
+INFO 2019-11-25 09:19:36,474 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2019-11-25 09:19:36,476 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2019-11-25 09:19:36,478 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2019-11-25 09:19:36,548 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 09:20:14,533 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 24887
+INFO 2019-11-25 09:20:14,579 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2019-11-25 09:20:14,585 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2019-11-25 09:20:14,594 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2019-11-25 09:20:14,596 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2019-11-25 09:20:14,602 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2019-11-25 09:20:14,603 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2019-11-25 09:20:14,685 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 09:20:18,477 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19181
+INFO 2019-11-25 09:20:18,554 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2019-11-25 09:20:18,566 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+WARNING 2019-11-25 09:20:18,567 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:20:18,583 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2019-11-25 09:20:18,586 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 09:20:18,590 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2019-11-25 09:20:18,591 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2019-11-25 09:20:18,602 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+WARNING 2019-11-25 09:20:18,651 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:21:09,676 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-25 09:21:09,941 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 30383
+INFO 2019-11-25 09:21:10,062 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 09:21:10,063 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2019-11-25 09:21:13,441 basehttp 154 "GET /xadmin/home/nav/1/update/ HTTP/1.1" 200 19484
+WARNING 2019-11-25 09:21:13,482 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:21:13,557 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 09:21:13,681 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:21:16,382 basehttp 154 "POST /xadmin/home/nav/1/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 09:21:16,649 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 30324
+INFO 2019-11-25 09:21:16,757 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 09:21:22,344 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19181
+WARNING 2019-11-25 09:21:22,389 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:21:22,431 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 09:21:22,554 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:21:45,015 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-25 09:21:45,199 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 31217
+INFO 2019-11-25 09:21:45,299 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 09:21:47,545 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19181
+WARNING 2019-11-25 09:21:47,602 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:21:47,662 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 09:21:47,778 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:22:22,846 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-25 09:22:23,044 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 32054
+INFO 2019-11-25 09:22:23,103 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 09:22:28,715 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19181
+WARNING 2019-11-25 09:22:28,751 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:22:28,779 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 09:22:28,894 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:22:48,703 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-25 09:22:48,932 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 32878
+INFO 2019-11-25 09:22:49,037 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 09:23:01,016 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19181
+WARNING 2019-11-25 09:23:01,073 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:23:01,205 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 09:23:01,288 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:23:30,246 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-25 09:23:30,410 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 33708
+INFO 2019-11-25 09:23:30,488 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 09:23:36,550 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19181
+WARNING 2019-11-25 09:23:36,600 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:23:36,617 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 09:23:36,739 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 09:23:57,010 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-25 09:23:57,273 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34535
+INFO 2019-11-25 09:23:57,347 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 09:24:38,946 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/home/models.py changed, reloading.
+INFO 2019-11-25 09:24:40,707 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 09:24:47,114 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 09:24:54,613 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34237
+INFO 2019-11-25 09:24:54,749 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 10:02:15,959 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:02:16,149 basehttp 154 "GET /media/banner/banner2.png HTTP/1.1" 304 0
+INFO 2019-11-25 10:02:16,175 basehttp 154 "GET /media/banner/banner3.png HTTP/1.1" 304 0
+INFO 2019-11-25 10:02:16,194 basehttp 154 "GET /media/banner/banner1.png HTTP/1.1" 304 0
+INFO 2019-11-25 10:40:08,955 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 10:44:41,020 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 10:45:59,209 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:47:20,084 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:47:34,275 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:48:35,416 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+ERROR 2019-11-25 10:48:35,882 log 228 Internal Server Error: /nav/header/
+Traceback (most recent call last):
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    serializer = self.get_serializer(queryset, many=True)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/generics.py", line 125, in get_serializer_class
+    % self.__class__.__name__
+AssertionError: 'HeaderNavListAPIView' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+ERROR 2019-11-25 10:48:35,884 basehttp 154 "GET /nav/header/ HTTP/1.1" 500 18848
+INFO 2019-11-25 10:51:27,398 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 10:51:32,595 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:51:32,640 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 197
+INFO 2019-11-25 10:51:47,553 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:51:47,580 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 197
+INFO 2019-11-25 10:51:49,640 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:51:49,660 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 197
+INFO 2019-11-25 10:51:53,461 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:51:53,483 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 197
+INFO 2019-11-25 10:52:13,356 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14797
+INFO 2019-11-25 10:52:13,876 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 10:52:56,988 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34237
+INFO 2019-11-25 10:52:57,482 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 10:54:28,869 basehttp 154 "GET /xadmin/home/nav/6/update/ HTTP/1.1" 200 19489
+WARNING 2019-11-25 10:54:29,002 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 10:54:29,222 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 10:54:29,400 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 10:54:33,609 basehttp 154 "POST /xadmin/home/nav/6/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 10:54:34,022 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34474
+INFO 2019-11-25 10:54:34,116 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 10:54:36,908 basehttp 154 "GET /xadmin/home/nav/2/update/ HTTP/1.1" 200 19495
+WARNING 2019-11-25 10:54:36,951 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 10:54:37,076 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 10:54:37,286 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 10:54:40,661 basehttp 154 "POST /xadmin/home/nav/2/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 10:54:41,262 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34473
+INFO 2019-11-25 10:54:41,398 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 10:54:50,116 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:54:50,117 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 10:54:56,154 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:54:56,161 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 10:54:57,878 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 10:54:57,914 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:54:59,942 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 10:54:59,966 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:55:01,826 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 10:55:01,835 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:55:03,794 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 10:55:03,810 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:55:05,513 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 10:55:05,529 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:57:15,663 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 10:57:15,688 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:57:19,732 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:57:19,770 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 10:57:34,986 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 10:57:35,005 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:05:44,894 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:06:16,767 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:06:38,931 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 11:06:38,932 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:07:15,350 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:07:15,390 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 11:07:24,548 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:07:24,561 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 11:07:26,944 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 11:07:26,977 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:07:29,218 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:07:29,264 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 11:12:11,091 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:12:45,220 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 11:12:45,220 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:12:54,873 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 11:12:54,877 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:40:25,307 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:40:35,497 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:40:35,497 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 11:41:00,720 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:41:00,738 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 11:43:36,761 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:44:45,521 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:45:46,569 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:46:32,303 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:47:38,868 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:47:45,516 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:47:45,519 basehttp 154 "GET /banner/ HTTP/1.1" 200 307
+INFO 2019-11-25 11:48:15,966 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/home/models.py changed, reloading.
+INFO 2019-11-25 11:48:17,929 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:53:06,590 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:53:11,454 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+ERROR 2019-11-25 11:53:11,492 log 228 Internal Server Error: /banner/
+Traceback (most recent call last):
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 757, in data
+    ret = super().data
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 511, in to_representation
+    for field in fields:
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 1047, in get_fields
+    source, info, model, depth
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 1192, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 1309, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `image` is not valid for model `Banner`.
+ERROR 2019-11-25 11:53:11,508 basehttp 154 "GET /banner/ HTTP/1.1" 500 20057
+INFO 2019-11-25 11:53:15,717 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+ERROR 2019-11-25 11:53:15,765 log 228 Internal Server Error: /banner/
+Traceback (most recent call last):
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 757, in data
+    ret = super().data
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 511, in to_representation
+    for field in fields:
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 1047, in get_fields
+    source, info, model, depth
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 1192, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/moluo/.virtualenvs/luffy/lib/python3.6/site-packages/rest_framework/serializers.py", line 1309, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `image` is not valid for model `Banner`.
+ERROR 2019-11-25 11:53:15,768 basehttp 154 "GET /banner/ HTTP/1.1" 500 20057
+INFO 2019-11-25 11:55:23,493 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:56:16,577 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 11:56:25,969 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:56:26,053 basehttp 154 "GET /banner/ HTTP/1.1" 200 157
+INFO 2019-11-25 11:56:51,217 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14797
+INFO 2019-11-25 11:56:51,783 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 11:56:52,585 log 228 Not Found: /favicon.ico
+WARNING 2019-11-25 11:56:52,586 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2682
+INFO 2019-11-25 11:57:02,373 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29803
+INFO 2019-11-25 11:57:02,635 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:57:04,493 basehttp 154 "GET /xadmin/home/banner/3/update/ HTTP/1.1" 200 20752
+INFO 2019-11-25 11:57:04,710 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2019-11-25 11:57:04,750 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2019-11-25 11:57:04,793 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:57:04,798 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2019-11-25 11:57:16,626 basehttp 154 "POST /xadmin/home/banner/3/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 11:57:17,130 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 30044
+INFO 2019-11-25 11:57:17,302 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:57:20,032 basehttp 154 "GET /xadmin/home/banner/2/update/ HTTP/1.1" 200 20740
+INFO 2019-11-25 11:57:20,119 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:57:24,815 basehttp 154 "POST /xadmin/home/banner/2/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 11:57:25,044 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 20718
+INFO 2019-11-25 11:57:25,142 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:57:27,795 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29803
+INFO 2019-11-25 11:57:27,882 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:57:29,720 basehttp 154 "GET /xadmin/home/banner/1/update/ HTTP/1.1" 200 20718
+INFO 2019-11-25 11:57:29,786 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:57:33,655 basehttp 154 "POST /xadmin/home/banner/1/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 11:57:33,868 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 30035
+INFO 2019-11-25 11:57:33,973 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:57:37,046 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:57:37,062 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 11:57:37,157 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 200 361097
+INFO 2019-11-25 11:57:37,180 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 200 99518
+INFO 2019-11-25 11:57:37,187 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 200 93636
+INFO 2019-11-25 11:57:42,087 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:57:42,110 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 11:58:04,160 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34235
+INFO 2019-11-25 11:58:04,292 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:58:08,055 basehttp 154 "GET /xadmin/home/nav/6/update/ HTTP/1.1" 200 19481
+WARNING 2019-11-25 11:58:08,215 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 11:58:08,295 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 11:58:08,398 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 11:58:11,167 basehttp 154 "POST /xadmin/home/nav/6/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 11:58:11,411 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34474
+INFO 2019-11-25 11:58:11,513 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:58:13,296 basehttp 154 "GET /xadmin/home/nav/5/update/ HTTP/1.1" 200 19492
+WARNING 2019-11-25 11:58:13,360 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 11:58:13,404 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 11:58:13,533 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 11:58:17,526 basehttp 154 "POST /xadmin/home/nav/5/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 11:58:17,753 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34474
+INFO 2019-11-25 11:58:17,832 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:58:21,581 basehttp 154 "GET /xadmin/home/nav/3/update/ HTTP/1.1" 200 19505
+WARNING 2019-11-25 11:58:21,651 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 11:58:21,687 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 11:58:21,788 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 11:58:24,019 basehttp 154 "POST /xadmin/home/nav/3/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 11:58:24,321 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34477
+INFO 2019-11-25 11:58:24,406 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 11:58:27,923 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 11:58:27,939 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 11:58:28,029 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2019-11-25 11:58:28,030 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 304 0
+INFO 2019-11-25 11:58:28,072 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:03:19,158 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:03:19,162 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:03:19,220 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2019-11-25 12:03:19,224 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:03:19,229 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:03:28,549 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:03:28,558 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:07:43,113 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:07:43,176 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:07:43,222 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2019-11-25 12:07:43,227 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:07:43,230 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:08:27,084 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:08:27,093 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:11:44,295 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:11:44,307 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:11:44,395 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:11:44,396 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:11:44,399 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2019-11-25 12:11:49,029 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:11:49,111 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:20:23,641 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:20:23,702 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:20:23,723 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2019-11-25 12:20:23,739 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:20:23,740 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:20:26,505 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:20:26,562 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:20:46,238 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:20:46,244 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:22:51,260 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:22:51,328 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:22:51,342 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2019-11-25 12:22:51,350 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:22:51,351 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:22:56,617 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:22:56,636 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:23:36,893 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:23:41,493 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:23:41,504 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:23:41,624 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:23:51,865 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:23:51,957 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:23:51,998 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:25:07,629 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:25:07,635 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:25:07,636 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:25:14,434 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:25:14,434 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:25:14,457 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:25:45,087 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:25:45,093 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:25:45,101 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:25:45,134 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2019-11-25 12:25:45,145 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:25:45,154 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:26:42,896 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:26:42,903 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:26:42,909 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:26:58,261 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:26:58,270 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:26:58,289 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:26:58,473 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 200 93636
+INFO 2019-11-25 12:26:58,475 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 200 99518
+INFO 2019-11-25 12:26:58,481 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 200 361097
+INFO 2019-11-25 12:28:06,215 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:28:06,219 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:28:06,235 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:28:11,920 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:28:11,930 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:28:11,954 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:29:19,652 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:29:19,665 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:29:19,739 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 198
+INFO 2019-11-25 12:29:44,313 basehttp 154 "GET /xadmin/home/nav/6/update/ HTTP/1.1" 200 19489
+WARNING 2019-11-25 12:29:44,613 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 12:29:44,843 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 12:29:45,071 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+WARNING 2019-11-25 12:29:45,344 log 228 Not Found: /favicon.ico
+WARNING 2019-11-25 12:29:45,345 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2682
+INFO 2019-11-25 12:29:54,159 basehttp 154 "POST /xadmin/home/nav/6/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 12:29:54,703 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34481
+INFO 2019-11-25 12:29:55,068 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 12:30:01,114 basehttp 154 "GET /xadmin/home/nav/5/update/ HTTP/1.1" 200 19492
+WARNING 2019-11-25 12:30:01,162 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 12:30:01,691 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 12:30:01,786 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 12:30:12,426 basehttp 154 "POST /xadmin/home/nav/5/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 12:30:12,632 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34488
+INFO 2019-11-25 12:30:12,796 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 12:30:15,181 basehttp 154 "GET /xadmin/home/nav/4/update/ HTTP/1.1" 200 19489
+WARNING 2019-11-25 12:30:15,225 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 12:30:15,285 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 12:30:15,384 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 12:30:18,067 basehttp 154 "POST /xadmin/home/nav/4/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 12:30:18,367 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34495
+INFO 2019-11-25 12:30:18,546 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 12:30:20,773 basehttp 154 "GET /xadmin/home/nav/3/update/ HTTP/1.1" 200 19505
+WARNING 2019-11-25 12:30:20,814 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 12:30:20,902 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 12:30:21,035 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 12:30:23,517 basehttp 154 "POST /xadmin/home/nav/3/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 12:30:23,800 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34505
+INFO 2019-11-25 12:30:23,921 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 12:30:26,919 basehttp 154 "GET /xadmin/home/nav/2/update/ HTTP/1.1" 200 19487
+WARNING 2019-11-25 12:30:26,960 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 12:30:26,996 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 12:30:27,110 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 12:30:30,312 basehttp 154 "POST /xadmin/home/nav/2/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 12:30:30,607 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34509
+INFO 2019-11-25 12:30:30,773 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 12:30:37,204 basehttp 154 "GET /xadmin/home/nav/1/update/ HTTP/1.1" 200 19492
+INFO 2019-11-25 12:30:37,253 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-25 12:30:37,253 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+WARNING 2019-11-25 12:30:37,361 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-25 12:30:40,181 basehttp 154 "POST /xadmin/home/nav/1/update/ HTTP/1.1" 302 0
+INFO 2019-11-25 12:30:40,378 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 34516
+INFO 2019-11-25 12:30:40,448 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 12:30:45,004 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:30:45,026 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:30:45,048 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:30:45,072 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2019-11-25 12:30:45,079 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:30:45,097 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:30:50,343 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:30:50,361 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:30:50,366 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:34:59,360 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:34:59,429 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:34:59,435 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:34:59,450 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2019-11-25 12:34:59,461 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:34:59,470 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:35:15,596 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:35:15,604 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:35:15,609 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:37:18,523 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:37:18,543 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:37:18,543 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:39:41,532 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:39:41,567 basehttp 154 "GET /banner/ HTTP/1.1" 200 324
+INFO 2019-11-25 12:39:41,593 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 219
+INFO 2019-11-25 12:39:41,615 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 304 0
+INFO 2019-11-25 12:39:41,621 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 304 0
+INFO 2019-11-25 12:39:41,624 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 304 0
