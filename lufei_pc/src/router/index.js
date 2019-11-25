@@ -4,7 +4,7 @@ import Router from "vue-router"
 // 导入需要注册路由的组件
 import Home from "../components/Home"
 // 登录组件导入
-import Login from "../components/common/Login";
+import Login from "../components/Login";
 
 Vue.use(Router);
 
