@@ -17,12 +17,12 @@
           <div id="geetest1"></div>
           <div class="rember">
             <p>
-              <input type="checkbox" class="no" name="a"/>
+              <input type="checkbox" class="no" name="a" v-model="remember"/>
               <span>记住密码</span>
             </p>
             <p>忘记密码</p>
           </div>
-          <button class="login_btn" @click="loginHandler">登录</button>
+          <button class="login_btn" @click="get_geetest_captcha">登录</button>
           <p class="go_login">没有账号 <span>立即注册</span></p>
         </div>
         <div class="inp" v-show="login_type==1">
@@ -38,52 +38,97 @@
 </template>
 
 <script>
-    export default {
-        name: 'Login',
-        data() {
-            return {
-                login_type: 0,
-                username: "",
-                password: "",
-                remember: false
-            }
-        },
+  export default {
+    name: 'Login',
+    data() {
+      return {
+        login_type: 0,
+        username: "",
+        password: "",
+        remember: false,
+      }
+    },
 
-        methods: {
-            loginHandle() {
-                this.$axios.post(`${this.$settings.Host}/user/login/`), {
-                    username: this.username,
-                    password: this.password,
-                }.then(response => {
-                    // 记住密码或者不记住
-                    if (this.remember) {
-                        sessionStorage.removeItem("user_token");
-                        sessionStorage.removeItem("user_id");
-                        sessionStorage.removeItem("user_name");
-                        localStorage.user_token = response.data.token;
-                        localStorage.user_id = response.data.id;
-                        localStorage.user_name = response.data.username;
-                    } else {
-                        localStorage.removeItem("user_token");
-                        localStorage.removeItem("user_id");
-                        localStorage.removeItem("user_name");
-                        sessionStorage.user_token = response.data.token;
-                        sessionStorage.user_id = response.data.id;
-                        sessionStorage.user_name = response.data.username;
-                    }
-                    let self = this;
-                    this.$alert("登录成功，欢迎回来！", "路飞学城", {
-                        callback() {
-                            self.$router.go(-1);//返回上一页
-                        }
-                    })
-                }).catch(error => {
-                    this.$alter("登录失败，账号或密码错误！", "路飞学城")
-                })
+    methods: {
+      loginHandler() {
+        this.$axios.post(`${this.$settings.Host}/user/login/`, {
+          username: this.username,
+          password: this.password,
+        }).then(response => {
+          // 记住密码或者不记住
+          if (this.remember) {
+            sessionStorage.removeItem("user_token");
+            sessionStorage.removeItem("user_id");
+            sessionStorage.removeItem("user_name");
+            localStorage.user_token = response.data.token;
+            localStorage.user_id = response.data.id;
+            localStorage.user_name = response.data.username;
+          } else {
+            localStorage.removeItem("user_token");
+            localStorage.removeItem("user_id");
+            localStorage.removeItem("user_name");
+            sessionStorage.user_token = response.data.token;
+            sessionStorage.user_id = response.data.id;
+            sessionStorage.user_name = response.data.username;
+          }
+          let self = this;
+          this.$alert("登录成功，欢迎回来！", "路飞学城", {
+            callback() {
+              self.$router.go(-1);//返回上一页
             }
-        },
+          })
+        }).catch(error => {
+          this.$message.error("对不起,登录失败,请确认账号或密码是否正确！")
+        })
+      },
+      get_geetest_captcha() {
+        //获取验证码
+        this.$axios.get(`${this.$settings.Host}/user/captcha`, {
+          params: {
+            username: this.username,
+          }
+        }).then(response => {
+          // 使用initGeetest接口
+          // 参数1：配置参数
+          // 参数2：回调，回调的第一个参数验证码对象，之后可以使用它做appendTo之类的事件
+          let data = JSON.parse(response.data);
+          initGeetest({
+            gt: data.gt,
+            challenge: data.challenge,
+            product: "popup",// 产品形式, 包括:float, embed, popup, 只对pc版验证码有效
+            offline: !data.success// 表示用户后台检测极验服务器是否宕机, 一般无需关注
+          }, this.handlerPopup);
+        }).catch(error => {
+          console.log(error.response);
+        })
+      },
+      handlerPopup(captchaObj) {
+        let self = this;
+        // 极验验证密码的验证方法
+        captchaObj.onSuccess(function () {
+          var validate = captchaObj.getValidate();
+          // 当用户拖动验证码正确以后，发送请求给后端
+          self.$axios.post(`${self.$settings.Host}/user/captcha/`, {
+            geetest_challenge: validate.geetest_challenge,
+            geetest_validate: validate.geetest_validate,
+            geetest_seccode: validate.geetest_seccode
+          }).then(response => {
+            if (response.data.status) {
+              // 验证码通过以后，才发送账号和密码进行登录！
+              self.loginHandler();
+            }
+          }).catch(error => {
+            console.log(error.response);
+          });
+        });
 
-    };
+        // 将验证码加到id为geetest1的元素里
+        document.getElementById("geetest1").innerHTML = "";
+        captchaObj.appendTo("#geetest1");
+      }
+    },
+
+  };
 </script>
 
 <style scoped>

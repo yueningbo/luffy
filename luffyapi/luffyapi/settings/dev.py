@@ -20,8 +20,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 新增一个系统导包路径
 import sys
-sys.path.insert(0,os.path.join(BASE_DIR,"apps"))
 
+sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'g0ybp$7$73-*v4c3sute)#f2la_zghos%!(y=^!r*ym*#f8e^0'
@@ -41,13 +41,13 @@ CORS_ALLOW_CREDENTIALS = False  # 允许ajax跨域请求时携带cookie
 STATIC_URL = '/static/'
 # 设置django的静态文件目录
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,"static")
+    os.path.join(BASE_DIR, "static")
 ]
 
 # 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
-MEDIA_ROOT=os.path.join(BASE_DIR,"uploads")
+MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
 # 访问上传文件的url地址前缀
-MEDIA_URL ="/media/"
+MEDIA_URL = "/media/"
 
 # Application definition
 
@@ -60,14 +60,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'corsheaders',
-    'rest_framework',# 注意，加上drf框架的注册
+    'rest_framework',  # 注意，加上drf框架的注册
     'xadmin',
     'crispy_forms',
     'reversion',
 
     # 子应用
     'home',
-    'user',    
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -212,7 +212,13 @@ REST_FRAMEWORK = {
 
 AUTH_USER_MODEL = 'user.User'
 
+# 用户认证功能
+AUTHENTICATION_BACKENDS = [
+    'user.utils.UsernameMobileAuthBackend',
+]
+
 import datetime
+
 # 自定义JWT参数
 JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),

@@ -1071,3 +1071,170 @@ INFO 2019-11-26 09:56:38,055 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
 INFO 2019-11-26 09:56:38,396 basehttp 154 "GET /media/banner/banner3_t2zhNtC.png HTTP/1.1" 304 0
 INFO 2019-11-26 09:56:38,397 basehttp 154 "GET /media/banner/banner2_4RmEdsE.png HTTP/1.1" 304 0
 INFO 2019-11-26 09:56:38,398 basehttp 154 "GET /media/banner/alex_BbtJ6nS.jpeg HTTP/1.1" 304 0
+INFO 2019-11-26 19:25:52,137 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 19:26:38,652 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 19:27:23,467 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 19:30:03,818 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 19:30:23,481 autoreload 217 C:\Users\81421\Envs\luffy\Lib\site-packages\django\db\backends\mysql\base.py changed, reloading.
+INFO 2019-11-26 19:30:29,180 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 19:32:30,464 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 19:33:10,180 autoreload 217 C:\Users\81421\Envs\luffy\Lib\site-packages\django\db\backends\mysql\operations.py changed, reloading.
+INFO 2019-11-26 19:33:12,925 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 19:54:38,692 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 19:54:38,693 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 19:54:38,695 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 19:54:39,412 basehttp 154 "GET /media/banner/banner2_4RmEdsE.png HTTP/1.1" 200 24322
+INFO 2019-11-26 19:54:39,428 basehttp 154 "GET /media/banner/alex_BbtJ6nS.jpeg HTTP/1.1" 200 93636
+INFO 2019-11-26 19:54:39,437 basehttp 154 "GET /media/banner/banner3_t2zhNtC.png HTTP/1.1" 200 361097
+WARNING 2019-11-26 19:57:55,566 log 228 Bad Request: /user/login/
+WARNING 2019-11-26 19:57:55,567 basehttp 154 "POST /user/login/ HTTP/1.1" 400 81
+INFO 2019-11-26 20:00:59,556 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-11-26 20:01:01,503 basehttp 154 "POST /user/login/ HTTP/1.1" 200 195
+INFO 2019-11-26 20:01:03,680 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:01:03,726 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:01:03,746 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:09:02,807 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-11-26 20:09:11,575 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 20:09:43,732 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-11-26 20:09:46,949 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 20:10:52,147 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-11-26 20:10:55,052 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 20:11:32,124 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-11-26 20:11:35,832 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 20:14:03,573 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-11-26 20:14:07,011 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 20:14:12,268 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-11-26 20:14:14,907 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 20:15:54,017 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2019-11-26 20:15:56,920 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 20:16:37,284 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2019-11-26 20:16:39,930 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 20:18:50,820 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:18:50,822 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:19:40,137 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:19:53,148 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:20:02,921 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:20:02,924 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:20:02,931 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:20:57,589 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:20:58,956 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:20:58,961 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:20:58,963 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:22:25,606 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:22:25,610 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:22:25,613 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:22:34,652 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:22:34,653 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:22:34,676 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:22:44,279 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:22:44,281 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:22:44,285 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:23:02,134 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:23:02,140 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:23:02,143 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:23:16,976 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:23:16,987 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:23:16,987 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:23:18,413 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:23:18,419 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:23:18,419 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:25:47,250 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:28:12,039 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:28:12,039 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:28:12,042 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:28:16,147 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:28:16,152 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:28:16,158 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:28:24,770 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-11-26 20:28:25,055 basehttp 154 "POST /user/login/ HTTP/1.1" 200 195
+INFO 2019-11-26 20:28:26,171 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:28:26,175 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:28:26,180 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:30:47,505 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:30:47,509 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:30:47,512 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:30:52,977 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:30:52,981 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:30:52,985 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:31:36,918 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:31:36,918 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:31:36,921 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:31:42,382 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:31:42,383 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:31:42,387 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:34:26,931 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:34:26,932 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:34:26,933 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:38:24,258 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:38:24,259 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:38:24,373 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:41:54,800 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:41:54,803 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:41:54,803 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:42:59,755 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:42:59,758 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:42:59,758 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:50:14,150 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 20:50:14,157 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 20:50:14,159 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:03:28,518 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-11-26 21:03:28,680 basehttp 154 "POST /user/login/ HTTP/1.1" 200 195
+INFO 2019-11-26 21:03:29,915 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:03:29,942 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 21:03:29,951 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:03:43,228 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 21:03:43,230 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:03:43,235 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:03:43,395 basehttp 154 "GET /media/banner/banner2_4RmEdsE.png HTTP/1.1" 304 0
+INFO 2019-11-26 21:03:43,396 basehttp 154 "GET /media/banner/banner3_t2zhNtC.png HTTP/1.1" 304 0
+INFO 2019-11-26 21:03:43,417 basehttp 154 "GET /media/banner/alex_BbtJ6nS.jpeg HTTP/1.1" 304 0
+INFO 2019-11-26 21:03:50,879 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-11-26 21:03:51,039 basehttp 154 "POST /user/login/ HTTP/1.1" 200 195
+INFO 2019-11-26 21:03:52,417 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:03:52,421 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:03:52,426 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 21:03:57,843 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 21:03:57,845 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:03:57,849 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:04:21,187 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-11-26 21:04:21,350 basehttp 154 "POST /user/login/ HTTP/1.1" 200 195
+INFO 2019-11-26 21:04:22,712 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:04:22,714 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:04:22,721 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 21:05:55,029 basehttp 154 "POST /user/login/ HTTP/1.1" 200 195
+INFO 2019-11-26 21:05:56,664 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:05:56,667 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 21:05:56,672 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:06:07,456 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:06:07,461 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 21:06:07,464 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:26:57,477 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\urls.py changed, reloading.
+INFO 2019-11-26 21:27:05,815 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 21:29:31,984 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 21:29:31,984 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:29:31,985 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:43:17,223 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:43:17,224 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 21:43:17,277 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:43:24,901 basehttp 154 "GET /user/captcha?username=13297489054 HTTP/1.1" 301 0
+INFO 2019-11-26 21:43:25,107 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 200 140
+INFO 2019-11-26 21:43:42,280 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 200 140
+INFO 2019-11-26 21:43:50,479 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 200 140
+INFO 2019-11-26 21:44:38,951 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 200 140
+INFO 2019-11-26 21:44:41,689 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 200 140
+INFO 2019-11-26 21:44:42,945 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 200 140
+INFO 2019-11-26 21:45:21,756 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 200 140
+INFO 2019-11-26 21:45:23,369 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 200 140
+INFO 2019-11-26 21:45:28,751 basehttp 154 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2019-11-26 21:45:28,793 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-26 21:45:28,800 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-11-26 21:45:29,014 basehttp 154 "POST /user/login/ HTTP/1.1" 200 195
+INFO 2019-11-26 21:45:30,749 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:45:30,783 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:45:30,800 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 21:52:23,516 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 200 140
+INFO 2019-11-26 21:52:30,238 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-26 21:52:30,472 basehttp 154 "POST /user/login/ HTTP/1.1" 200 195
+INFO 2019-11-26 21:52:31,785 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 21:52:31,788 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 21:52:31,841 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224

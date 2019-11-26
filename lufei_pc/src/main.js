@@ -8,7 +8,8 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import settings from "./settings";
 import "../static/css/reset.css";
-
+// 导入gt极验
+import "../static/js/gt.js"
 
 
 
