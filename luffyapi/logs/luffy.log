@@ -880,3 +880,194 @@ INFO 2019-11-25 21:54:59,094 basehttp 154 "GET /static/xadmin/css/xadmin.page.da
 INFO 2019-11-25 21:54:59,120 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
 INFO 2019-11-25 21:54:59,129 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
 INFO 2019-11-25 21:54:59,267 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-25 22:06:55,651 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-25 22:06:57,528 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 22:08:14,061 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-25 22:08:15,401 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 22:08:54,297 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-25 22:08:55,427 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 22:09:07,632 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-25 22:09:08,720 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 22:09:11,407 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2019-11-25 22:09:12,628 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 22:21:46,906 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 2
+INFO 2019-11-25 22:24:27,343 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 2
+INFO 2019-11-25 22:39:08,473 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/urls.py changed, reloading.
+INFO 2019-11-25 22:39:17,609 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 22:49:20,696 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/user/urls.py changed, reloading.
+INFO 2019-11-25 22:49:38,427 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 22:52:49,698 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 22:56:18,205 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/user/urls.py changed, reloading.
+INFO 2019-11-25 22:56:18,528 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/user/urls.py changed, reloading.
+INFO 2019-11-25 22:56:20,538 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 22:56:20,539 autoreload 597 Watching for file changes with StatReloader
+WARNING 2019-11-26 08:58:12,440 log 228 Not Found: /
+WARNING 2019-11-26 08:58:12,625 basehttp 154 "GET / HTTP/1.1" 404 2736
+WARNING 2019-11-26 08:58:22,754 log 228 Not Found: /favicon.ico
+WARNING 2019-11-26 08:58:22,755 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2787
+INFO 2019-11-26 09:44:02,353 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 09:44:46,376 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 09:45:40,766 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/user/utils.py changed, reloading.
+INFO 2019-11-26 09:45:42,709 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 09:46:26,682 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/user/utils.py changed, reloading.
+INFO 2019-11-26 09:46:27,784 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 09:46:34,197 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 09:46:50,495 autoreload 217 /home/moluo/Desktop/luffy/luffyapi/luffyapi/apps/user/utils.py changed, reloading.
+INFO 2019-11-26 09:46:51,568 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 09:47:01,596 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 09:48:04,601 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 09:48:17,349 basehttp 154 "GET /banner/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:48:17,350 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:48:17,389 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:48:53,687 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:48:53,703 basehttp 154 "GET /banner/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:48:53,762 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:49:25,558 basehttp 154 "GET /banner/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:49:25,596 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:49:25,716 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:49:27,346 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:49:27,363 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:49:27,397 basehttp 154 "GET /banner/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:49:59,942 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-11-26 09:50:00,148 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-11-26 09:50:00,474 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,475 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,482 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,483 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,488 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,489 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,508 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,622 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,624 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,634 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,635 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,637 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,640 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,677 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,682 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:00,684 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:01,135 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+WARNING 2019-11-26 09:50:02,567 log 228 Not Found: /favicon.ico
+WARNING 2019-11-26 09:50:02,567 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2787
+INFO 2019-11-26 09:50:07,172 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:50:09,322 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 15542
+INFO 2019-11-26 09:50:09,578 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:09,580 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:09,581 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:09,686 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:50:15,771 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 25652
+INFO 2019-11-26 09:50:15,851 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:15,862 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:15,869 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:15,877 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:15,883 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:15,933 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:16,012 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:50:18,131 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 25632
+INFO 2019-11-26 09:50:18,243 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:50:19,490 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 25652
+INFO 2019-11-26 09:50:19,568 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:50:22,490 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 21174
+INFO 2019-11-26 09:50:22,551 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:22,577 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:22,585 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:22,651 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:50:55,606 basehttp 154 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:50:56,724 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29674
+INFO 2019-11-26 09:50:57,353 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:50:57,412 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:51:02,884 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 21174
+INFO 2019-11-26 09:51:03,504 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:51:26,391 basehttp 154 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:51:26,922 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 21520
+INFO 2019-11-26 09:51:27,571 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:51:51,630 basehttp 154 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:51:52,334 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 30851
+INFO 2019-11-26 09:51:52,784 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:51:57,066 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 25632
+INFO 2019-11-26 09:51:57,756 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:52:02,826 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:52:02,828 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 2
+INFO 2019-11-26 09:52:02,860 basehttp 154 "GET /banner/ HTTP/1.1" 200 240
+INFO 2019-11-26 09:52:03,405 basehttp 154 "GET /media/banner/alex_BbtJ6nS.jpeg HTTP/1.1" 200 93636
+INFO 2019-11-26 09:52:03,425 basehttp 154 "GET /media/banner/banner3_t2zhNtC.png HTTP/1.1" 200 361097
+INFO 2019-11-26 09:52:10,681 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19926
+WARNING 2019-11-26 09:52:11,201 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:52:11,288 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:52:11,292 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:52:11,299 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2019-11-26 09:52:11,306 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:52:11,311 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:52:11,384 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2019-11-26 09:52:11,558 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-26 09:52:12,373 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:52:24,895 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:52:25,938 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 31139
+INFO 2019-11-26 09:52:27,493 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:52:31,345 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 30547
+INFO 2019-11-26 09:52:31,805 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:52:33,750 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 30547
+INFO 2019-11-26 09:52:35,780 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:52:42,838 basehttp 154 "GET /xadmin/home/banner/3/update/ HTTP/1.1" 200 21684
+INFO 2019-11-26 09:52:43,191 basehttp 154 "GET /media/banner/banner2_4RmEdsE.png HTTP/1.1" 200 24322
+INFO 2019-11-26 09:52:43,589 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:53:05,246 basehttp 154 "POST /xadmin/home/banner/3/update/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:53:05,889 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 30789
+INFO 2019-11-26 09:53:07,397 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:53:11,295 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 30841
+INFO 2019-11-26 09:53:12,335 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:53:15,687 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 30548
+INFO 2019-11-26 09:53:16,274 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:53:21,982 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 30841
+INFO 2019-11-26 09:53:22,585 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:53:26,504 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19926
+WARNING 2019-11-26 09:53:27,119 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:53:27,550 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-26 09:53:28,268 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:53:55,142 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:53:56,220 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 31985
+INFO 2019-11-26 09:53:56,753 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:54:01,808 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19926
+WARNING 2019-11-26 09:54:02,788 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:54:02,871 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-26 09:54:04,590 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:54:20,652 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:54:20,982 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 32822
+INFO 2019-11-26 09:54:22,334 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:54:33,375 basehttp 154 "GET /xadmin/home/nav/2/update/ HTTP/1.1" 200 20252
+WARNING 2019-11-26 09:54:34,702 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:54:34,756 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-26 09:54:36,046 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:54:41,478 basehttp 154 "POST /xadmin/home/nav/2/update/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:54:41,937 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 32766
+INFO 2019-11-26 09:54:43,529 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:54:53,477 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19926
+INFO 2019-11-26 09:54:53,937 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-26 09:54:53,964 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+WARNING 2019-11-26 09:54:56,562 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:55:19,812 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:55:20,109 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 20275
+WARNING 2019-11-26 09:55:20,389 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:55:20,418 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-26 09:55:20,697 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:55:59,349 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:55:59,617 basehttp 154 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 20275
+INFO 2019-11-26 09:55:59,955 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-26 09:56:00,026 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+WARNING 2019-11-26 09:56:00,311 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:56:19,466 basehttp 154 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:56:19,962 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 35325
+INFO 2019-11-26 09:56:20,778 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:56:25,806 basehttp 154 "GET /xadmin/home/nav/6/update/ HTTP/1.1" 200 20225
+WARNING 2019-11-26 09:56:26,183 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:56:26,212 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-26 09:56:27,142 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1772
+INFO 2019-11-26 09:56:31,689 basehttp 154 "POST /xadmin/home/nav/6/update/ HTTP/1.1" 302 0
+INFO 2019-11-26 09:56:32,064 basehttp 154 "GET /xadmin/home/nav/ HTTP/1.1" 200 35267
+INFO 2019-11-26 09:56:32,558 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 09:56:37,855 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-26 09:56:37,858 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-26 09:56:38,055 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-26 09:56:38,396 basehttp 154 "GET /media/banner/banner3_t2zhNtC.png HTTP/1.1" 304 0
+INFO 2019-11-26 09:56:38,397 basehttp 154 "GET /media/banner/banner2_4RmEdsE.png HTTP/1.1" 304 0
+INFO 2019-11-26 09:56:38,398 basehttp 154 "GET /media/banner/alex_BbtJ6nS.jpeg HTTP/1.1" 304 0
