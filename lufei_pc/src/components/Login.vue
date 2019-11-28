@@ -23,14 +23,14 @@
             <p>忘记密码</p>
           </div>
           <button class="login_btn" @click="get_geetest_captcha">登录</button>
-          <p class="go_login">没有账号 <span>立即注册</span></p>
+          <p class="go_login" >没有账号 <router-link to="/register">立即注册</router-link></p>
         </div>
         <div class="inp" v-show="login_type==1">
           <input v-model="username" type="text" placeholder="手机号码" class="user">
           <input v-model="password" type="text" class="pwd" placeholder="短信验证码">
           <button id="get_code">获取验证码</button>
           <button class="login_btn">登录</button>
-          <p class="go_login">没有账号 <span>立即注册</span></p>
+          <p class="go_login" >没有账号 <router-link to="/register">立即注册</router-link></p>
         </div>
       </div>
     </div>

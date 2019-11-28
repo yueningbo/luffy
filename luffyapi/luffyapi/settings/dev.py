@@ -224,3 +224,54 @@ JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'user.utils.jwt_response_payload_handler',
 }
+
+# redis缓存
+CACHES = {
+    # 默认缓存
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        # 项目上线时,需要调整这里的路径
+        "LOCATION": "redis://127.0.0.1:6379/0",
+
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 提供给xadmin或者admin的session存储
+    "session": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 提供存储短信验证码
+    "sms_code": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+# 设置xadmin用户登录时, 登录信息保存到redis
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "session"
+
+SMS = {
+    # 说明：主账号，登陆云通讯网站后，可在"控制台-应用"中看到开发者主账号ACCOUNT SID
+    "_accountSid": '8a216da86e011fa3016ead2670bc67e5',
+    # 说明：主账号Token，登陆云通讯网站后，可在控制台-应用中看到开发者主账号AUTH TOKEN
+    "_accountToken": '03e7bb3439914dbb8926b7fd10c82b0e',
+    # 6dd01b2b60104b3dbc88b2b74158bac6
+    # 请使用管理控制台首页的APPID或自己创建应用的APPID
+    "_appId": '8a216da86e011fa3016ead26711b67eb',
+    # 8a216da863f8e6c20164139688400c21
+    # 说明：请求地址，生产环境配置成app.cloopen.com
+    "_serverIP": 'sandboxapp.cloopen.com',
+    # 说明：请求端口 ，生产环境为8883
+    "_serverPort": "8883",
+    # 说明：REST API版本号保持不变
+    "_softVersion": '2013-12-26',
+}
