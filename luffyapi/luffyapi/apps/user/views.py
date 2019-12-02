@@ -49,7 +49,7 @@ from luffyapi.libs.yuntongxun.sms import CCP
 import random
 from django_redis import get_redis_connection
 from luffyapi.settings import constants
-
+from mycelery.sms.tasks import send_sms
 
 class SMSAPIView(APIView):
     def get(self, request, mobile):
@@ -64,10 +64,7 @@ class SMSAPIView(APIView):
         sms_time = constants.SMS_EXPIRE_TIME
 
         # 3. 发送短信
-        ccp = CCP()
-        ret = ccp.send_template_sms(mobile, [sms_code, sms_time // 60], 1)
-        if ret == -1:
-            return Response({"message": "短信发送失败![CCP]"})
+        send_sms.delay(mobile, sms_code)
 
         # 3.1 使用管道多次加载, 一次执行多个指令
         pl = redis_conn.pipeline()

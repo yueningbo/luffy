@@ -1968,3 +1968,50 @@ INFO 2019-11-28 21:37:15,674 basehttp 154 "POST /user/ HTTP/1.1" 201 213
 INFO 2019-11-28 21:37:20,288 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
 INFO 2019-11-28 21:37:20,334 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
 INFO 2019-11-28 21:37:20,463 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-29 21:17:08,164 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-29 21:55:28,693 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2019-11-29 21:55:46,338 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-29 21:56:00,494 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\views.py changed, reloading.
+INFO 2019-11-29 21:56:04,716 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-29 21:58:01,488 autoreload 217 D:\git\luffy\luffyapi\mycelery\sms\tasks.py changed, reloading.
+INFO 2019-11-29 21:58:05,149 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-29 22:00:19,266 basehttp 154 "GET /user/mobile/13297489054/ HTTP/1.1" 200 15
+WARNING 2019-11-29 22:00:26,514 log 228 Bad Request: /user/mobile/17302085825/
+WARNING 2019-11-29 22:00:26,515 basehttp 154 "GET /user/mobile/17302085825/ HTTP/1.1" 400 56
+INFO 2019-11-29 22:02:10,318 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+INFO 2019-11-29 22:03:15,818 basehttp 154 "GET /user/mobile/13297489054/ HTTP/1.1" 200 15
+WARNING 2019-11-29 22:03:23,607 log 228 Not Found: /user/mobile/173/
+WARNING 2019-11-29 22:03:23,676 basehttp 154 "GET /user/mobile/173/ HTTP/1.1" 404 3542
+INFO 2019-11-29 22:03:30,113 basehttp 154 "GET /user/mobile/17302085825/ HTTP/1.1" 200 15
+INFO 2019-11-29 22:03:32,838 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+INFO 2019-11-29 22:04:21,648 basehttp 154 "GET /user/mobile/13297489054/ HTTP/1.1" 200 15
+INFO 2019-11-29 22:04:28,960 basehttp 154 "GET /user/mobile/17302085825/ HTTP/1.1" 200 15
+INFO 2019-11-29 22:04:44,382 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+INFO 2019-11-29 22:06:50,396 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+INFO 2019-11-29 22:16:17,866 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+INFO 2019-11-29 22:24:46,020 autoreload 217 D:\git\luffy\luffyapi\mycelery\main.py changed, reloading.
+INFO 2019-11-29 22:24:56,249 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-29 22:25:32,726 autoreload 217 D:\git\luffy\luffyapi\mycelery\main.py changed, reloading.
+INFO 2019-11-29 22:25:36,470 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-29 22:27:42,395 autoreload 217 D:\git\luffy\luffyapi\mycelery\main.py changed, reloading.
+INFO 2019-11-29 22:27:46,291 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-29 22:28:09,675 autoreload 217 D:\git\luffy\luffyapi\mycelery\main.py changed, reloading.
+INFO 2019-11-29 22:28:13,165 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-29 22:31:53,255 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+INFO 2019-11-29 22:31:53,916 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+INFO 2019-11-29 22:31:53,928 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+ERROR 2019-11-29 22:31:59,125 tasks 15 短信发送失败![CCP] 手机号:17302085825
+ERROR 2019-11-29 22:31:59,470 tasks 15 短信发送失败![CCP] 手机号:17302085825
+INFO 2019-11-29 22:32:15,991 basehttp 154 "OPTIONS /user/ HTTP/1.1" 200 0
+WARNING 2019-11-29 22:32:16,976 log 228 Bad Request: /user/
+WARNING 2019-11-29 22:32:16,977 basehttp 154 "POST /user/ HTTP/1.1" 400 61
+WARNING 2019-11-29 22:32:26,354 log 228 Bad Request: /user/
+WARNING 2019-11-29 22:32:26,354 basehttp 154 "POST /user/ HTTP/1.1" 400 61
+INFO 2019-11-29 22:34:46,780 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+INFO 2019-11-29 22:35:00,955 basehttp 154 "POST /user/ HTTP/1.1" 201 213
+INFO 2019-11-29 22:35:06,968 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-29 22:35:07,231 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-11-29 22:35:07,231 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-11-29 22:35:07,271 basehttp 154 "GET /media/banner/banner3_t2zhNtC.png HTTP/1.1" 304 0
+INFO 2019-11-29 22:35:07,271 basehttp 154 "GET /media/banner/alex_BbtJ6nS.jpeg HTTP/1.1" 304 0
+INFO 2019-11-29 22:35:07,271 basehttp 154 "GET /media/banner/banner2_4RmEdsE.png HTTP/1.1" 304 0

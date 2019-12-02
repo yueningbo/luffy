@@ -100,7 +100,7 @@
           }, this.handlerPopup);
         }).catch(error => {
           console.log(error.response);
-        })
+        }
       },
       handlerPopup(captchaObj) {
         let self = this;
