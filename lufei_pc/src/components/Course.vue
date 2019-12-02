@@ -18,7 +18,7 @@
             <li class="hot" :class="change_cls('students',orders)" @click="change_orders('students')">人气</li>
             <li class="price" :class="change_cls('price',orders)" @click="change_orders('price')">价格</li>
           </ul>
-          <p class="condition-result">共21个课程</p>
+          <p class="condition-result">共{{course_count}}个课程</p>
         </div>
 
       </div>
@@ -50,7 +50,16 @@
             </div>
           </div>
         </div>
-
+        <el-pagination
+          @size-change="handleSizeChange"
+          @current-change="handleCurrentChange"
+          :page-sizes="[2,5,10,20]"
+          background
+          :page-size="size"
+          layout="sizes, prev, pager, next, jumper"
+          :total="course_count"
+        >
+        </el-pagination>
       </div>
     </div>
     <Footer></Footer>
@@ -66,11 +75,14 @@
     data() {
       return {
         category: 0,
+        course_count: 0,
         category_list: [],
         course_list: [{
           teacher: {},
         }],
         orders: "id", // id表示默认正序,-id表示默认倒序，students表示人气正序，...,price表示价格...
+        size: 2, // 每一页显示的数据量
+        page: 1, // 当前页码
       }
     },
     components: {
@@ -80,10 +92,20 @@
     watch: {
       category() {
         // 在切换不同分类时，重新组装ajax请求参数，获取课程列表
+        this.page = 1;
         this.get_course();
       },
       orders() {
         // 在切换不同的排序方式时，重新组装ajax请求参数，获取课程列表
+        this.get_course();
+      },
+      size() {
+        // 在切换不同页面显示数据量大小的时候
+        this.page = 1;
+        this.get_course();
+      },
+      page() {
+        // 在切换不用页码的时候
         this.get_course();
       }
     },
@@ -126,17 +148,30 @@
       },
       get_course() {
         // 获取课程列表
-        let filter = {ordering: this.orders,};
+        let filter = {
+          ordering: this.orders,
+          size: this.size,
+          page: this.page,
+        };
         if (this.category > 0) {
           filter.course_category = this.category;
         }
         this.$axios.get(`${this.$settings.Host}/course/`, {
           params: filter,
         }).then(response => {
-          this.course_list = response.data;
+          this.course_list = response.data.results;
+          this.course_count = response.data.count;
         }).catch(error => {
           this.$alert("网络错误！获取课程信息失败！", "路飞学城");
         });
+      },
+      handleSizeChange(size) {
+        // 分页组件发生页面数据量大小改动时
+        this.size = size;
+      },
+      handleCurrentChange(page) {
+        // 分页组件发生页码改变时
+        this.page = page;
       },
     }
   }

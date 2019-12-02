@@ -5,6 +5,7 @@ from .serializers import CourseCategoryModelSerializer
 from .serializers import CourseModelSerializer
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import OrderingFilter
+from .paginations import CourseListPageNumberPagination
 
 
 class CourseCategoryListAPIView(ListAPIView):
@@ -19,3 +20,6 @@ class CourseListAPIView(ListAPIView):
     filter_backends = [DjangoFilterBackend, OrderingFilter]
     filter_fields = ('course_category',)
     ordering_fields = ['id', 'students', 'price']
+    # 指定分页器
+    pagination_class = CourseListPageNumberPagination
+
