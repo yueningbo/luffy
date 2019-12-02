@@ -40,17 +40,6 @@ CORS_ALLOW_CREDENTIALS = False  # 允许ajax跨域请求时携带cookie
 # 访问静态文件的url地址前缀
 STATIC_URL = '/static/'
 # 设置django的静态文件目录
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static")
-]
-
-# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
-MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
-# 访问上传文件的url地址前缀
-MEDIA_URL = "/media/"
-
-# Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -64,12 +53,24 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'reversion',
+    'django_filters',  # 过滤器
 
     # 子应用
     'home',
     'user',
     'course',
 ]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static")
+]
+
+# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
+MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
+# 访问上传文件的url地址前缀
+MEDIA_URL = "/media/"
+
+# Application definition
+
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',

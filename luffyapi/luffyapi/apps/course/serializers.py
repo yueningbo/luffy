@@ -18,16 +18,6 @@ class TeacherModelSerializer(serializers.ModelSerializer):
         fields = ("name", "title", "signature")
 
 
-class CourseModelSerializer(serializers.ModelSerializer):
-    """课程信息的序列化器"""
-    teacher = TeacherModelSerializer()  # 老师 1 : 多课程
-
-    # teacher = CourseTeacherModelSerializer(many=True) # 多对1
-    class Meta:
-        model = Course
-        fields = ("id", "name", "course_img", "students", "lessons", "pub_lessons", "price", "teacher")
-
-
 class CourseLessonModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = CourseLesson
@@ -43,8 +33,15 @@ class CourseChapterModelSerializer(serializers.ModelSerializer):
 
 
 class CourseModelSerializer(serializers.ModelSerializer):
+    """
+    课程信息的序列化器
+    默认情况,序列化器转换模型数据时,默认会把外键直接转成主键ID值
+    所以我们需要重新设置在序列化器中针对外键的序列化
+    这种操作就是一个序列器里面调用另一个序列化器了.叫'序列化器嵌套'
+    """
     teacher = TeacherModelSerializer()
-    course_chapters = CourseChapterModelSerializer(many=True)
+
+    # course_chapters = CourseChapterModelSerializer(many=True)
 
     class Meta:
         model = Course

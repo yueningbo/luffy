@@ -35,10 +35,12 @@
             <p class="teather-info">{{course.teacher.name}} {{course.teacher.signature}} {{course.teacher.title}} <span>共{{course.lessons}}课时/{{course.pub_lessons==course.lessons?'更新完成':`已更新${course.pub_lessons}个课时`}}</span>
             </p>
             <ul class="lesson-list">
-              <li><span class="lesson-title">01 | 第1节：初识编码</span> <span class="free">免费</span></li>
-              <li><span class="lesson-title">01 | 第1节：初识编码初识编码</span> <span class="free">免费</span></li>
-              <li><span class="lesson-title">01 | 第1节：初识编码</span> <span class="free">免费</span></li>
-              <li><span class="lesson-title">01 | 第1节：初识编码初识编码初识编码初识编码</span> <span class="free">免费</span></li>
+              <li v-for="lesson, key in course.lesson_list">
+                <router-link :to="lesson.section_link">
+                  <span class="lesson-title">0{{key+1}} | 第{{lesson.lesson}}节：{{lesson.name}}</span>
+                  <span class="free" v-if="lesson.free_trail">免费</span>
+                </router-link>
+              </li>
             </ul>
             <div class="pay-box">
               <span class="discount-type">限时免费</span>
@@ -75,7 +77,17 @@
       Header,
       Footer,
     },
-    mounted() {
+    watch: {
+      category() {
+        // 在切换不同分类时，重新组装ajax请求参数，获取课程列表
+        this.get_course();
+      },
+      orders() {
+        // 在切换不同的排序方式时，重新组装ajax请求参数，获取课程列表
+        this.get_course();
+      }
+    },
+    created() {
       this.get_course_category();
       this.get_course();
     },
@@ -114,7 +126,13 @@
       },
       get_course() {
         // 获取课程列表
-        this.$axios.get(`${this.$settings.Host}/course/`).then(response => {
+        let filter = {ordering: this.orders,};
+        if (this.category > 0) {
+          filter.course_category = this.category;
+        }
+        this.$axios.get(`${this.$settings.Host}/course/`, {
+          params: filter,
+        }).then(response => {
           this.course_list = response.data;
         }).catch(error => {
           this.$alert("网络错误！获取课程信息失败！", "路飞学城");
