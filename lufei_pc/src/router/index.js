@@ -4,8 +4,9 @@ import Router from "vue-router"
 // 导入需要注册路由的组件
 import Home from "../components/Home"
 // 登录组件导入
-import Login from "../components/Login";
+import Login from "../components/Login"
 import Register from "../components/Register"
+import Course from "../components/Course"
 
 
 Vue.use(Router);
@@ -31,9 +32,14 @@ export default new Router({
       component: Login,
     },
     {
-      name:"Register",
-      path:"/register",
+      name: "Register",
+      path: "/register",
       component: Register,
+    },
+    {
+      path: '/course',
+      name: 'Course',
+      component: Course,
     }
   ]
 })

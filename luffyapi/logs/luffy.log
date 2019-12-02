@@ -2015,3 +2015,896 @@ INFO 2019-11-29 22:35:07,231 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
 INFO 2019-11-29 22:35:07,271 basehttp 154 "GET /media/banner/banner3_t2zhNtC.png HTTP/1.1" 304 0
 INFO 2019-11-29 22:35:07,271 basehttp 154 "GET /media/banner/alex_BbtJ6nS.jpeg HTTP/1.1" 304 0
 INFO 2019-11-29 22:35:07,271 basehttp 154 "GET /media/banner/banner2_4RmEdsE.png HTTP/1.1" 304 0
+INFO 2019-12-02 09:50:51,497 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 10:05:14,758 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2019-12-02 10:05:16,293 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 10:26:50,413 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 10:26:55,754 basehttp 154 "GET /xadmin HTTP/1.1" 301 0
+INFO 2019-12-02 10:26:56,801 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-12-02 10:26:56,948 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2019-12-02 10:26:56,956 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2019-12-02 10:26:56,968 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2019-12-02 10:26:56,973 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2019-12-02 10:26:56,996 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2019-12-02 10:26:56,997 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-12-02 10:26:57,001 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2019-12-02 10:26:57,010 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-12-02 10:26:57,023 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2019-12-02 10:26:57,034 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-12-02 10:26:57,088 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2019-12-02 10:26:57,097 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-12-02 10:26:57,103 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-12-02 10:26:57,109 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2019-12-02 10:26:57,115 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2019-12-02 10:26:57,135 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-12-02 10:26:57,146 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2019-12-02 10:26:57,361 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+WARNING 2019-12-02 10:26:57,483 log 228 Not Found: /favicon.ico
+WARNING 2019-12-02 10:26:57,484 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2787
+INFO 2019-12-02 10:27:01,988 basehttp 154 "POST /xadmin/ HTTP/1.1" 200 4591
+INFO 2019-12-02 10:27:02,046 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+ERROR 2019-12-02 10:27:09,632 log 228 Internal Server Error: /xadmin/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django_redis\cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django_redis\cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django_redis\client\default.py", line 478, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\sites.py", line 207, in inner
+    return self.create_admin_view(self.login_view)(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\website.py", line 71, in post
+    return self.get(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\website.py", line 67, in get
+    return login.as_view(**defaults)(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\auth\views.py", line 61, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\auth\views.py", line 90, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\auth\__init__.py", line 108, in login
+    request.session.cycle_key()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\sessions\backends\base.py", line 297, in cycle_key
+    self.create()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\sessions\backends\base.py", line 152, in _get_new_session_key
+    if not self.exists(session_key):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\cache\backends\base.py", line 208, in __contains__
+    return self.has_key(key)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django_redis\cache.py", line 39, in _decorator
+    raise e.parent
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django_redis\client\default.py", line 476, in has_key
+    return client.exists(key) == 1
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 1307, in exists
+    return self.execute_command('EXISTS', *names)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 836, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 1073, in get_connection
+    connection.connect()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 544, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2019-12-02 10:27:09,669 basehttp 154 "POST /xadmin/ HTTP/1.1" 500 220264
+INFO 2019-12-02 10:28:21,045 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-12-02 10:28:21,107 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-12-02 10:28:26,033 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-12-02 10:28:28,196 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 18506
+INFO 2019-12-02 10:28:28,254 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2019-12-02 10:28:28,260 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2019-12-02 10:28:28,289 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:28:28,293 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2019-12-02 10:28:33,750 basehttp 154 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 28031
+INFO 2019-12-02 10:28:33,798 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2019-12-02 10:28:33,810 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2019-12-02 10:28:33,812 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2019-12-02 10:28:33,813 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2019-12-02 10:28:33,820 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2019-12-02 10:28:33,825 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:28:33,832 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2019-12-02 10:28:34,898 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 29806
+INFO 2019-12-02 10:28:34,929 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:28:35,669 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 28637
+INFO 2019-12-02 10:28:35,707 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:28:36,268 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 28637
+INFO 2019-12-02 10:28:36,296 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:28:36,866 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 28526
+INFO 2019-12-02 10:28:36,894 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:28:37,889 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 29188
+INFO 2019-12-02 10:28:37,922 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:29:07,395 basehttp 154 "GET /user/mobile/13297489054/ HTTP/1.1" 200 15
+WARNING 2019-12-02 10:29:14,009 log 228 Bad Request: /user/mobile/17302085825/
+WARNING 2019-12-02 10:29:14,010 basehttp 154 "GET /user/mobile/17302085825/ HTTP/1.1" 400 56
+INFO 2019-12-02 10:29:57,190 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+INFO 2019-12-02 10:33:03,867 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+ERROR 2019-12-02 10:33:06,505 tasks 15 短信发送失败![CCP] 手机号:17302085825
+INFO 2019-12-02 10:33:18,517 basehttp 154 "OPTIONS /user/ HTTP/1.1" 200 0
+WARNING 2019-12-02 10:33:18,570 log 228 Bad Request: /user/
+WARNING 2019-12-02 10:33:18,571 basehttp 154 "POST /user/ HTTP/1.1" 400 65
+WARNING 2019-12-02 10:33:26,416 log 228 Bad Request: /user/
+WARNING 2019-12-02 10:33:26,417 basehttp 154 "POST /user/ HTTP/1.1" 400 61
+WARNING 2019-12-02 10:33:36,963 log 228 Bad Request: /user/
+WARNING 2019-12-02 10:33:36,964 basehttp 154 "POST /user/ HTTP/1.1" 400 61
+INFO 2019-12-02 10:33:45,510 basehttp 154 "GET /user/mobile/13297489054/ HTTP/1.1" 200 15
+INFO 2019-12-02 10:33:49,596 basehttp 154 "GET /user/mobile/17302085825/ HTTP/1.1" 200 15
+WARNING 2019-12-02 10:33:57,955 log 228 Bad Request: /user/
+WARNING 2019-12-02 10:33:57,956 basehttp 154 "POST /user/ HTTP/1.1" 400 61
+INFO 2019-12-02 10:33:59,557 basehttp 154 "GET /user/sms/17302085825/ HTTP/1.1" 200 33
+INFO 2019-12-02 10:34:12,813 basehttp 154 "POST /user/ HTTP/1.1" 201 213
+INFO 2019-12-02 10:34:14,459 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-02 10:34:14,461 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 10:34:14,466 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 10:34:14,541 basehttp 154 "GET /media/banner/banner2_4RmEdsE.png HTTP/1.1" 304 0
+INFO 2019-12-02 10:34:14,541 basehttp 154 "GET /media/banner/banner3_t2zhNtC.png HTTP/1.1" 304 0
+INFO 2019-12-02 10:34:14,543 basehttp 154 "GET /media/banner/alex_BbtJ6nS.jpeg HTTP/1.1" 304 0
+INFO 2019-12-02 10:54:25,649 basehttp 154 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 28031
+INFO 2019-12-02 10:54:25,682 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:54:32,480 basehttp 154 "GET /xadmin/course/coursecategory/add/ HTTP/1.1" 200 21234
+INFO 2019-12-02 10:54:32,511 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:54:46,156 basehttp 154 "POST /xadmin/course/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2019-12-02 10:54:46,277 basehttp 154 "GET /xadmin/course/coursecategory/add/ HTTP/1.1" 200 21596
+INFO 2019-12-02 10:54:46,307 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:54:55,221 basehttp 154 "POST /xadmin/course/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2019-12-02 10:54:55,352 basehttp 154 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 31818
+INFO 2019-12-02 10:54:55,399 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:54:55,399 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2019-12-02 10:54:56,513 basehttp 154 "GET /xadmin/course/coursecategory/2/update/ HTTP/1.1" 200 21525
+INFO 2019-12-02 10:54:56,540 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:54:58,835 basehttp 154 "POST /xadmin/course/coursecategory/2/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 10:54:59,025 basehttp 154 "GET /xadmin/course/coursecategory/? HTTP/1.1" 200 31745
+INFO 2019-12-02 10:54:59,067 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:54:59,996 basehttp 154 "GET /xadmin/course/coursecategory/1/update/ HTTP/1.1" 200 21533
+INFO 2019-12-02 10:55:00,039 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:55:02,790 basehttp 154 "POST /xadmin/course/coursecategory/1/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 10:55:02,913 basehttp 154 "GET /xadmin/course/coursecategory/add/ HTTP/1.1" 200 21523
+INFO 2019-12-02 10:55:02,961 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:55:13,630 basehttp 154 "POST /xadmin/course/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2019-12-02 10:55:13,750 basehttp 154 "GET /xadmin/course/coursecategory/add/ HTTP/1.1" 200 21588
+INFO 2019-12-02 10:55:13,785 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:55:25,923 basehttp 154 "POST /xadmin/course/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2019-12-02 10:55:26,109 basehttp 154 "GET /xadmin/course/coursecategory/add/ HTTP/1.1" 200 21590
+INFO 2019-12-02 10:55:26,140 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:55:33,087 basehttp 154 "POST /xadmin/course/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2019-12-02 10:55:33,208 basehttp 154 "GET /xadmin/course/coursecategory/add/ HTTP/1.1" 200 21596
+INFO 2019-12-02 10:55:33,243 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:55:41,874 basehttp 154 "POST /xadmin/course/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2019-12-02 10:55:42,116 basehttp 154 "GET /xadmin/course/coursecategory/add/ HTTP/1.1" 200 21595
+INFO 2019-12-02 10:55:42,157 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 10:55:55,216 basehttp 154 "POST /xadmin/course/coursecategory/add/ HTTP/1.1" 302 0
+INFO 2019-12-02 10:55:55,335 basehttp 154 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 36777
+INFO 2019-12-02 10:55:55,402 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:08:01,609 autoreload 217 D:\git\luffy\luffyapi\luffyapi\urls.py changed, reloading.
+INFO 2019-12-02 11:08:05,438 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:09:19,768 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:21:02,264 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:21:02,269 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-02 11:21:02,270 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:21:06,646 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:21:06,649 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:21:06,682 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:22:18,553 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:22:18,560 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:22:18,562 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:23:59,006 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:23:59,013 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:23:59,013 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+WARNING 2019-12-02 11:23:59,019 log 228 Not Found: /course/
+WARNING 2019-12-02 11:23:59,021 basehttp 154 "GET /course/ HTTP/1.1" 404 2938
+WARNING 2019-12-02 11:27:28,025 log 228 Not Found: /course/
+WARNING 2019-12-02 11:27:28,026 basehttp 154 "GET /course/ HTTP/1.1" 404 2938
+WARNING 2019-12-02 11:27:41,113 log 228 Not Found: /course/
+WARNING 2019-12-02 11:27:41,115 basehttp 154 "GET /course/ HTTP/1.1" 404 2938
+WARNING 2019-12-02 11:27:46,476 log 228 Not Found: /course/
+WARNING 2019-12-02 11:27:46,478 basehttp 154 "GET /course/ HTTP/1.1" 404 2938
+WARNING 2019-12-02 11:27:52,616 log 228 Not Found: /course
+WARNING 2019-12-02 11:27:52,618 basehttp 154 "GET /course HTTP/1.1" 404 2879
+WARNING 2019-12-02 11:28:01,022 log 228 Not Found: /course
+WARNING 2019-12-02 11:28:01,023 basehttp 154 "GET /course HTTP/1.1" 404 2879
+WARNING 2019-12-02 11:28:01,068 log 228 Not Found: /favicon.ico
+WARNING 2019-12-02 11:28:01,069 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2894
+INFO 2019-12-02 11:28:06,925 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+WARNING 2019-12-02 11:28:06,931 log 228 Not Found: /course/
+WARNING 2019-12-02 11:28:06,933 basehttp 154 "GET /course/ HTTP/1.1" 404 2938
+INFO 2019-12-02 11:28:06,936 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:28:06,936 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:28:42,811 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:28:42,814 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:28:42,823 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:28:42,870 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:28:44,993 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:28:45,002 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:28:45,017 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:28:45,038 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:28:49,048 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:28:49,052 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:28:49,059 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:28:49,083 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:28:56,155 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:28:56,156 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:28:56,157 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:28:56,173 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:29:56,162 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:29:56,175 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:29:56,177 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:29:56,242 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:29:56,354 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:29:56,358 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:29:56,358 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:29:56,384 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:30:49,052 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:30:49,058 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:30:49,063 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:30:49,080 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:30:54,072 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:30:54,075 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:30:54,076 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:30:54,093 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:32:52,322 basehttp 154 "GET /course/category HTTP/1.1" 301 0
+INFO 2019-12-02 11:32:52,403 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:32:52,403 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:32:52,416 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:32:52,427 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:32:53,223 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:32:53,249 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:32:53,275 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:32:53,319 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:32:54,086 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:32:54,088 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:32:54,091 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:32:54,357 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:33:03,106 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:33:03,109 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:33:03,135 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:33:03,153 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:33:03,291 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:33:03,364 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:33:03,512 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:33:03,557 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:33:05,819 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:33:05,821 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:33:05,824 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:33:05,844 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:34:06,738 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:34:06,740 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:34:06,744 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:34:06,763 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:34:06,883 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:34:06,905 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:34:06,915 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:34:06,942 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:34:08,507 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:34:08,508 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:34:08,510 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:34:08,528 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:43:10,908 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:43:10,912 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:43:10,915 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:43:10,929 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:43:17,883 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 31101
+INFO 2019-12-02 11:43:17,944 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 11:43:18,111 log 228 Not Found: /favicon.ico
+WARNING 2019-12-02 11:43:18,111 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2894
+INFO 2019-12-02 11:43:18,483 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 54803
+INFO 2019-12-02 11:43:18,518 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:43:19,872 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 28526
+INFO 2019-12-02 11:43:19,909 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:43:20,490 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 29188
+INFO 2019-12-02 11:43:20,547 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:43:49,018 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 11:43:52,617 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:44:06,515 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 11:44:08,994 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:44:14,898 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 11:44:18,644 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:44:32,511 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-02 11:44:35,300 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:46:07,789 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:48:18,119 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:48:26,799 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:48:26,801 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:48:26,801 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:48:26,835 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:49:18,916 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:49:18,919 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:49:18,932 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:49:18,955 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:49:19,060 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:49:19,061 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:49:19,063 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:49:19,079 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:49:46,640 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:49:46,651 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:49:46,654 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:49:46,865 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:49:46,873 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:49:46,882 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:49:46,924 basehttp 154 "GET /course/ HTTP/1.1" 200 4444
+INFO 2019-12-02 11:49:47,036 basehttp 154 "GET /course/ HTTP/1.1" 200 4444
+WARNING 2019-12-02 11:49:47,041 log 228 Not Found: /media/course/Loginbg.3377d0c.jpg
+WARNING 2019-12-02 11:49:47,044 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:49:47,047 log 228 Not Found: /media/course/course-cover.jpeg
+WARNING 2019-12-02 11:49:47,048 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+WARNING 2019-12-02 11:49:47,049 basehttp 154 "GET /media/course/Loginbg.3377d0c.jpg HTTP/1.1" 404 1840
+WARNING 2019-12-02 11:49:47,050 basehttp 154 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 1834
+WARNING 2019-12-02 11:49:47,150 log 228 Not Found: /media/course/Loginbg.3377d0c.jpg
+WARNING 2019-12-02 11:49:47,151 log 228 Not Found: /media/course/course-cover.jpeg
+WARNING 2019-12-02 11:49:47,152 basehttp 154 "GET /media/course/Loginbg.3377d0c.jpg HTTP/1.1" 404 1840
+WARNING 2019-12-02 11:49:47,154 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:49:47,155 basehttp 154 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 1834
+WARNING 2019-12-02 11:49:47,156 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:49:53,450 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:49:53,450 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:49:53,450 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:49:53,535 basehttp 154 "GET /course/ HTTP/1.1" 200 4444
+WARNING 2019-12-02 11:49:53,580 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:49:53,582 log 228 Not Found: /media/course/Loginbg.3377d0c.jpg
+WARNING 2019-12-02 11:49:53,584 log 228 Not Found: /media/course/course-cover.jpeg
+WARNING 2019-12-02 11:49:53,585 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+WARNING 2019-12-02 11:49:53,585 basehttp 154 "GET /media/course/Loginbg.3377d0c.jpg HTTP/1.1" 404 1840
+WARNING 2019-12-02 11:49:53,585 basehttp 154 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 1834
+INFO 2019-12-02 11:50:02,634 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 28526
+INFO 2019-12-02 11:50:02,668 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:50:03,758 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 54803
+INFO 2019-12-02 11:50:03,799 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:50:05,899 basehttp 154 "GET /xadmin/course/course/29/update/ HTTP/1.1" 200 31143
+INFO 2019-12-02 11:50:05,960 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:50:05,960 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+WARNING 2019-12-02 11:50:05,964 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:50:05,969 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:50:05,972 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2019-12-02 11:50:05,973 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2019-12-02 11:50:05,974 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2019-12-02 11:50:05,991 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2019-12-02 11:50:06,080 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2019-12-02 11:50:06,093 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2019-12-02 11:50:06,107 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2019-12-02 11:50:06,117 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2019-12-02 11:50:06,144 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 200 694
+INFO 2019-12-02 11:50:06,174 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2019-12-02 11:51:36,648 basehttp 154 "POST /xadmin/course/course/29/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:51:36,938 basehttp 154 "GET /xadmin/course/course/add/ HTTP/1.1" 200 29525
+INFO 2019-12-02 11:51:36,977 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:51:41,336 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 54803
+INFO 2019-12-02 11:51:41,372 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:51:42,938 basehttp 154 "GET /xadmin/course/course/28/update/ HTTP/1.1" 200 29931
+WARNING 2019-12-02 11:51:42,974 log 228 Not Found: /media/course/2.jpeg
+INFO 2019-12-02 11:51:42,978 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 11:51:42,978 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:51:49,144 basehttp 154 "POST /xadmin/course/course/28/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:51:49,325 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 55044
+INFO 2019-12-02 11:51:49,364 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:51:50,593 basehttp 154 "GET /xadmin/course/course/27/update/ HTTP/1.1" 200 29958
+INFO 2019-12-02 11:51:50,630 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 11:51:50,634 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:51:50,636 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:51:56,137 basehttp 154 "POST /xadmin/course/course/27/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:51:56,303 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 55046
+INFO 2019-12-02 11:51:56,336 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:51:58,072 basehttp 154 "GET /xadmin/course/course/26/update/ HTTP/1.1" 200 29939
+INFO 2019-12-02 11:51:58,124 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 11:51:58,130 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:51:58,131 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:52:03,955 basehttp 154 "POST /xadmin/course/course/26/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:52:04,130 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 55046
+INFO 2019-12-02 11:52:04,163 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:52:06,370 basehttp 154 "GET /xadmin/course/course/25/update/ HTTP/1.1" 200 29899
+ERROR 2019-12-02 11:52:06,379 basehttp 154 "GET /xadmin/course/course/25/update/ HTTP/1.1" 500 59
+INFO 2019-12-02 11:52:06,571 basehttp 154 "GET /xadmin/course/course/25/update/ HTTP/1.1" 200 29899
+WARNING 2019-12-02 11:52:06,610 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:52:06,615 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:52:06,615 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:52:12,382 basehttp 154 "POST /xadmin/course/course/25/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:52:12,582 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 55036
+INFO 2019-12-02 11:52:12,627 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:52:19,371 basehttp 154 "GET /xadmin/course/course/24/update/ HTTP/1.1" 200 29947
+WARNING 2019-12-02 11:52:19,417 log 228 Not Found: /media/course/2.jpeg
+INFO 2019-12-02 11:52:19,421 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 11:52:19,421 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:52:25,130 basehttp 154 "POST /xadmin/course/course/24/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:52:25,334 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 55048
+INFO 2019-12-02 11:52:25,366 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:53:03,046 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\adminx.py changed, reloading.
+INFO 2019-12-02 11:53:06,147 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:53:31,521 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\adminx.py changed, reloading.
+INFO 2019-12-02 11:53:34,677 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:54:46,609 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\adminx.py changed, reloading.
+INFO 2019-12-02 11:54:49,550 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-02 11:54:54,465 log 228 Internal Server Error: /xadmin/course/course/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\options.py", line 565, in get_field
+    return self.fields_map[field_name]
+KeyError: 'img'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\admin\utils.py", line 316, in label_for_field
+    field = _get_non_gfk_field(model._meta, name)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\admin\utils.py", line 293, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\options.py", line 567, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: Course has no field named 'img'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\list.py", line 405, in get
+    context = self.get_context()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  [Previous line repeated 1 more times]
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  [Previous line repeated 1 more times]
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\list.py", line 384, in get_context
+    'result_headers': self.result_headers(),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\list.py", line 524, in result_headers
+    field_name, row) for field_name in self.list_display]
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\list.py", line 524, in <listcomp>
+    field_name, row) for field_name in self.list_display]
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\list.py", line 441, in result_header
+    return_attr=True
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\admin\utils.py", line 341, in label_for_field
+    raise AttributeError(message)
+AttributeError: Unable to lookup 'img' on Course or coursecourseAdminListAdminViewModelAdminViewGlobalSettingsCommAdminViewBaseSettingBaseAdminViewBaseAdminObjectViewobject
+ERROR 2019-12-02 11:54:54,480 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 500 265247
+ERROR 2019-12-02 11:55:15,669 log 228 Internal Server Error: /xadmin/course/course/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\options.py", line 565, in get_field
+    return self.fields_map[field_name]
+KeyError: 'img'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\admin\utils.py", line 316, in label_for_field
+    field = _get_non_gfk_field(model._meta, name)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\admin\utils.py", line 293, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\options.py", line 567, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: Course has no field named 'img'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\list.py", line 405, in get
+    context = self.get_context()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  [Previous line repeated 1 more times]
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  [Previous line repeated 1 more times]
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\list.py", line 384, in get_context
+    'result_headers': self.result_headers(),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\list.py", line 524, in result_headers
+    field_name, row) for field_name in self.list_display]
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\list.py", line 524, in <listcomp>
+    field_name, row) for field_name in self.list_display]
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\xadmin\views\list.py", line 441, in result_header
+    return_attr=True
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\contrib\admin\utils.py", line 341, in label_for_field
+    raise AttributeError(message)
+AttributeError: Unable to lookup 'img' on Course or coursecourseAdminListAdminViewModelAdminViewGlobalSettingsCommAdminViewBaseSettingBaseAdminViewBaseAdminObjectViewobject
+INFO 2019-12-02 11:55:15,673 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\adminx.py changed, reloading.
+INFO 2019-12-02 11:55:18,770 autoreload 597 Watching for file changes with StatReloader
+WARNING 2019-12-02 11:55:23,413 log 228 Not Found: /xadmin/course/
+WARNING 2019-12-02 11:55:23,414 basehttp 154 "GET /xadmin/course/ HTTP/1.1" 404 8107
+INFO 2019-12-02 11:55:26,656 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 18506
+INFO 2019-12-02 11:55:26,710 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:55:32,131 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 57792
+INFO 2019-12-02 11:55:32,172 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:55:44,993 basehttp 154 "GET /xadmin/course/course/25/update/ HTTP/1.1" 200 29913
+INFO 2019-12-02 11:55:45,034 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:55:45,041 basehttp 154 "GET /media/course/1_ubG0mX3.png HTTP/1.1" 200 13165
+INFO 2019-12-02 11:55:52,691 basehttp 154 "POST /xadmin/course/course/25/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:55:52,892 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 58025
+INFO 2019-12-02 11:55:52,939 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:55:59,085 basehttp 154 "GET /xadmin/course/course/24/update/ HTTP/1.1" 200 29961
+INFO 2019-12-02 11:55:59,113 basehttp 154 "GET /media/course/2_nyeJ7Tx.png HTTP/1.1" 200 64369
+INFO 2019-12-02 11:55:59,130 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:56:05,002 basehttp 154 "POST /xadmin/course/course/24/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:56:05,182 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 58037
+INFO 2019-12-02 11:56:05,217 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:56:08,203 basehttp 154 "GET /xadmin/course/course/22/update/ HTTP/1.1" 200 29959
+INFO 2019-12-02 11:56:08,248 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 11:56:08,251 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:56:08,252 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:56:12,631 basehttp 154 "POST /xadmin/course/course/22/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:56:12,820 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 58047
+INFO 2019-12-02 11:56:12,866 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:56:16,414 basehttp 154 "GET /xadmin/course/course/23/update/ HTTP/1.1" 200 29935
+WARNING 2019-12-02 11:56:16,461 log 228 Not Found: /media/course/2.jpeg
+INFO 2019-12-02 11:56:16,464 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 11:56:16,466 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:56:20,818 basehttp 154 "POST /xadmin/course/course/23/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:56:21,004 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 58048
+INFO 2019-12-02 11:56:21,044 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:57:17,003 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\adminx.py changed, reloading.
+INFO 2019-12-02 11:57:19,519 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:57:24,856 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 57806
+INFO 2019-12-02 11:57:24,889 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:57:28,710 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 57806
+INFO 2019-12-02 11:57:28,745 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:57:37,724 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:57:37,746 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 11:57:37,768 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 11:57:37,848 basehttp 154 "GET /course/ HTTP/1.1" 200 4468
+WARNING 2019-12-02 11:57:37,901 log 228 Not Found: /media/course/Loginbg.3377d0c.jpg
+WARNING 2019-12-02 11:57:37,905 basehttp 154 "GET /media/course/Loginbg.3377d0c.jpg HTTP/1.1" 404 1840
+INFO 2019-12-02 11:57:37,913 basehttp 154 "GET /media/course/3_GcqCGsh.png HTTP/1.1" 200 20970
+WARNING 2019-12-02 11:57:37,921 log 228 Not Found: /media/course/course-cover.jpeg
+WARNING 2019-12-02 11:57:37,926 log 228 Not Found: /media/course/2.jpeg
+INFO 2019-12-02 11:57:37,930 basehttp 154 "GET /media/course/4_9Lo4FCl.png HTTP/1.1" 200 18125
+INFO 2019-12-02 11:57:37,930 basehttp 154 "GET /media/course/1_5cePtPY.png HTTP/1.1" 200 13165
+WARNING 2019-12-02 11:57:37,932 basehttp 154 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 1834
+WARNING 2019-12-02 11:57:37,932 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:57:37,935 basehttp 154 "GET /media/course/2_Xl57XuI.png HTTP/1.1" 200 64369
+INFO 2019-12-02 11:57:37,936 basehttp 154 "GET /media/course/4.png HTTP/1.1" 200 18125
+INFO 2019-12-02 11:57:37,954 basehttp 154 "GET /media/course/3.png HTTP/1.1" 200 20970
+INFO 2019-12-02 11:57:37,963 basehttp 154 "GET /media/course/2.png HTTP/1.1" 200 64369
+INFO 2019-12-02 11:57:37,976 basehttp 154 "GET /media/course/1.png HTTP/1.1" 200 13165
+INFO 2019-12-02 11:58:08,539 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\adminx.py changed, reloading.
+INFO 2019-12-02 11:58:12,016 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:58:17,472 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65134
+INFO 2019-12-02 11:58:17,526 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.editable.js HTTP/1.1" 200 6151
+INFO 2019-12-02 11:58:17,535 basehttp 154 "GET /static/xadmin/css/xadmin.widget.editable.css HTTP/1.1" 200 1099
+INFO 2019-12-02 11:58:17,536 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:58:20,501 basehttp 154 "GET /xadmin/course/course/21/patch/?fields=course_img HTTP/1.1" 200 600
+WARNING 2019-12-02 11:58:20,526 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:58:20,527 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:58:25,598 basehttp 154 "POST /xadmin/course/course/21/patch/ HTTP/1.1" 200 53
+WARNING 2019-12-02 11:58:34,179 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:58:34,180 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:58:39,606 basehttp 154 "POST /xadmin/course/course/21/patch/ HTTP/1.1" 200 53
+INFO 2019-12-02 11:58:43,290 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65134
+INFO 2019-12-02 11:58:43,336 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:58:44,567 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65134
+INFO 2019-12-02 11:58:44,607 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:58:46,499 basehttp 154 "GET /xadmin/course/course/21/update/ HTTP/1.1" 200 29955
+WARNING 2019-12-02 11:58:46,546 log 228 Not Found: /media/course/2.jpeg
+INFO 2019-12-02 11:58:46,547 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 11:58:46,549 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:58:52,765 basehttp 154 "POST /xadmin/course/course/21/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:58:52,970 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65388
+INFO 2019-12-02 11:58:53,014 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:58:57,410 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65141
+INFO 2019-12-02 11:58:57,445 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:59:01,401 basehttp 154 "GET /xadmin/course/course/20/patch/?fields=course_img HTTP/1.1" 200 600
+WARNING 2019-12-02 11:59:01,430 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:59:01,431 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:59:06,101 basehttp 154 "POST /xadmin/course/course/20/patch/ HTTP/1.1" 200 53
+INFO 2019-12-02 11:59:13,935 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65141
+INFO 2019-12-02 11:59:13,972 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:59:17,512 basehttp 154 "GET /xadmin/course/course/20/patch/?fields=course_img HTTP/1.1" 200 600
+WARNING 2019-12-02 11:59:17,537 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:59:17,538 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:59:21,916 basehttp 154 "POST /xadmin/course/course/20/patch/ HTTP/1.1" 200 53
+INFO 2019-12-02 11:59:23,326 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65141
+INFO 2019-12-02 11:59:23,363 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:59:26,113 basehttp 154 "GET /xadmin/course/course/20/update/ HTTP/1.1" 200 29931
+WARNING 2019-12-02 11:59:26,150 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:59:26,152 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:59:26,159 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:59:30,679 basehttp 154 "POST /xadmin/course/course/20/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:59:30,888 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65389
+INFO 2019-12-02 11:59:30,976 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:59:33,991 basehttp 154 "GET /xadmin/course/course/19/patch/?fields=course_img HTTP/1.1" 200 600
+WARNING 2019-12-02 11:59:34,011 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:59:34,012 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:59:38,380 basehttp 154 "POST /xadmin/course/course/19/patch/ HTTP/1.1" 200 53
+INFO 2019-12-02 11:59:40,665 basehttp 154 "GET /xadmin/course/course/19/update/ HTTP/1.1" 200 29883
+WARNING 2019-12-02 11:59:40,700 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:59:40,708 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:59:40,709 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:59:44,911 basehttp 154 "POST /xadmin/course/course/19/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:59:45,133 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65384
+INFO 2019-12-02 11:59:45,167 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:59:48,381 basehttp 154 "GET /xadmin/course/course/18/update/ HTTP/1.1" 200 29919
+INFO 2019-12-02 11:59:48,418 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 11:59:48,423 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:59:48,424 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 11:59:52,487 basehttp 154 "POST /xadmin/course/course/18/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 11:59:52,694 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65400
+INFO 2019-12-02 11:59:52,754 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 11:59:55,154 basehttp 154 "GET /xadmin/course/course/17/update/ HTTP/1.1" 200 29966
+INFO 2019-12-02 11:59:55,200 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 11:59:55,202 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 11:59:55,204 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 12:00:00,810 basehttp 154 "POST /xadmin/course/course/17/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 12:00:01,047 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65419
+INFO 2019-12-02 12:00:01,097 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 12:00:03,579 basehttp 154 "GET /xadmin/course/course/16/update/ HTTP/1.1" 200 29914
+INFO 2019-12-02 12:00:03,614 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 12:00:03,618 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 12:00:03,620 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 12:00:08,493 basehttp 154 "POST /xadmin/course/course/16/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 12:00:08,676 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65413
+INFO 2019-12-02 12:00:08,710 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 12:00:11,680 basehttp 154 "GET /xadmin/course/course/15/update/ HTTP/1.1" 200 29918
+INFO 2019-12-02 12:00:11,738 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 12:00:11,740 log 228 Not Found: /media/course/2.jpeg
+WARNING 2019-12-02 12:00:11,744 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 12:00:15,395 basehttp 154 "POST /xadmin/course/course/15/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 12:00:15,603 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65421
+INFO 2019-12-02 12:00:15,653 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 12:00:19,070 basehttp 154 "GET /xadmin/course/course/3/update/ HTTP/1.1" 200 29935
+WARNING 2019-12-02 12:00:19,105 log 228 Not Found: /media/course/2.jpeg
+INFO 2019-12-02 12:00:19,108 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 12:00:19,108 basehttp 154 "GET /media/course/2.jpeg HTTP/1.1" 404 1801
+INFO 2019-12-02 12:00:23,671 basehttp 154 "POST /xadmin/course/course/3/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 12:00:23,889 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65428
+INFO 2019-12-02 12:00:23,938 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 12:00:26,660 basehttp 154 "GET /xadmin/course/course/2/update/ HTTP/1.1" 200 29957
+INFO 2019-12-02 12:00:26,701 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 12:00:26,704 log 228 Not Found: /media/course/course-cover.jpeg
+WARNING 2019-12-02 12:00:26,707 basehttp 154 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 1834
+INFO 2019-12-02 12:00:31,593 basehttp 154 "POST /xadmin/course/course/2/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 12:00:31,788 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65424
+INFO 2019-12-02 12:00:31,826 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 12:00:34,275 basehttp 154 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 29962
+WARNING 2019-12-02 12:00:34,317 log 228 Not Found: /media/course/Loginbg.3377d0c.jpg
+INFO 2019-12-02 12:00:34,321 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-12-02 12:00:34,321 basehttp 154 "GET /media/course/Loginbg.3377d0c.jpg HTTP/1.1" 404 1840
+INFO 2019-12-02 12:00:39,778 basehttp 154 "POST /xadmin/course/course/1/update/ HTTP/1.1" 302 0
+INFO 2019-12-02 12:00:39,967 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65417
+INFO 2019-12-02 12:00:40,010 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-02 12:00:44,609 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 224
+INFO 2019-12-02 12:00:44,621 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 224
+INFO 2019-12-02 12:00:44,644 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-02 12:00:44,759 basehttp 154 "GET /course/ HTTP/1.1" 200 4514
+INFO 2019-12-02 12:00:44,790 basehttp 154 "GET /media/course/3_GcqCGsh.png HTTP/1.1" 304 0
+INFO 2019-12-02 12:00:44,792 basehttp 154 "GET /media/course/4_9Lo4FCl.png HTTP/1.1" 304 0
+INFO 2019-12-02 12:00:44,799 basehttp 154 "GET /media/course/2_Xl57XuI.png HTTP/1.1" 304 0
+INFO 2019-12-02 12:00:44,807 basehttp 154 "GET /media/course/4.png HTTP/1.1" 304 0
+INFO 2019-12-02 12:00:44,818 basehttp 154 "GET /media/course/3.png HTTP/1.1" 304 0
+INFO 2019-12-02 12:00:44,822 basehttp 154 "GET /media/course/1_5cePtPY.png HTTP/1.1" 304 0
+INFO 2019-12-02 12:00:44,830 basehttp 154 "GET /media/course/2.png HTTP/1.1" 304 0
+INFO 2019-12-02 12:00:44,833 basehttp 154 "GET /media/course/3_viuhQHF.png HTTP/1.1" 200 20970
+INFO 2019-12-02 12:00:44,845 basehttp 154 "GET /media/course/1.png HTTP/1.1" 304 0
+INFO 2019-12-02 12:00:44,847 basehttp 154 "GET /media/course/1_ChBHwAf.png HTTP/1.1" 200 13165
+INFO 2019-12-02 12:00:44,850 basehttp 154 "GET /media/course/3_Dz5bsPR.png HTTP/1.1" 200 20970
+INFO 2019-12-02 12:00:44,851 basehttp 154 "GET /media/course/2_1o9BQl9.png HTTP/1.1" 200 64369
+INFO 2019-12-02 12:00:44,853 basehttp 154 "GET /media/course/1_pW2sDCP.png HTTP/1.1" 200 13165
+INFO 2019-12-02 12:00:44,853 basehttp 154 "GET /media/course/4_LEUY4Cl.png HTTP/1.1" 200 18125
+INFO 2019-12-02 12:00:44,882 basehttp 154 "GET /media/course/4_HqbEPQI.png HTTP/1.1" 200 18125
+INFO 2019-12-02 12:00:44,883 basehttp 154 "GET /media/course/2_3SZly6H.png HTTP/1.1" 200 64369
+INFO 2019-12-02 12:00:44,890 basehttp 154 "GET /media/course/4_FzJm0fX.png HTTP/1.1" 200 18125
+INFO 2019-12-02 12:00:44,898 basehttp 154 "GET /media/course/2_3qdD71X.png HTTP/1.1" 200 64369
+INFO 2019-12-02 14:15:02,614 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:17:19,150 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:17:23,073 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:17:28,828 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:17:32,793 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:17:44,635 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:17:48,563 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:17:57,626 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:18:01,630 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:18:12,290 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:18:17,529 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:18:26,623 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:18:30,587 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:18:36,222 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:18:39,233 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:18:52,040 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:18:54,584 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:19:14,731 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:19:17,996 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:19:49,914 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:19:52,628 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:20:05,449 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:20:08,031 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:20:22,002 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:20:25,240 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:20:30,553 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:20:33,761 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:20:54,458 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:20:57,155 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:21:50,672 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:21:54,365 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:22:03,120 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:22:06,952 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:22:15,645 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:22:19,000 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:22:27,837 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:22:31,056 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:22:43,705 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:22:46,839 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:22:53,523 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:22:56,990 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:24:31,278 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:24:34,522 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:24:40,646 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:24:44,145 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:24:55,779 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:24:59,132 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:25:06,639 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:25:10,018 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:25:15,333 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:25:19,445 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:25:29,455 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:25:33,208 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:25:39,219 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:25:43,625 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:25:48,971 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:25:52,898 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:26:01,057 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:26:05,637 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:26:11,253 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:26:15,053 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:26:20,626 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:26:24,428 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:26:34,593 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-02 14:26:37,390 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:27:43,226 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-02 14:27:45,984 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:27:47,620 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-02 14:27:52,377 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:27:57,058 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-02 14:27:59,666 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:28:03,219 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-02 14:28:07,141 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:28:15,442 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-02 14:28:19,421 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:28:25,943 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-02 14:28:31,206 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:28:52,949 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-02 14:28:55,978 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:29:09,037 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-02 14:29:14,592 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:29:26,824 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-02 14:29:30,065 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:30:52,847 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-02 14:30:56,163 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 14:31:08,708 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-02 14:31:11,813 autoreload 597 Watching for file changes with StatReloader
