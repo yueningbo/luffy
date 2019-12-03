@@ -12,7 +12,6 @@ import "../static/css/reset.css";
 import "../static/js/gt.js"
 
 
-
 import axios from 'axios'; // 从node_modules目录中导入包
 // 允许ajax发送请求时附带cookie
 axios.defaults.withCredentials = false;
@@ -28,6 +27,13 @@ Vue.use(ElementUI);
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: {App},
   template: '<App/>'
-})
+});
+
+require("video.js/dist/video-js.css");
+require("vue-video-player/src/custom-theme.css");
+import VideoPlayer from 'vue-video-player'
+
+Vue.use(VideoPlayer);
+

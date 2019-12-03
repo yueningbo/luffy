@@ -3510,3 +3510,2101 @@ INFO 2019-12-02 21:49:48,195 basehttp 154 "GET /course/?ordering=id&size=2&page=
 INFO 2019-12-02 21:49:54,456 basehttp 154 "GET /course/?ordering=id&size=2&page=4&course_category=1 HTTP/1.1" 200 410
 INFO 2019-12-02 21:49:56,054 basehttp 154 "GET /course/?ordering=id&size=2&page=1&course_category=3 HTTP/1.1" 200 684
 INFO 2019-12-02 21:49:56,092 basehttp 154 "GET /course/?ordering=id&size=2&page=1&course_category=3 HTTP/1.1" 200 684
+INFO 2019-12-03 08:36:54,446 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 08:49:45,383 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2019-12-03 08:49:48,211 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 08:54:21,219 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:00:11,203 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 09:00:11,204 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:00:11,206 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:00:11,276 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 654
+INFO 2019-12-03 09:00:11,339 basehttp 154 "GET /media/course/3_viuhQHF.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:00:11,593 basehttp 154 "GET /media/course/2_1o9BQl9.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:00:13,802 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:00:13,812 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:02:02,706 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:02:05,167 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:02:14,663 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:02:16,577 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:02:26,328 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:02:29,304 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:02:33,636 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:02:38,065 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:02:43,450 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:02:46,005 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:03:52,448 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:03:55,533 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:04:42,311 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:04:44,736 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:05:00,973 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:05:03,541 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:05:12,522 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:05:15,198 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:05:23,155 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:05:26,444 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:05:32,816 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:05:35,580 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:05:50,047 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:05:52,788 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:05:57,073 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:05:59,937 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:06:04,204 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:06:07,101 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:06:20,056 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:06:22,915 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:06:42,276 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:06:45,659 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:06:54,974 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:06:57,805 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:07:07,315 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:07:10,268 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:07:14,844 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:07:18,009 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:07:24,384 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:07:27,748 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:07:53,426 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:07:55,955 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:08:13,799 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:08:16,534 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:08:36,377 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 09:08:39,310 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:08:49,989 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 09:08:52,639 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:09:03,676 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 09:09:06,285 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:09:13,986 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 09:09:16,589 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:09:24,839 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 09:09:28,650 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:09:47,072 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 09:09:49,964 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:09:58,903 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 09:10:01,575 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:10:25,028 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\urls.py changed, reloading.
+INFO 2019-12-03 09:10:27,984 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:10:35,166 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\urls.py changed, reloading.
+INFO 2019-12-03 09:10:38,145 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:11:05,611 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\urls.py changed, reloading.
+INFO 2019-12-03 09:11:08,484 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:11:13,976 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\urls.py changed, reloading.
+INFO 2019-12-03 09:11:17,361 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:11:30,304 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:11:30,305 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:21:04,170 basehttp 154 "GET /course/1/ HTTP/1.1" 200 437
+INFO 2019-12-03 09:21:31,738 basehttp 154 "GET /course/1/ HTTP/1.1" 200 437
+INFO 2019-12-03 09:21:49,597 basehttp 154 "GET /course/1/ HTTP/1.1" 200 437
+INFO 2019-12-03 09:21:53,033 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 09:21:53,088 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:21:53,093 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+ERROR 2019-12-03 09:21:53,800 log 228 Internal Server Error: /course/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\course\models.py", line 68, in lesson_list
+    data_list = self.course_lesson.filter(is_recomment=True)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\sql\query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\sql\query.py", line 1318, in _add_q
+    split_subq=split_subq, simple_col=simple_col,
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\sql\query.py", line 1190, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\sql\query.py", line 1049, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\db\models\sql\query.py", line 1420, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'is_recomment' into field. Choices are: chapter, chapter_id, course, course_id, created_time, duration, free_trail, id, is_deleted, is_recommend, is_show, lesson, name, orders, pub_date, section_link, section_type, updated_time
+ERROR 2019-12-03 09:21:53,810 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 500 23841
+INFO 2019-12-03 09:23:17,730 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:23:20,249 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:23:24,679 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:23:24,686 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 09:23:24,690 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:23:24,715 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 802
+INFO 2019-12-03 09:23:26,986 basehttp 154 "GET /course/1/ HTTP/1.1" 200 437
+INFO 2019-12-03 09:23:29,078 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 09:23:29,079 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:23:29,080 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:23:29,103 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 802
+INFO 2019-12-03 09:23:30,535 basehttp 154 "GET /course/2/ HTTP/1.1" 200 434
+INFO 2019-12-03 09:23:32,443 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 09:23:32,459 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:23:32,472 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:23:32,473 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 802
+INFO 2019-12-03 09:23:34,249 basehttp 154 "GET /course/2/ HTTP/1.1" 200 434
+INFO 2019-12-03 09:23:44,686 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 09:23:44,686 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:23:44,693 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 802
+INFO 2019-12-03 09:23:44,693 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:23:45,849 basehttp 154 "GET /course/2/ HTTP/1.1" 200 434
+INFO 2019-12-03 09:24:25,042 basehttp 154 "GET /course/2/ HTTP/1.1" 200 434
+INFO 2019-12-03 09:28:15,544 basehttp 154 "GET /course/2/ HTTP/1.1" 200 434
+INFO 2019-12-03 09:28:15,572 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:28:15,590 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:29:28,139 basehttp 154 "GET /course/2/ HTTP/1.1" 200 434
+INFO 2019-12-03 09:29:28,141 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:29:28,145 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:30:12,185 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 09:30:12,187 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:30:12,192 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:30:12,210 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 802
+INFO 2019-12-03 09:30:14,586 basehttp 154 "GET /course/1/ HTTP/1.1" 200 437
+INFO 2019-12-03 09:30:14,590 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:30:14,591 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:30:42,127 basehttp 154 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 36466
+INFO 2019-12-03 09:30:42,523 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:42,525 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:42,527 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:42,528 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:42,531 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:42,539 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:42,554 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:42,711 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:42,895 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:42,919 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:42,919 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,014 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,014 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,016 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,017 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,025 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,025 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,026 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,083 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,084 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,084 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,085 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,085 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,098 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 09:30:43,145 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,713 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 65424
+INFO 2019-12-03 09:30:43,762 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 09:30:43,766 basehttp 154 "GET /static/xadmin/css/xadmin.widget.editable.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,850 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,851 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,853 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,861 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,862 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.editable.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,869 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:43,893 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+INFO 2019-12-03 09:30:44,047 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 717619
+INFO 2019-12-03 09:30:44,062 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:44,063 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:44,063 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:55,080 basehttp 154 "GET /xadmin/course/course/2/update/ HTTP/1.1" 200 31360
+INFO 2019-12-03 09:30:55,122 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 09:30:55,133 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:55,135 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:55,153 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:55,164 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2019-12-03 09:30:55,421 basehttp 154 "GET /static/ckeditor/ckeditor/config.js?t=J8Q8 HTTP/1.1" 200 338
+INFO 2019-12-03 09:30:55,503 basehttp 154 "GET /static/ckeditor/ckeditor/lang/zh.js?t=J8Q8 HTTP/1.1" 200 18470
+INFO 2019-12-03 09:30:55,524 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=J8Q8 HTTP/1.1" 200 47977
+INFO 2019-12-03 09:30:55,527 basehttp 154 "GET /static/ckeditor/ckeditor/styles.js?t=J8Q8 HTTP/1.1" 200 5579
+INFO 2019-12-03 09:30:55,580 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=J8Q8 HTTP/1.1" 200 381
+INFO 2019-12-03 09:30:55,581 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 200 249
+INFO 2019-12-03 09:30:55,591 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1145
+INFO 2019-12-03 09:30:55,612 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=J8Q8 HTTP/1.1" 200 419
+INFO 2019-12-03 09:30:55,624 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2019-12-03 09:30:55,638 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=J8Q8 HTTP/1.1" 200 1306
+INFO 2019-12-03 09:30:55,653 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=83e9de8d6b HTTP/1.1" 200 12421
+INFO 2019-12-03 09:30:55,773 basehttp 154 "GET /static/ckeditor/ckeditor/contents.css?t=J8Q8 HTTP/1.1" 200 3094
+INFO 2019-12-03 09:31:01,301 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=J8Q8 HTTP/1.1" 200 13708
+INFO 2019-12-03 09:31:01,315 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/image/dialogs/image.js?t=J8Q8 HTTP/1.1" 200 21531
+INFO 2019-12-03 09:31:01,382 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 200 615
+INFO 2019-12-03 09:31:01,385 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png HTTP/1.1" 200 506
+INFO 2019-12-03 09:31:01,443 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png HTTP/1.1" 200 757
+INFO 2019-12-03 09:31:03,619 basehttp 154 "GET /ckeditor/browse/?CKEditor=id_brief&CKEditorFuncNum=1&langCode=zh HTTP/1.1" 200 32772
+INFO 2019-12-03 09:31:03,685 basehttp 154 "GET /static/ckeditor/ckeditor_uploader/admin_base.css HTTP/1.1" 200 1481
+INFO 2019-12-03 09:31:03,690 basehttp 154 "GET /static/ckeditor/galleriffic/js/jquery.opacityrollover.js HTTP/1.1" 200 937
+INFO 2019-12-03 09:31:03,703 basehttp 154 "GET /static/ckeditor/galleriffic/css/galleriffic-2.css HTTP/1.1" 200 3166
+INFO 2019-12-03 09:31:03,724 basehttp 154 "GET /static/ckeditor/galleriffic/css/basic.css HTTP/1.1" 200 1043
+INFO 2019-12-03 09:31:03,740 basehttp 154 "GET /static/ckeditor/galleriffic/js/jquery.galleriffic.js HTTP/1.1" 200 33266
+INFO 2019-12-03 09:31:03,763 basehttp 154 "GET /static/ckeditor/galleriffic/js/jquery-1.3.2.js HTTP/1.1" 200 120619
+INFO 2019-12-03 09:31:03,786 basehttp 154 "GET /media/banner/alex_BbtJ6nS.jpeg HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:03,805 basehttp 154 "GET /media/banner/alex.jpeg HTTP/1.1" 200 93636
+INFO 2019-12-03 09:31:03,850 basehttp 154 "GET /media/banner/banner2_4RmEdsE.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:03,905 basehttp 154 "GET /media/banner/banner3_t2zhNtC.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:03,939 basehttp 154 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+INFO 2019-12-03 09:31:03,945 basehttp 154 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2019-12-03 09:31:03,946 basehttp 154 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2019-12-03 09:31:03,947 basehttp 154 "GET /media/banner/banner1_Xepzc0v.png HTTP/1.1" 200 99518
+INFO 2019-12-03 09:31:03,954 basehttp 154 "GET /media/banner/banner3_GP5216g.png HTTP/1.1" 200 361097
+INFO 2019-12-03 09:31:04,016 basehttp 154 "GET /media/course/1.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,018 basehttp 154 "GET /media/course/1_5cePtPY.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,056 basehttp 154 "GET /media/course/1_ChBHwAf.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,074 basehttp 154 "GET /media/course/1_pW2sDCP.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,076 basehttp 154 "GET /media/course/1_ubG0mX3.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,133 basehttp 154 "GET /static/ckeditor/galleriffic/css/loader.gif HTTP/1.1" 200 10453
+INFO 2019-12-03 09:31:04,156 basehttp 154 "GET /media/course/2.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,162 basehttp 154 "GET /media/course/2_3qdD71X.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,169 basehttp 154 "GET /media/course/3.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,172 basehttp 154 "GET /media/course/2_Xl57XuI.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,173 basehttp 154 "GET /media/course/2_3SZly6H.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,180 basehttp 154 "GET /media/course/2_nyeJ7Tx.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,192 basehttp 154 "GET /media/course/3_Dz5bsPR.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,203 basehttp 154 "GET /media/course/3_GcqCGsh.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,217 basehttp 154 "GET /media/course/4_9Lo4FCl.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,222 basehttp 154 "GET /media/course/4_FzJm0fX.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,223 basehttp 154 "GET /media/course/4.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,235 basehttp 154 "GET /media/course/4_LEUY4Cl.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:31:04,235 basehttp 154 "GET /media/course/4_HqbEPQI.png HTTP/1.1" 304 0
+INFO 2019-12-03 09:32:13,760 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/dialogs/smiley.js?t=J8Q8 HTTP/1.1" 200 3463
+INFO 2019-12-03 09:32:13,816 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.png HTTP/1.1" 200 1183
+INFO 2019-12-03 09:32:13,820 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png HTTP/1.1" 200 1114
+INFO 2019-12-03 09:32:13,826 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.png HTTP/1.1" 200 1115
+INFO 2019-12-03 09:32:13,827 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png HTTP/1.1" 200 1084
+INFO 2019-12-03 09:32:13,831 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png HTTP/1.1" 200 1132
+INFO 2019-12-03 09:32:13,837 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png HTTP/1.1" 200 1101
+INFO 2019-12-03 09:32:13,843 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.png HTTP/1.1" 200 1122
+INFO 2019-12-03 09:32:13,853 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png HTTP/1.1" 200 1039
+INFO 2019-12-03 09:32:13,859 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.png HTTP/1.1" 200 1145
+INFO 2019-12-03 09:32:13,925 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.png HTTP/1.1" 200 1220
+INFO 2019-12-03 09:32:13,931 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.png HTTP/1.1" 200 919
+INFO 2019-12-03 09:32:13,931 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.png HTTP/1.1" 200 985
+INFO 2019-12-03 09:32:13,944 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.png HTTP/1.1" 200 1220
+INFO 2019-12-03 09:32:13,957 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/heart.png HTTP/1.1" 200 999
+INFO 2019-12-03 09:32:13,960 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.png HTTP/1.1" 200 959
+INFO 2019-12-03 09:32:13,970 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png HTTP/1.1" 200 1172
+INFO 2019-12-03 09:32:13,973 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.png HTTP/1.1" 200 1139
+INFO 2019-12-03 09:32:13,976 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.png HTTP/1.1" 200 1204
+INFO 2019-12-03 09:32:13,979 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.png HTTP/1.1" 200 1214
+INFO 2019-12-03 09:32:13,981 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/envelope.png HTTP/1.1" 200 760
+INFO 2019-12-03 09:32:13,990 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/kiss.png HTTP/1.1" 200 1003
+INFO 2019-12-03 09:32:20,699 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/flash/dialogs/flash.js?t=J8Q8 HTTP/1.1" 200 10230
+INFO 2019-12-03 09:32:53,742 basehttp 154 "POST /xadmin/course/course/2/update/ HTTP/1.1" 302 0
+INFO 2019-12-03 09:32:53,966 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65662
+INFO 2019-12-03 09:32:54,033 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 09:32:57,871 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 09:32:57,876 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:32:57,877 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:32:57,895 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 802
+INFO 2019-12-03 09:32:59,589 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:32:59,593 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:32:59,595 basehttp 154 "GET /course/2/ HTTP/1.1" 200 959
+INFO 2019-12-03 09:34:00,348 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:34:00,355 basehttp 154 "GET /course/2/ HTTP/1.1" 200 959
+INFO 2019-12-03 09:34:00,358 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:34:21,095 basehttp 154 "GET /xadmin/course/course/2/update/ HTTP/1.1" 200 32039
+INFO 2019-12-03 09:34:21,157 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 09:34:37,557 basehttp 154 "POST /xadmin/course/course/2/update/ HTTP/1.1" 302 0
+INFO 2019-12-03 09:34:37,779 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 65662
+INFO 2019-12-03 09:34:37,858 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 09:34:42,155 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:34:42,158 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:34:42,176 basehttp 154 "GET /course/2/ HTTP/1.1" 200 987
+INFO 2019-12-03 09:35:39,316 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:35:39,318 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:35:39,321 basehttp 154 "GET /course/2/ HTTP/1.1" 200 987
+INFO 2019-12-03 09:39:52,117 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:39:52,121 basehttp 154 "GET /course/2/ HTTP/1.1" 200 987
+INFO 2019-12-03 09:39:52,124 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:39:58,839 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 09:39:58,844 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:39:58,849 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:39:58,891 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 802
+INFO 2019-12-03 09:40:01,436 basehttp 154 "GET /course/?ordering=id&size=2&page=4 HTTP/1.1" 200 855
+INFO 2019-12-03 09:40:04,838 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:40:04,844 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:40:04,848 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:41:01,474 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:41:01,474 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:41:01,474 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:41:14,951 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:41:14,951 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:41:14,959 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:41:26,110 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:41:26,112 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:41:26,113 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:41:32,520 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:41:32,551 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:41:32,555 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:41:57,917 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:41:57,919 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:41:57,921 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:42:28,349 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:42:28,351 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:42:28,372 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:42:31,404 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:42:31,407 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:42:31,408 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:42:36,028 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:42:36,029 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:42:36,037 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:42:51,599 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:42:51,601 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:42:51,604 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:51:28,687 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:51:28,691 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:51:28,694 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:53:28,488 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:53:32,590 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:55:02,882 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:55:02,882 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:55:02,884 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:55:27,472 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:55:27,475 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 09:55:27,526 basehttp 154 "GET /course/19/ HTTP/1.1" 200 420
+INFO 2019-12-03 09:57:42,217 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:57:44,410 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:57:47,290 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:57:49,797 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:57:54,048 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:57:55,947 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:57:58,759 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:58:00,577 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:58:02,521 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:58:04,367 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:58:09,337 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:58:11,708 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:58:14,433 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:58:16,747 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:58:24,287 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:58:26,237 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:58:50,437 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 09:58:52,907 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 09:59:41,502 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 09:59:44,247 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:00:02,790 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:00:05,807 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:01:21,037 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:01:24,070 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:01:30,662 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:01:33,626 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:01:39,872 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:01:42,946 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:02:01,597 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:02:04,253 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:02:09,337 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:02:12,662 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:02:18,637 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:02:21,826 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:02:27,842 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:02:30,582 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:02:36,702 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:02:40,310 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:02:45,442 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:02:48,971 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:02:55,957 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:02:59,426 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:03:04,150 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:03:07,942 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:03:12,577 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:03:15,955 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:06:02,786 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:06:21,814 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\urls.py changed, reloading.
+INFO 2019-12-03 10:06:26,060 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:08:10,275 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:08:10,279 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:08:10,279 basehttp 154 "GET /course/chapters/ HTTP/1.1" 200 2
+WARNING 2019-12-03 10:08:10,292 log 228 Not Found: /course/undefined/
+WARNING 2019-12-03 10:08:10,295 basehttp 154 "GET /course/undefined/ HTTP/1.1" 404 3566
+WARNING 2019-12-03 10:08:20,311 log 228 Not Found: /course/undefined/
+WARNING 2019-12-03 10:08:20,315 basehttp 154 "GET /course/undefined/ HTTP/1.1" 404 3566
+INFO 2019-12-03 10:08:20,319 basehttp 154 "GET /course/chapters/ HTTP/1.1" 200 2
+INFO 2019-12-03 10:08:20,320 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:08:20,322 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:11:22,611 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:11:22,620 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:11:22,639 log 228 Not Found: /course/12/
+WARNING 2019-12-03 10:11:22,641 log 228 Bad Request: /course/chapters/
+WARNING 2019-12-03 10:11:22,645 basehttp 154 "GET /course/12/ HTTP/1.1" 404 25
+WARNING 2019-12-03 10:11:22,647 basehttp 154 "GET /course/chapters/?course=12 HTTP/1.1" 400 82
+WARNING 2019-12-03 10:11:28,674 log 228 Not Found: /course/12/
+WARNING 2019-12-03 10:11:28,676 log 228 Bad Request: /course/chapters/
+INFO 2019-12-03 10:11:28,677 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:11:28,677 basehttp 154 "GET /course/12/ HTTP/1.1" 404 25
+INFO 2019-12-03 10:11:28,680 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:11:28,681 basehttp 154 "GET /course/chapters/?course=12 HTTP/1.1" 400 82
+INFO 2019-12-03 10:12:48,707 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:12:48,709 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:12:48,711 basehttp 154 "GET /course/1/ HTTP/1.1" 200 437
+INFO 2019-12-03 10:12:48,781 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 2
+WARNING 2019-12-03 10:12:49,189 log 228 Not Found: /media/teacher/logo2x.png
+WARNING 2019-12-03 10:12:49,197 basehttp 154 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1816
+INFO 2019-12-03 10:13:00,314 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:13:00,317 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:13:00,318 basehttp 154 "GET /course/1/ HTTP/1.1" 200 437
+INFO 2019-12-03 10:13:00,321 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 2
+WARNING 2019-12-03 10:13:00,583 log 228 Not Found: /media/teacher/logo2x.png
+WARNING 2019-12-03 10:13:00,585 basehttp 154 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1816
+INFO 2019-12-03 10:13:04,743 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:13:04,747 basehttp 154 "GET /course/1/ HTTP/1.1" 200 437
+INFO 2019-12-03 10:13:04,830 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:13:04,834 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 2
+WARNING 2019-12-03 10:13:05,074 log 228 Not Found: /media/teacher/logo2x.png
+WARNING 2019-12-03 10:13:05,081 basehttp 154 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1816
+INFO 2019-12-03 10:13:08,653 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 10:13:08,684 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:13:08,687 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:13:08,689 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 802
+INFO 2019-12-03 10:13:11,026 basehttp 154 "GET /course/2/ HTTP/1.1" 200 987
+INFO 2019-12-03 10:13:11,026 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:13:11,026 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:13:11,036 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+WARNING 2019-12-03 10:13:11,053 log 228 Not Found: /media/teacher/logo2x.png
+WARNING 2019-12-03 10:13:11,054 basehttp 154 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1816
+INFO 2019-12-03 10:15:14,451 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 10:15:17,319 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:25:53,740 basehttp 154 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 31637
+INFO 2019-12-03 10:25:54,061 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:26:01,304 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 31101
+INFO 2019-12-03 10:26:01,342 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:26:03,536 basehttp 154 "GET /xadmin/course/teacher/1/update/ HTTP/1.1" 200 25940
+WARNING 2019-12-03 10:26:03,577 log 228 Not Found: /media/teacher/logo2x.png
+WARNING 2019-12-03 10:26:03,579 basehttp 154 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1816
+INFO 2019-12-03 10:26:03,585 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:26:13,074 basehttp 154 "POST /xadmin/course/teacher/1/update/ HTTP/1.1" 302 0
+INFO 2019-12-03 10:26:13,225 basehttp 154 "GET /xadmin/course/teacher/? HTTP/1.1" 200 31336
+INFO 2019-12-03 10:26:13,270 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:27:00,677 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:27:00,678 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:27:00,686 basehttp 154 "GET /course/2/ HTTP/1.1" 200 982
+INFO 2019-12-03 10:27:00,689 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+INFO 2019-12-03 10:27:00,786 basehttp 154 "GET /media/teacher/1.png HTTP/1.1" 200 98128
+INFO 2019-12-03 10:27:23,756 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 29188
+INFO 2019-12-03 10:27:23,802 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:27:25,258 basehttp 154 "GET /xadmin/course/courselesson/add/ HTTP/1.1" 200 26214
+INFO 2019-12-03 10:27:25,331 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:27:32,577 basehttp 154 "GET /xadmin/course/coursechapter/add/ HTTP/1.1" 200 5324
+INFO 2019-12-03 10:28:07,874 basehttp 154 "POST /xadmin/course/coursechapter/add/ HTTP/1.1" 200 206
+INFO 2019-12-03 10:28:07,965 basehttp 154 "GET /xadmin/course/courselesson/add/?_field=chapter&chapter=1 HTTP/1.1" 200 2413
+INFO 2019-12-03 10:28:45,557 basehttp 154 "POST /xadmin/course/courselesson/add/ HTTP/1.1" 302 0
+INFO 2019-12-03 10:28:47,488 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 31372
+INFO 2019-12-03 10:28:47,629 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:28:55,459 basehttp 154 "GET /course/2/ HTTP/1.1" 200 982
+INFO 2019-12-03 10:28:55,482 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:28:55,483 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:28:55,486 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+INFO 2019-12-03 10:28:55,578 basehttp 154 "GET /media/teacher/1.png HTTP/1.1" 304 0
+INFO 2019-12-03 10:29:01,304 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 10:29:01,356 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:29:01,357 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:29:01,370 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-03 10:29:03,856 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:29:03,862 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:29:03,865 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 10:29:03,873 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 2
+INFO 2019-12-03 10:29:07,017 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 10:29:07,017 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:29:07,034 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:29:07,039 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-03 10:29:15,380 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:29:15,384 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 2
+INFO 2019-12-03 10:29:15,386 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 10:29:15,388 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:30:01,530 log 228 Not Found: /courses/undefined/
+WARNING 2019-12-03 10:30:01,538 log 228 Not Found: /courses/chapters/
+INFO 2019-12-03 10:30:01,545 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:30:01,547 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:30:01,550 basehttp 154 "GET /courses/undefined/ HTTP/1.1" 404 3024
+WARNING 2019-12-03 10:30:01,554 basehttp 154 "GET /courses/chapters/ HTTP/1.1" 404 3021
+WARNING 2019-12-03 10:30:14,643 log 228 Not Found: /courses/1/
+WARNING 2019-12-03 10:30:14,647 log 228 Not Found: /courses/chapters/
+WARNING 2019-12-03 10:30:14,650 basehttp 154 "GET /courses/1/ HTTP/1.1" 404 3000
+INFO 2019-12-03 10:30:14,654 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:30:14,655 basehttp 154 "GET /courses/chapters/?course=1 HTTP/1.1" 404 3030
+INFO 2019-12-03 10:30:14,656 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:30:16,797 log 228 Not Found: /courses/chapters/
+WARNING 2019-12-03 10:30:16,800 basehttp 154 "GET /courses/chapters/?course=1 HTTP/1.1" 404 3030
+INFO 2019-12-03 10:30:16,801 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:30:16,806 log 228 Not Found: /courses/1/
+WARNING 2019-12-03 10:30:16,807 basehttp 154 "GET /courses/1/ HTTP/1.1" 404 3000
+INFO 2019-12-03 10:30:16,809 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:30:22,583 log 228 Not Found: /courses/1/
+WARNING 2019-12-03 10:30:22,593 log 228 Not Found: /courses/chapters/
+WARNING 2019-12-03 10:30:22,594 basehttp 154 "GET /courses/1/ HTTP/1.1" 404 3000
+WARNING 2019-12-03 10:30:22,595 basehttp 154 "GET /courses/chapters/?course=1 HTTP/1.1" 404 3030
+INFO 2019-12-03 10:30:22,598 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:30:22,601 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:30:25,189 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 10:30:25,203 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:30:25,204 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:30:25,219 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+WARNING 2019-12-03 10:30:27,842 log 228 Not Found: /courses/1/
+WARNING 2019-12-03 10:30:27,852 basehttp 154 "GET /courses/1/ HTTP/1.1" 404 3000
+WARNING 2019-12-03 10:30:27,872 log 228 Not Found: /courses/chapters/
+INFO 2019-12-03 10:30:27,875 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:30:27,877 basehttp 154 "GET /courses/chapters/?course=1 HTTP/1.1" 404 3030
+INFO 2019-12-03 10:30:27,883 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:31:11,275 log 228 Not Found: /courses/chapters/
+INFO 2019-12-03 10:31:11,289 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 10:31:11,289 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+WARNING 2019-12-03 10:31:11,291 basehttp 154 "GET /courses/chapters/?course=1 HTTP/1.1" 404 3030
+INFO 2019-12-03 10:31:11,291 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:31:11,310 basehttp 154 "GET /media/teacher/1.png HTTP/1.1" 304 0
+INFO 2019-12-03 10:31:29,968 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 10:31:29,970 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:31:29,974 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:31:29,974 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 2
+INFO 2019-12-03 10:32:29,315 basehttp 154 "GET /course/chapters/ HTTP/1.1" 200 7521
+INFO 2019-12-03 10:36:39,958 basehttp 154 "GET /course/ HTTP/1.1" 200 14191
+INFO 2019-12-03 10:37:08,635 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:37:11,621 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:37:14,371 basehttp 154 "GET /course/ HTTP/1.1" 200 14191
+INFO 2019-12-03 10:37:18,967 basehttp 154 "GET /course/chapters HTTP/1.1" 301 0
+INFO 2019-12-03 10:37:19,029 basehttp 154 "GET /course/chapters/ HTTP/1.1" 200 6691
+INFO 2019-12-03 10:37:21,987 basehttp 154 "GET /course/chapters/ HTTP/1.1" 200 6691
+INFO 2019-12-03 10:37:26,680 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 31016
+INFO 2019-12-03 10:37:26,718 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:37:28,198 basehttp 154 "GET /xadmin/course/courselesson/1/update/ HTTP/1.1" 200 26822
+INFO 2019-12-03 10:37:28,240 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:37:29,062 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 31043
+INFO 2019-12-03 10:37:29,094 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:37:30,336 basehttp 154 "GET /xadmin/course/coursechapter/1/update/ HTTP/1.1" 200 24568
+INFO 2019-12-03 10:37:30,362 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:37:34,511 basehttp 154 "POST /xadmin/course/coursechapter/1/update/ HTTP/1.1" 302 0
+INFO 2019-12-03 10:37:34,630 basehttp 154 "GET /xadmin/course/coursechapter/? HTTP/1.1" 200 31313
+INFO 2019-12-03 10:37:34,661 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:37:36,589 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 31043
+INFO 2019-12-03 10:37:36,620 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:37:39,470 basehttp 154 "GET /xadmin/course/coursechapter/add/ HTTP/1.1" 200 24128
+INFO 2019-12-03 10:37:39,521 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:37:58,249 basehttp 154 "POST /xadmin/course/coursechapter/add/ HTTP/1.1" 302 0
+INFO 2019-12-03 10:37:58,420 basehttp 154 "GET /xadmin/course/coursechapter/add/ HTTP/1.1" 200 24515
+INFO 2019-12-03 10:37:58,470 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:38:13,998 basehttp 154 "POST /xadmin/course/coursechapter/add/ HTTP/1.1" 302 0
+INFO 2019-12-03 10:38:14,136 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 33415
+INFO 2019-12-03 10:38:14,187 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-03 10:38:21,337 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 10:38:21,338 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:38:21,353 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:38:21,649 basehttp 154 "GET /media/teacher/1.png HTTP/1.1" 304 0
+ERROR 2019-12-03 10:38:21,940 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 511, in to_representation
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1022, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1099, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the CourseChapterModelSerializer serializer.",)
+ERROR 2019-12-03 10:38:21,949 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 500 22694
+INFO 2019-12-03 10:38:25,036 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 10:38:25,043 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:38:25,050 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:38:25,063 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-03 10:38:27,315 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 10:38:27,321 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:38:27,332 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+ERROR 2019-12-03 10:38:27,410 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 511, in to_representation
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1022, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1099, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the CourseChapterModelSerializer serializer.",)
+ERROR 2019-12-03 10:38:27,427 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 500 22694
+ERROR 2019-12-03 10:38:39,105 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 511, in to_representation
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1022, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1099, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the CourseChapterModelSerializer serializer.",)
+ERROR 2019-12-03 10:38:39,111 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 155439
+INFO 2019-12-03 10:39:10,165 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\views.py changed, reloading.
+INFO 2019-12-03 10:39:13,546 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:39:17,795 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 511, in to_representation
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1022, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1099, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the CourseChapterModelSerializer serializer.",)
+ERROR 2019-12-03 10:39:17,804 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 155439
+ERROR 2019-12-03 10:40:21,222 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 511, in to_representation
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1022, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1099, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the CourseChapterModelSerializer serializer.",)
+ERROR 2019-12-03 10:40:21,229 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 155439
+ERROR 2019-12-03 10:41:56,906 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 511, in to_representation
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1022, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1099, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the CourseChapterModelSerializer serializer.",)
+ERROR 2019-12-03 10:41:56,913 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 155439
+INFO 2019-12-03 10:41:57,296 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:42:00,676 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:42:03,017 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 511, in to_representation
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1022, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1099, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the CourseChapterModelSerializer serializer.",)
+ERROR 2019-12-03 10:42:03,028 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 155439
+ERROR 2019-12-03 10:42:11,250 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 511, in to_representation
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1022, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1099, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the CourseChapterModelSerializer serializer.",)
+ERROR 2019-12-03 10:42:11,256 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 155439
+INFO 2019-12-03 10:42:28,183 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:42:31,223 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:42:33,582 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_sections'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_sections` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_sections'.
+ERROR 2019-12-03 10:42:33,591 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142042
+ERROR 2019-12-03 10:42:35,647 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_sections'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_sections` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_sections'.
+ERROR 2019-12-03 10:42:35,653 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142042
+ERROR 2019-12-03 10:44:00,424 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_sections'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_sections` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_sections'.
+ERROR 2019-12-03 10:44:00,434 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142042
+INFO 2019-12-03 10:44:00,466 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:44:03,844 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:44:06,481 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_sections'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_sections` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_sections'.
+ERROR 2019-12-03 10:44:06,489 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142074
+INFO 2019-12-03 10:45:13,724 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:45:16,645 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:45:21,151 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_sections'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_sections` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_sections'.
+ERROR 2019-12-03 10:45:21,164 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142074
+INFO 2019-12-03 10:49:20,014 basehttp 154 "GET /course/ HTTP/1.1" 200 14191
+INFO 2019-12-03 10:50:01,360 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:50:04,480 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:50:07,707 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_sections'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_sections` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_sections'.
+ERROR 2019-12-03 10:50:07,716 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142074
+ERROR 2019-12-03 10:50:09,260 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_sections'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_sections` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_sections'.
+ERROR 2019-12-03 10:50:09,266 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142074
+ERROR 2019-12-03 10:50:11,651 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_sections'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_sections` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_sections'.
+ERROR 2019-12-03 10:50:11,660 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142074
+INFO 2019-12-03 10:50:26,227 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:50:29,611 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:50:35,733 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_sections'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_sections` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_sections'.
+ERROR 2019-12-03 10:50:35,743 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142074
+INFO 2019-12-03 10:51:40,346 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:51:43,459 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:51:45,995 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_chapters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_chapters` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_chapters'.
+ERROR 2019-12-03 10:51:46,004 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142074
+ERROR 2019-12-03 10:51:47,697 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_chapters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_chapters` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_chapters'.
+ERROR 2019-12-03 10:51:47,706 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142074
+ERROR 2019-12-03 10:51:49,389 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_chapters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_chapters` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_chapters'.
+ERROR 2019-12-03 10:51:49,394 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 142074
+INFO 2019-12-03 10:52:04,179 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:52:07,256 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:52:10,187 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 526, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'Course' object is not iterable
+ERROR 2019-12-03 10:52:10,194 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 130690
+ERROR 2019-12-03 10:52:14,182 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 526, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'Course' object is not iterable
+ERROR 2019-12-03 10:52:14,186 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 130690
+INFO 2019-12-03 10:52:40,088 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:52:43,092 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:52:45,468 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_chapters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_chapters` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_chapters'.
+ERROR 2019-12-03 10:52:45,480 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 141800
+INFO 2019-12-03 10:53:31,718 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:53:34,777 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:53:38,316 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 526, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'Course' object is not iterable
+ERROR 2019-12-03 10:53:38,323 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 130690
+INFO 2019-12-03 10:54:01,332 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:54:04,804 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:54:07,131 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 526, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 511, in to_representation
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1047, in get_fields
+    source, info, model, depth
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1192, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 1309, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `free_tail` is not valid for model `CourseLesson`.
+ERROR 2019-12-03 10:54:07,141 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 164448
+INFO 2019-12-03 10:54:44,084 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:54:47,879 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:54:50,005 basehttp 154 "GET /course/chapters/ HTTP/1.1" 200 8970
+INFO 2019-12-03 10:55:09,749 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 10:55:09,788 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:55:09,789 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 847
+INFO 2019-12-03 10:55:09,789 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:55:09,906 basehttp 154 "GET /media/teacher/1.png HTTP/1.1" 304 0
+INFO 2019-12-03 10:55:16,670 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 10:55:16,673 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:55:16,674 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:55:16,704 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-03 10:55:24,779 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 10:55:24,789 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:55:24,794 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:55:24,803 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-03 10:55:26,539 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 10:55:26,545 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:55:26,557 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 847
+INFO 2019-12-03 10:55:26,561 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:55:59,541 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:56:02,709 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 10:56:05,323 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 526, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'Course' object is not iterable
+ERROR 2019-12-03 10:56:05,332 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 137229
+INFO 2019-12-03 10:56:16,220 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:56:19,401 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:56:22,357 basehttp 154 "GET /course/chapters/ HTTP/1.1" 200 8970
+INFO 2019-12-03 10:56:43,129 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 10:56:43,132 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:56:43,161 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:56:43,175 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 847
+INFO 2019-12-03 10:59:48,065 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 10:59:51,376 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 10:59:53,951 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:59:53,952 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 10:59:53,953 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 10:59:53,955 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 883
+INFO 2019-12-03 10:59:54,251 basehttp 154 "GET /media/teacher/1.png HTTP/1.1" 304 0
+INFO 2019-12-03 11:00:35,001 basehttp 154 "GET /course/chapters/ HTTP/1.1" 200 9066
+INFO 2019-12-03 11:01:02,919 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 11:01:06,310 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 11:01:08,853 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 526, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'Course' object is not iterable
+ERROR 2019-12-03 11:01:08,861 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 137859
+INFO 2019-12-03 11:04:03,273 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 11:04:06,450 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 11:05:44,162 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 11:05:48,153 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 11:06:00,744 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_lessons'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_lessons` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_lessons'.
+ERROR 2019-12-03 11:06:00,754 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 149122
+ERROR 2019-12-03 11:06:20,261 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_lessons'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_lessons` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_lessons'.
+ERROR 2019-12-03 11:06:20,272 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 149257
+INFO 2019-12-03 11:06:20,494 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\serializers.py changed, reloading.
+INFO 2019-12-03 11:06:23,608 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-03 11:06:29,575 log 228 Internal Server Error: /course/chapters/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CourseChapter' object has no attribute 'course_chapters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `course_chapters` on serializer `CourseChapterModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CourseChapter` instance.
+Original exception text was: 'CourseChapter' object has no attribute 'course_chapters'.
+ERROR 2019-12-03 11:06:29,587 basehttp 154 "GET /course/chapters/ HTTP/1.1" 500 149283
+INFO 2019-12-03 11:09:24,678 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-03 11:09:27,322 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 11:09:31,985 basehttp 154 "GET /course/chapters/ HTTP/1.1" 200 9191
+INFO 2019-12-03 11:10:12,061 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:10:12,068 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 11:10:12,081 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:10:12,084 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-03 11:10:12,310 basehttp 154 "GET /media/teacher/1.png HTTP/1.1" 304 0
+INFO 2019-12-03 11:10:16,240 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:10:16,241 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 11:10:16,241 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:10:16,249 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-03 11:11:03,414 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 11:11:03,418 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:11:03,420 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:11:03,433 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-03 11:11:03,463 basehttp 154 "GET /media/course/3_viuhQHF.png HTTP/1.1" 304 0
+INFO 2019-12-03 11:11:03,477 basehttp 154 "GET /media/course/2_1o9BQl9.png HTTP/1.1" 304 0
+INFO 2019-12-03 11:11:06,831 basehttp 154 "GET /course/2/ HTTP/1.1" 200 982
+INFO 2019-12-03 11:11:06,834 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:11:06,839 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:11:06,839 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+INFO 2019-12-03 11:11:08,795 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 11:11:08,807 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:11:08,811 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:11:08,823 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-03 11:11:10,720 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:11:10,725 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 11:11:10,729 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-03 11:11:10,732 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935

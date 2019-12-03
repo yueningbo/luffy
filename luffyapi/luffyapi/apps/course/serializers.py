@@ -15,21 +15,21 @@ class TeacherModelSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Teacher
-        fields = ("name", "title", "signature")
+        fields = ("name", "title", "signature", "image", "brief")
 
 
 class CourseLessonModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = CourseLesson
-        fields = ("id", "name", "free_tail")
+        fields = ("id", "name", "duration", "free_trail")
 
 
 class CourseChapterModelSerializer(serializers.ModelSerializer):
-    course_sections = CourseLessonModelSerializer(many=True)  # 一个章节有多个课时, 所以many=True
+    # course_chapters = CourseLessonModelSerializer(many=True)  # 一个章节有多个课时, 所以many=True
 
     class Meta:
         model = CourseChapter
-        fileds = ("id", "name", "course_sections")
+        fields = ["id", "lesson_l ist", "name", "summary", "chapter"]
 
 
 class CourseModelSerializer(serializers.ModelSerializer):
@@ -46,4 +46,14 @@ class CourseModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = Course
         fields = (
-            "id", "name", "course_img", "students", "lessons", "pub_lessons", "price", "teacher", "course_chapters")
+            "id", "name", "course_img", "students", "lessons", "pub_lessons", "price", "teacher", "lesson_list")
+
+
+class CourseRetrieveModelSerializer(serializers.ModelSerializer):
+    """课程详情页的序列化器"""
+    teacher = TeacherModelSerializer()
+
+    class Meta:
+        model = Course
+        fields = ["id", "name", "course_img", "students", "lessons", "pub_lessons", "price", "teacher", "level_text",
+                  "brief", "attachment_path"]

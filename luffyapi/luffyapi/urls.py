@@ -18,5 +18,6 @@ urlpatterns = [
     path('', include("home.urls")),
     path('xadmin/', xadmin.site.urls),
     path('user/', include("user.urls")),
-    path('course/', include("course.urls"))
+    path('course/', include("course.urls")),
+    path('ckeditor/', include("ckeditor_uploader.urls"))
 ]

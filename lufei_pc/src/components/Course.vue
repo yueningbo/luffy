@@ -31,7 +31,8 @@
           <div class="course-info">
             <h3>
               <router-link :to="'/course/'+course.id">{{course.name}}</router-link>
-              <span><img src="/static/image/avatar1.svg" alt="">{{course.students}}人已加入学习</span></h3>
+              <span><img src="/static/image/avatar1.svg" alt="">{{course.students}}人已加入学习</span>
+            </h3>
             <p class="teather-info">{{course.teacher.name}} {{course.teacher.signature}} {{course.teacher.title}} <span>共{{course.lessons}}课时/{{course.pub_lessons==course.lessons?'更新完成':`已更新${course.pub_lessons}个课时`}}</span>
             </p>
             <ul class="lesson-list">

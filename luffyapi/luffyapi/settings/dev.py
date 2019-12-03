@@ -54,6 +54,8 @@ INSTALLED_APPS = [
     'crispy_forms',
     'reversion',
     'django_filters',  # 过滤器
+    'ckeditor',  # 富文本编辑器
+    'ckeditor_uploader',  # 富文本编辑器上传图片模块
 
     # 子应用
     'home',
@@ -277,3 +279,13 @@ SMS = {
     # 说明：REST API版本号保持不变
     "_softVersion": '2013-12-26',
 }
+
+# 富文本编辑器ckeditor配置
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',  # 工具条功能
+        'height': 300,  # 编辑器高度
+        # 'width': 300,     # 编辑器宽
+    },
+}
+CKEDITOR_UPLOAD_PATH = ''  # 上传图片保存路径，留空则调用django的文件上传功能

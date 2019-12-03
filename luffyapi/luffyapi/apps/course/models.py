@@ -1,5 +1,6 @@
 from django.db import models
 from luffyapi.utils.models import BaseModel
+from ckeditor_uploader.fields import RichTextUploadingField
 
 
 # Create your models here.
@@ -38,7 +39,7 @@ class Course(BaseModel):
     course_img = models.ImageField(upload_to="course", max_length=255, verbose_name="封面图片", blank=True, null=True)
     course_type = models.SmallIntegerField(choices=course_type_choices, default=0, verbose_name="付费类型")
     # 使用这个字段的原因
-    brief = models.TextField(verbose_name="详情介绍", null=True, blank=True)
+    brief = RichTextUploadingField(verbose_name="详情介绍", null=True, blank=True)
     level = models.SmallIntegerField(choices=level_choices, default=1, verbose_name="难度等级")
     pub_date = models.DateField(verbose_name="发布日期", auto_now_add=True)
     period = models.IntegerField(verbose_name="建议学习周期(day)", default=7)
@@ -53,6 +54,8 @@ class Course(BaseModel):
     price = models.DecimalField(max_digits=6, decimal_places=2, verbose_name="课程原价", default=0)
     teacher = models.ForeignKey("Teacher", on_delete=models.DO_NOTHING, null=True, blank=True, verbose_name="授课老师")
 
+    course_video = models.FileField(upload_to="course", max_length=255, verbose_name="封面视频", blank=True, null=True)
+
     class Meta:
         db_table = "ly_course"
         verbose_name = "专题课程"
@@ -64,7 +67,7 @@ class Course(BaseModel):
     @property
     def lesson_list(self):
         """课程列表的推荐课时"""
-        data_list = self.course_lesson.filter(is_recomment=True)
+        data_list = self.course_lesson.filter(is_recommend=True)
         if len(data_list) < 1:
             return []
 
@@ -79,6 +82,10 @@ class Course(BaseModel):
                 "free_trail": item.free_trail,
             })
         return data
+
+    @property
+    def level_text(self):
+        return self.level_choices[self.level][1]
 
 
 class Teacher(BaseModel):
@@ -119,6 +126,24 @@ class CourseChapter(BaseModel):
 
     def __str__(self):
         return "%s:(第%s章)%s" % (self.course, self.chapter, self.name)
+
+    @property
+    def lesson_list(self):
+        """章节下的课时列表"""
+        lessons = self.chaper_lesson.filter(is_show=True, is_deleted=False)
+        data = []
+        for lesson in lessons:
+            data.append({
+                "id": lesson.id,
+                "name": lesson.name,
+                "lesson": lesson.lesson,
+                "section_type": lesson.section_type,
+                "section_link": lesson.section_link,
+                "duration": lesson.duration,
+                "free_trail": lesson.free_trail,
+            })
+
+        return data
 
 
 class CourseLesson(BaseModel):
