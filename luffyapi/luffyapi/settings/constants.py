@@ -10,3 +10,5 @@ SMS_EXPIRE_TIME = 5 * 60
 SMS_INTERVAL_TIME = 60
 # 短信的模板ID，测试开发时使用 1
 SMS_TEMPLATE_ID = 1
+# 服务端保存图片的url域名
+SERVER_IMAGE_URL = "http://api.luffycity.cn:8000"

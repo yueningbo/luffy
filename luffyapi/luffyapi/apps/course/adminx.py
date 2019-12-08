@@ -5,6 +5,7 @@ from .models import Course
 from .models import Teacher
 from .models import CourseChapter
 from .models import CourseLesson
+from .models import CourseExpire
 
 
 class CourseCategoryModelAdmin(object):
@@ -47,3 +48,11 @@ class CourseLessonModelAdmin(object):
 
 
 xadmin.site.register(CourseLesson, CourseLessonModelAdmin)
+
+
+class CourseExpireModelAdmin(object):
+    """商品有效期模型"""
+    pass
+
+
+xadmin.site.register(CourseExpire, CourseExpireModelAdmin)

@@ -9,7 +9,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 import settings from "./settings";
 import "../static/css/reset.css";
 // 导入gt极验
-import "../static/js/gt.js"
+import "../static/js/gt.js";
+
+import store from "./store/index";
 
 
 import axios from 'axios'; // 从node_modules目录中导入包
@@ -23,17 +25,17 @@ Vue.prototype.$settings = settings
 
 Vue.use(ElementUI);
 
-/* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  router,
-  components: {App},
-  template: '<App/>'
-});
-
 require("video.js/dist/video-js.css");
 require("vue-video-player/src/custom-theme.css");
 import VideoPlayer from 'vue-video-player'
 
 Vue.use(VideoPlayer);
 
+/* eslint-disable no-new */
+new Vue({
+  el: '#app',
+  router,
+  store,
+  components: {App},
+  template: '<App/>'
+});

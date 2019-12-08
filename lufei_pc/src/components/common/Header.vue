@@ -14,7 +14,7 @@
 
         <div v-if="token" class="login-bar full-right">
           <div class="shop-cart full-left">
-            <span class="shop-cart-total">0</span>
+            <span class="shop-cart-total">{{this.$store.state.cart_length}}</span>
             <img src="/static/image/cart.svg" alt="">
             <span><router-link to="/cart" class="shop-cart-text">购物车</router-link></span>
           </div>

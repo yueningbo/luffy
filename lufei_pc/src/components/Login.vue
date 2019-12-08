@@ -75,6 +75,8 @@
             sessionStorage.user_id = response.data.id;
             sessionStorage.user_name = response.data.username;
           }
+          // 保存购物车商品数量
+          this.$store.commit(`update_cart_length`, response.data.cart_length);
           let self = this;
           this.$alert("登录成功，欢迎回来！", "路飞学城", {
             callback() {

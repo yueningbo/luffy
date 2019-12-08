@@ -1,14 +1,18 @@
 import re
 from .models import User
 from django.contrib.auth.backends import ModelBackend
+from django_redis import get_redis_connection
 
 
 def jwt_response_payload_handler(token, user=None, request=None):
     """自定义jwt认证成功返回数据"""
+    redis_conn = get_redis_connection("cart")
+    cart_length = redis_conn.hlen("cart_%s" % user.id)
     return {
         'token': token,
         'id': user.id,
-        'username': user.username
+        'username': user.username,
+        'cart_length': cart_length,
     }
 
 
@@ -35,6 +39,7 @@ class UsernameMobileAuthBackend(ModelBackend):
     """
     自定义用户名或手机认证
     """
+
     def authenticate(self, request, username=None, password=None, **kwargs):
         user = get_user_by_account(username)
         if user is not None and user.check_password(password):

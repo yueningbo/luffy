@@ -198,7 +198,12 @@
               Authorization: 'jwt ' + token,
             }
           }).then(response => {
-            this.$message.success("添加购物车成功!")
+            if (response.status === 204) {
+              this.$message.warning("商品已存在, 无需重复加入!");
+            } else {
+              this.$message.success("添加购物车成功!");
+              this.$store.commit(`update_cart_length`, response.data.cart_length);
+            }
           }).catch((error) => {
             this.$message.error("添加购物车失败!");
           })

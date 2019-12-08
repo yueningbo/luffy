@@ -84,8 +84,41 @@ class Course(BaseModel):
         return data
 
     @property
+    def get_expire_list(self):
+        """当前课程所属的有效期选项"""
+        data_list = []
+        # 1. 再获取课程有效期选项的价格列表
+        expire_list = self.course_expire.filter(is_show=True, is_deleted=False)
+        for item in expire_list:
+            data_list.append({
+                "expire_time": item.expire_time,
+                "expire_text": item.expire_text,
+                "price": item.price,
+            })
+
+        # 2. 先获取当前课程的价格
+        if self.price > 0:
+            data_list.append({
+                "expire_time": 0,
+                "expire_text": "永久有效",
+                "price": self.price,
+            })
+
+        return data_list
+
+    @property
     def level_text(self):
         return self.level_choices[self.level][1]
+
+    def real_price(self, expire_time):
+        """根据有效期选项获取真实价格"""
+        price = self.price
+        # 如果购物车中的有效期选项非0,则表示有其他的有效期选项,则提取对应选项的价格
+        if expire_time > 0:
+            courseexpire = self.course_expire.get(expire_time=expire_time)
+            price = courseexpire.price
+
+        return price
 
 
 class Teacher(BaseModel):
@@ -175,3 +208,31 @@ class CourseLesson(BaseModel):
 
     def __str__(self):
         return "%s-%s" % (self.chapter, self.name)
+
+
+class CourseExpire(BaseModel):
+    """课程有效期模型"""
+    # 后面必须在数据库把course和expire_time字段设置为联合索引
+    course = models.ForeignKey("Course", related_name='course_expire', on_delete=models.CASCADE,
+                               verbose_name="课程名称")
+    expire_time = models.IntegerField(verbose_name="有效期", null=True, blank=True, help_text="有效期按天数计算")
+    expire_text = models.CharField(max_length=150, verbose_name="提示文本", null=True, blank=True)
+    price = models.DecimalField(max_digits=6, decimal_places=2, verbose_name="课程价格", default=0)
+
+    class Meta:
+        db_table = "ly_course_expire"
+        verbose_name = "课程有效期"
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return "课程：%s，有效期：%s，价格：%s" % (self.course, self.expire_text, self.price)
+
+    @classmethod
+    def get_expire_text(cls, course_id, expire_time):
+        """获取根据当前的有效期天数获取有效期显示文本"""
+        if expire_time == 0:
+            expire_text = "永久有效"
+        else:
+            course_expire = CourseExpire.objects.get(course_id=course_id, expire_time=expire_time)
+            expire_text = course_expire.expire_text
+        return expire_text

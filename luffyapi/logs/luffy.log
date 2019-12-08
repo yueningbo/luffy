@@ -6165,3 +6165,1717 @@ INFO 2019-12-08 14:32:39,514 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
 INFO 2019-12-08 14:32:39,715 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
 INFO 2019-12-08 14:36:09,730 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
 INFO 2019-12-08 14:36:13,230 autoreload 597 Watching for file changes with StatReloader
+WARNING 2019-12-08 14:44:35,583 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 14:44:35,584 basehttp 154 "GET /cart/ HTTP/1.1" 405 5594
+INFO 2019-12-08 14:44:43,463 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:44:43,476 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:44:43,480 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:44:43,524 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:44:44,795 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:44:44,814 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
+INFO 2019-12-08 14:44:53,649 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
+WARNING 2019-12-08 14:47:07,776 log 228 Unauthorized: /cart/
+WARNING 2019-12-08 14:47:07,777 basehttp 154 "POST /cart/ HTTP/1.1" 401 43
+WARNING 2019-12-08 14:47:35,051 log 228 Bad Request: /cart/
+WARNING 2019-12-08 14:47:35,052 basehttp 154 "POST /cart/ HTTP/1.1" 400 43
+INFO 2019-12-08 14:48:05,513 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
+INFO 2019-12-08 15:01:01,985 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:01:02,007 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:01:02,007 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:01:02,013 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:01:59,914 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:01:59,920 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:01:59,922 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:01:59,930 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:03:20,363 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:03:20,405 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:03:20,409 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:03:20,412 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:03:32,690 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:03:32,691 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:03:32,698 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:03:32,705 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:04:35,547 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-12-08 15:04:39,412 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:04:51,326 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-12-08 15:04:54,361 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:05:00,104 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-12-08 15:05:03,511 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:05:08,754 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-12-08 15:05:11,717 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:05:20,866 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-12-08 15:05:24,560 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:05:35,954 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-12-08 15:05:39,229 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:05:45,361 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-12-08 15:05:48,068 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:06:20,589 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\user\utils.py changed, reloading.
+INFO 2019-12-08 15:06:24,461 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:08:31,952 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:08:31,953 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:08:31,955 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:08:31,955 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:08:38,870 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:08:38,871 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:08:38,874 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:08:38,878 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:08:50,448 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:08:50,449 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:08:50,451 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:08:50,464 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:11:16,507 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:11:16,519 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:11:16,526 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:11:16,538 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:11:20,980 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 15:11:21,043 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:11:35,909 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:11:35,912 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:11:35,916 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:11:35,917 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:11:37,147 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:11:37,151 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:11:37,181 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:11:37,267 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:12:15,642 basehttp 154 "GET /user/captcha/?username=pao HTTP/1.1" 200 140
+INFO 2019-12-08 15:12:17,866 basehttp 154 "GET /user/captcha/?username=pao HTTP/1.1" 200 140
+INFO 2019-12-08 15:12:24,455 basehttp 154 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2019-12-08 15:12:24,466 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-12-08 15:12:24,475 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-12-08 15:12:24,683 basehttp 154 "POST /user/login/ HTTP/1.1" 200 211
+INFO 2019-12-08 15:12:26,304 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:12:26,306 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:12:26,312 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:12:26,315 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:12:31,925 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:12:31,977 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:12:31,980 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:12:31,998 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:12:33,013 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:13:44,270 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:13:44,273 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:13:44,290 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:13:44,293 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:13:58,989 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:14:01,452 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:14:05,310 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:14:05,317 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:05,317 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:05,334 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:14:08,097 basehttp 154 "GET /course/?ordering=id&size=2&page=3 HTTP/1.1" 200 863
+INFO 2019-12-08 15:14:11,286 basehttp 154 "GET /course/17/ HTTP/1.1" 200 435
+INFO 2019-12-08 15:14:11,361 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:11,369 basehttp 154 "GET /course/chapters/?course=17 HTTP/1.1" 200 2
+INFO 2019-12-08 15:14:11,369 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:12,652 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:14:14,333 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:14:17,677 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:14:20,996 basehttp 154 "GET /course/17/ HTTP/1.1" 200 435
+INFO 2019-12-08 15:14:20,996 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:20,999 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:21,006 basehttp 154 "GET /course/chapters/?course=17 HTTP/1.1" 200 2
+INFO 2019-12-08 15:14:23,282 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:14:30,236 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:14:30,253 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:30,259 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:30,265 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:14:31,557 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:31,573 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:31,578 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:14:31,582 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:14:32,825 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:14:38,838 basehttp 154 "GET /user/captcha/?username=pao HTTP/1.1" 200 140
+INFO 2019-12-08 15:14:44,627 basehttp 154 "GET /user/captcha/?username=pao HTTP/1.1" 200 140
+INFO 2019-12-08 15:14:44,903 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-12-08 15:14:45,141 basehttp 154 "POST /user/login/ HTTP/1.1" 200 211
+INFO 2019-12-08 15:14:46,423 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:14:46,427 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:46,433 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:46,436 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:14:59,619 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:59,624 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:14:59,635 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:14:59,693 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:15:06,640 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:15:10,076 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:15:10,080 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:15:10,084 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:15:10,100 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:15:11,156 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:15:13,654 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:15:13,672 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:15:13,676 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:15:13,681 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:15:16,177 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:15:16,179 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:15:16,182 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:15:16,200 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:15:16,966 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:15:54,906 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:15:54,927 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:15:54,929 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:15:54,965 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:15:56,751 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:15:56,764 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:15:56,775 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:15:56,784 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:15:58,510 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:15:59,829 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:16:01,191 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:16:01,201 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:16:01,202 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:16:01,222 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:16:03,797 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:16:03,802 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+INFO 2019-12-08 15:16:03,804 basehttp 154 "GET /course/2/ HTTP/1.1" 200 982
+INFO 2019-12-08 15:16:03,804 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:16:05,402 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:16:07,045 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:16:07,261 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:18:05,361 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:21:35,323 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:21:38,225 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:22:02,686 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 15:22:02,744 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:23:20,351 basehttp 154 "GET /course/2/ HTTP/1.1" 200 982
+INFO 2019-12-08 15:23:20,364 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:20,364 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+INFO 2019-12-08 15:23:20,393 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:33,988 basehttp 154 "GET /course/2/ HTTP/1.1" 200 982
+INFO 2019-12-08 15:23:33,991 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:33,994 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+INFO 2019-12-08 15:23:33,998 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:43,862 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:23:44,900 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:23:45,736 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:23:50,562 basehttp 154 "GET /course/2/ HTTP/1.1" 200 982
+INFO 2019-12-08 15:23:50,579 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:50,580 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:50,584 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+INFO 2019-12-08 15:23:52,075 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:23:52,879 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:23:53,474 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:23:54,766 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:23:54,811 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:54,819 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:54,916 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:23:56,008 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:56,015 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:56,023 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:23:56,031 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:23:57,952 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:57,958 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:23:57,959 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:23:57,967 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:25:34,662 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:25:38,757 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:25:38,765 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:25:38,769 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:25:38,777 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:25:41,879 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:25:41,884 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:25:41,887 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:25:41,890 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:25:48,668 basehttp 154 "GET /user/captcha/?username=pao HTTP/1.1" 200 140
+INFO 2019-12-08 15:25:54,010 basehttp 154 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2019-12-08 15:25:54,019 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-12-08 15:25:54,027 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-12-08 15:25:54,241 basehttp 154 "POST /user/login/ HTTP/1.1" 200 211
+INFO 2019-12-08 15:25:55,471 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:25:55,473 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:25:55,477 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:25:55,527 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:25:58,176 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:25:58,179 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:25:58,182 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:25:58,191 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 15:26:01,616 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:26:02,967 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:26:02,970 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:26:03,027 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:26:03,035 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:26:04,885 basehttp 154 "GET /course/?ordering=id&size=2&page=6 HTTP/1.1" 200 866
+INFO 2019-12-08 15:26:07,318 basehttp 154 "GET /course/23/ HTTP/1.1" 200 427
+INFO 2019-12-08 15:26:07,323 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:26:07,326 basehttp 154 "GET /course/chapters/?course=23 HTTP/1.1" 200 2
+INFO 2019-12-08 15:26:07,328 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:26:09,972 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:26:11,166 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:26:12,812 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:26:12,824 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:26:12,828 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:26:12,874 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:26:14,621 basehttp 154 "GET /course/?ordering=id&size=2&page=4 HTTP/1.1" 200 845
+INFO 2019-12-08 15:26:16,181 basehttp 154 "GET /course/?ordering=id&size=2&page=5 HTTP/1.1" 200 865
+INFO 2019-12-08 15:26:17,361 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:26:17,364 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:26:17,366 basehttp 154 "GET /course/chapters/?course=21 HTTP/1.1" 200 2
+INFO 2019-12-08 15:26:17,380 basehttp 154 "GET /course/21/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:26:18,674 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:26:20,058 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:28:26,796 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:28:27,770 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:28:52,239 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:28:55,708 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:29:01,347 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:31:46,458 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:31:49,422 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:31:53,748 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:32:03,769 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 15:32:03,785 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:32:06,695 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:32:08,693 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:32:08,905 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:32:10,086 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:32:39,023 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:32:39,031 basehttp 154 "GET /course/21/ HTTP/1.1" 200 432
+INFO 2019-12-08 15:32:39,040 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:32:39,051 basehttp 154 "GET /course/chapters/?course=21 HTTP/1.1" 200 2
+INFO 2019-12-08 15:32:39,291 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:32:42,272 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:32:44,549 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:32:44,882 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:32:46,535 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:32:46,569 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:32:46,574 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:32:46,579 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:32:48,710 basehttp 154 "GET /course/?ordering=id&size=2&page=4 HTTP/1.1" 200 845
+INFO 2019-12-08 15:32:49,987 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:32:49,989 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:32:49,995 basehttp 154 "GET /course/19/ HTTP/1.1" 200 415
+INFO 2019-12-08 15:32:49,997 basehttp 154 "GET /course/chapters/?course=19 HTTP/1.1" 200 2
+INFO 2019-12-08 15:32:51,765 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:32:52,739 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:32:53,450 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:32:59,363 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:32:59,377 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:32:59,377 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:32:59,391 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:33:01,391 basehttp 154 "GET /course/?ordering=id&size=2&page=9 HTTP/1.1" 200 779
+INFO 2019-12-08 15:33:01,482 basehttp 154 "GET /media/course/2.png HTTP/1.1" 200 64369
+INFO 2019-12-08 15:33:05,006 basehttp 154 "GET /course/29/ HTTP/1.1" 200 1350
+INFO 2019-12-08 15:33:05,009 basehttp 154 "GET /course/chapters/?course=29 HTTP/1.1" 200 2
+INFO 2019-12-08 15:33:05,015 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:33:05,019 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:33:06,704 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:33:07,700 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:33:08,234 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:33:08,419 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:33:08,622 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:33:08,807 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:33:17,747 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:33:18,499 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:33:55,694 basehttp 154 "GET /course/29/ HTTP/1.1" 200 1350
+INFO 2019-12-08 15:33:55,703 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:33:55,707 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:33:55,710 basehttp 154 "GET /course/chapters/?course=29 HTTP/1.1" 200 2
+INFO 2019-12-08 15:36:41,416 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:41:36,496 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:41:36,998 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:41:37,262 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:41:37,467 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:41:59,850 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:42:02,596 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:42:02,640 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:42:02,641 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:02,644 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:05,879 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:42:05,883 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:05,885 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:05,891 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:42:09,020 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+INFO 2019-12-08 15:42:09,025 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:09,031 basehttp 154 "GET /course/2/ HTTP/1.1" 200 982
+INFO 2019-12-08 15:42:09,031 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:10,640 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 15:42:10,690 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:42:12,564 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:12,570 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:42:12,579 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:12,586 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:42:14,670 basehttp 154 "GET /course/?ordering=id&size=2&page=3 HTTP/1.1" 200 863
+INFO 2019-12-08 15:42:16,100 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:16,112 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:16,120 basehttp 154 "GET /course/chapters/?course=17 HTTP/1.1" 200 2
+INFO 2019-12-08 15:42:16,122 basehttp 154 "GET /course/17/ HTTP/1.1" 200 435
+INFO 2019-12-08 15:42:17,543 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:42:54,853 basehttp 154 "GET /course/17/ HTTP/1.1" 200 435
+INFO 2019-12-08 15:42:54,877 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:54,885 basehttp 154 "GET /course/chapters/?course=17 HTTP/1.1" 200 2
+INFO 2019-12-08 15:42:54,888 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:42:56,603 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:42:58,038 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:43:01,403 basehttp 154 "GET /course/17/ HTTP/1.1" 200 435
+INFO 2019-12-08 15:43:01,409 basehttp 154 "GET /course/chapters/?course=17 HTTP/1.1" 200 2
+INFO 2019-12-08 15:43:01,414 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:43:01,415 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:43:03,090 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:43:04,775 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 15:43:48,609 basehttp 154 "GET /course/chapters/?course=17 HTTP/1.1" 200 2
+INFO 2019-12-08 15:43:48,610 basehttp 154 "GET /course/17/ HTTP/1.1" 200 435
+INFO 2019-12-08 15:43:48,615 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:43:48,617 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:43:50,078 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 15:43:50,084 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:43:50,085 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:43:50,090 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 15:43:52,124 basehttp 154 "GET /course/?ordering=id&size=2&page=5 HTTP/1.1" 200 865
+INFO 2019-12-08 15:43:54,354 basehttp 154 "GET /course/20/ HTTP/1.1" 200 427
+INFO 2019-12-08 15:43:54,356 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:43:54,360 basehttp 154 "GET /course/chapters/?course=20 HTTP/1.1" 200 2
+INFO 2019-12-08 15:43:54,367 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:43:55,548 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 15:44:00,500 basehttp 154 "GET /course/chapters/?course=20 HTTP/1.1" 200 2
+INFO 2019-12-08 15:44:00,502 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:44:00,502 basehttp 154 "GET /course/20/ HTTP/1.1" 200 427
+INFO 2019-12-08 15:44:00,506 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:51:22,073 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:51:22,073 basehttp 154 "GET /course/chapters/?course=20 HTTP/1.1" 200 2
+INFO 2019-12-08 15:51:22,078 basehttp 154 "GET /course/20/ HTTP/1.1" 200 427
+INFO 2019-12-08 15:51:22,081 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:52:06,454 basehttp 154 "GET /course/20/ HTTP/1.1" 200 427
+INFO 2019-12-08 15:52:06,476 basehttp 154 "GET /course/chapters/?course=20 HTTP/1.1" 200 2
+INFO 2019-12-08 15:52:06,482 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:52:06,488 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:52:18,905 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:52:18,907 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 15:52:18,909 basehttp 154 "GET /course/chapters/?course=20 HTTP/1.1" 200 2
+INFO 2019-12-08 15:52:18,913 basehttp 154 "GET /course/20/ HTTP/1.1" 200 427
+INFO 2019-12-08 15:54:02,409 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:54:06,063 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:54:16,812 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:54:20,137 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:54:27,037 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:54:30,668 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:54:37,677 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:54:41,261 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:54:46,891 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:54:50,599 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:55:02,760 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:55:05,747 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:55:19,246 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:55:23,158 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:55:27,982 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:55:31,253 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:55:37,125 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:55:40,674 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:55:45,735 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:55:48,968 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:55:59,066 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:56:02,385 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:56:07,933 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:56:12,111 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:56:19,272 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:56:22,912 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 15:56:29,351 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 15:56:33,217 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:00:08,559 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:00:08,562 basehttp 154 "GET /course/chapters/?course=20 HTTP/1.1" 200 2
+INFO 2019-12-08 16:00:08,562 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:00:08,565 basehttp 154 "GET /course/20/ HTTP/1.1" 200 427
+INFO 2019-12-08 16:02:42,304 basehttp 154 "GET /course/20/ HTTP/1.1" 200 427
+INFO 2019-12-08 16:02:42,308 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:02:42,314 basehttp 154 "GET /course/chapters/?course=20 HTTP/1.1" 200 2
+INFO 2019-12-08 16:02:42,315 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:08,094 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:08,097 basehttp 154 "GET /course/20/ HTTP/1.1" 200 427
+INFO 2019-12-08 16:03:08,099 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:08,102 basehttp 154 "GET /course/chapters/?course=20 HTTP/1.1" 200 2
+INFO 2019-12-08 16:03:12,742 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 16:03:12,762 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 16:03:14,893 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 16:03:14,903 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:14,914 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 16:03:14,916 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:16,397 basehttp 154 "GET /course/?ordering=id&size=2&page=5 HTTP/1.1" 200 865
+INFO 2019-12-08 16:03:18,805 basehttp 154 "GET /course/?ordering=id&size=2&page=3 HTTP/1.1" 200 863
+INFO 2019-12-08 16:03:21,138 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:21,138 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:21,143 basehttp 154 "GET /course/17/ HTTP/1.1" 200 435
+INFO 2019-12-08 16:03:21,154 basehttp 154 "GET /course/chapters/?course=17 HTTP/1.1" 200 2
+INFO 2019-12-08 16:03:22,666 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 16:03:40,191 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:40,200 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 16:03:40,228 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:40,238 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 16:03:43,815 basehttp 154 "GET /course/2/ HTTP/1.1" 200 982
+INFO 2019-12-08 16:03:43,820 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:43,822 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:43,824 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+INFO 2019-12-08 16:03:45,093 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 16:03:48,352 basehttp 154 "GET /course/2/ HTTP/1.1" 200 982
+INFO 2019-12-08 16:03:48,358 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:48,360 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:48,364 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+INFO 2019-12-08 16:03:54,156 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 16:03:54,170 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:54,172 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:54,177 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 16:03:55,694 basehttp 154 "GET /course/?ordering=id&size=2&page=5 HTTP/1.1" 200 865
+INFO 2019-12-08 16:03:57,912 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:57,917 basehttp 154 "GET /course/21/ HTTP/1.1" 200 432
+INFO 2019-12-08 16:03:57,919 basehttp 154 "GET /course/chapters/?course=21 HTTP/1.1" 200 2
+INFO 2019-12-08 16:03:57,922 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:03:59,423 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 16:04:02,095 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:04:02,098 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:04:02,102 basehttp 154 "GET /course/chapters/?course=21 HTTP/1.1" 200 2
+INFO 2019-12-08 16:04:02,103 basehttp 154 "GET /course/21/ HTTP/1.1" 200 432
+INFO 2019-12-08 16:04:04,323 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:04:04,324 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 16:04:04,336 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:04:04,369 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 16:04:08,174 basehttp 154 "GET /course/?ordering=id&size=2&page=9 HTTP/1.1" 200 779
+INFO 2019-12-08 16:04:09,560 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:04:09,562 basehttp 154 "GET /course/chapters/?course=29 HTTP/1.1" 200 2
+INFO 2019-12-08 16:04:09,568 basehttp 154 "GET /course/29/ HTTP/1.1" 200 1350
+INFO 2019-12-08 16:04:09,580 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:04:13,444 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 16:04:16,276 basehttp 154 "GET /course/29/ HTTP/1.1" 200 1350
+INFO 2019-12-08 16:04:16,278 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:04:16,282 basehttp 154 "GET /course/chapters/?course=29 HTTP/1.1" 200 2
+INFO 2019-12-08 16:04:16,282 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:04:29,473 basehttp 154 "GET /course/29/ HTTP/1.1" 200 1350
+INFO 2019-12-08 16:04:29,518 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:04:29,595 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:04:29,624 basehttp 154 "GET /course/chapters/?course=29 HTTP/1.1" 200 2
+INFO 2019-12-08 16:06:25,291 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 16:06:26,975 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 16:06:27,030 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 16:06:27,033 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:06:27,039 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:06:30,109 basehttp 154 "GET /course/?ordering=id&size=2&page=4 HTTP/1.1" 200 845
+INFO 2019-12-08 16:06:37,139 basehttp 154 "GET /course/chapters/?course=19 HTTP/1.1" 200 2
+INFO 2019-12-08 16:06:37,139 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:06:37,144 basehttp 154 "GET /course/19/ HTTP/1.1" 200 415
+INFO 2019-12-08 16:06:37,145 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:06:40,007 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 16:06:41,436 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 16:07:18,328 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:07:22,000 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:07:32,577 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:07:35,943 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:07:43,471 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:07:46,961 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:07:57,899 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:08:01,754 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:08:08,536 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:08:12,333 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:08:17,554 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:08:21,223 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:08:28,276 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:08:31,594 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:08:38,740 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:08:42,584 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:09:13,366 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:09:16,091 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:09:21,099 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:09:24,486 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:09:32,190 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:09:36,254 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:09:44,066 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:09:47,868 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:09:57,144 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:10:00,642 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:10:07,526 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:10:10,894 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:10:15,952 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:10:19,439 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:12:15,393 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:12:18,440 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:12:36,731 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:12:39,734 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:16:19,452 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:16:22,679 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:16:32,669 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:16:36,268 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:17:38,164 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\constants.py changed, reloading.
+INFO 2019-12-08 16:17:41,238 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:17:58,135 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:18:01,368 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:18:22,309 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:18:25,695 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:18:34,502 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:18:37,903 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:18:55,334 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:18:55,334 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:18:55,363 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-08 16:18:57,232 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:18:57,233 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 16:18:57,237 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:18:57,282 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 16:19:19,393 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:19:22,176 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:20:15,611 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:20:18,495 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:20:26,177 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 18506
+INFO 2019-12-08 16:20:26,438 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:26,494 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:26,494 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:26,503 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2019-12-08 16:20:26,504 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-12-08 16:20:26,510 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:26,513 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:26,515 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2019-12-08 16:20:26,558 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-12-08 16:20:26,572 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-12-08 16:20:26,575 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-12-08 16:20:26,584 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2019-12-08 16:20:26,634 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-12-08 16:20:26,641 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2019-12-08 16:20:26,650 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:26,656 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2019-12-08 16:20:26,662 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2019-12-08 16:20:26,665 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2019-12-08 16:20:26,715 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2019-12-08 16:20:26,866 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 16:20:27,209 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2019-12-08 16:20:33,879 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 31016
+INFO 2019-12-08 16:20:33,938 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 16:20:33,941 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2019-12-08 16:20:33,960 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2019-12-08 16:20:33,993 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:33,994 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:33,996 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:33,996 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:33,997 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:35,024 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 33076
+INFO 2019-12-08 16:20:35,052 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 16:20:36,279 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 65562
+INFO 2019-12-08 16:20:36,347 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 16:20:36,450 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+INFO 2019-12-08 16:20:36,455 basehttp 154 "GET /static/xadmin/css/xadmin.widget.editable.css HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:36,461 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:36,465 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.editable.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:36,535 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:36,539 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:36,539 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:36,539 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:36,542 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:36,589 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:36,612 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:36,635 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 717619
+INFO 2019-12-08 16:20:38,152 basehttp 154 "GET /xadmin/course/course/29/update/ HTTP/1.1" 200 32828
+INFO 2019-12-08 16:20:38,202 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 16:20:38,206 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:38,217 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:38,218 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2019-12-08 16:20:38,493 basehttp 154 "GET /static/ckeditor/ckeditor/config.js?t=J8Q8 HTTP/1.1" 200 338
+INFO 2019-12-08 16:20:38,606 basehttp 154 "GET /static/ckeditor/ckeditor/lang/zh.js?t=J8Q8 HTTP/1.1" 200 18470
+INFO 2019-12-08 16:20:38,656 basehttp 154 "GET /static/ckeditor/ckeditor/styles.js?t=J8Q8 HTTP/1.1" 200 5579
+INFO 2019-12-08 16:20:38,661 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=J8Q8 HTTP/1.1" 200 47977
+INFO 2019-12-08 16:20:38,721 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2019-12-08 16:20:38,739 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 200 249
+INFO 2019-12-08 16:20:38,753 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1145
+INFO 2019-12-08 16:20:38,786 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=J8Q8 HTTP/1.1" 200 419
+INFO 2019-12-08 16:20:38,787 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=J8Q8 HTTP/1.1" 200 381
+INFO 2019-12-08 16:20:38,809 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=J8Q8 HTTP/1.1" 200 1306
+INFO 2019-12-08 16:20:38,819 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/icons.png?t=J8Q8 HTTP/1.1" 200 12421
+WARNING 2019-12-08 16:20:38,992 log 228 Not Found: /media/2019/08/15/course-cover.jpeg
+WARNING 2019-12-08 16:20:38,993 basehttp 154 "GET /media/2019/08/15/course-cover.jpeg HTTP/1.1" 404 1846
+INFO 2019-12-08 16:20:39,026 basehttp 154 "GET /static/ckeditor/ckeditor/contents.css?t=J8Q8 HTTP/1.1" 200 3094
+INFO 2019-12-08 16:20:39,166 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=83e9de8d6b HTTP/1.1" 200 12421
+INFO 2019-12-08 16:20:58,321 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 65562
+INFO 2019-12-08 16:21:02,893 basehttp 154 "GET /xadmin/course/course/29/patch/?fields=course_img HTTP/1.1" 200 598
+WARNING 2019-12-08 16:22:54,762 log 228 Not Found: /course/1.png
+WARNING 2019-12-08 16:22:54,763 basehttp 154 "GET /course/1.png HTTP/1.1" 404 3656
+INFO 2019-12-08 16:24:05,811 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:24:09,471 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:24:26,122 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:24:28,794 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:24:35,317 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:24:38,445 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:24:49,187 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:24:52,688 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:25:12,554 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:25:15,310 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:25:30,676 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:25:33,312 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:25:54,076 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:25:57,588 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:26:04,186 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:26:07,675 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:26:19,042 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:26:22,057 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:26:31,520 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 16:26:34,807 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-08 16:26:41,021 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 80, in get
+    "price": course.real_price(expire_time),
+AttributeError: 'Course' object has no attribute 'real_price'
+ERROR 2019-12-08 16:26:41,027 basehttp 154 "GET /cart/ HTTP/1.1" 500 20984
+INFO 2019-12-08 16:28:28,423 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 16:28:31,941 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:29:20,648 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 16:29:23,507 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:30:52,252 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 16:30:55,387 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:42:51,937 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 16:42:54,778 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:43:02,260 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 16:43:05,836 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:44:36,010 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 16:44:39,966 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-08 16:49:03,236 exceptions 26 [<cart.views.CartViewSet object at 0x000001F635168278>] (1146, "Table 'luffy.ly_course_expire' doesn't exist")
+ERROR 2019-12-08 16:49:03,284 log 228 Insufficient Storage: /cart/
+ERROR 2019-12-08 16:49:03,285 basehttp 154 "GET /cart/ HTTP/1.1" 507 35
+INFO 2019-12-08 16:50:16,095 basehttp 154 "GET /cart/ HTTP/1.1" 200 1002
+INFO 2019-12-08 16:53:28,389 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:53:28,391 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:55:39,075 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 16:55:39,105 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:55:39,105 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 16:55:39,196 basehttp 154 "GET /cart/ HTTP/1.1" 200 1002
+WARNING 2019-12-08 16:55:52,613 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 16:55:52,614 basehttp 154 "PUT /cart/ HTTP/1.1" 405 45
+WARNING 2019-12-08 16:55:53,405 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 16:55:53,407 basehttp 154 "PUT /cart/ HTTP/1.1" 405 45
+WARNING 2019-12-08 16:55:54,416 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 16:55:54,417 basehttp 154 "PUT /cart/ HTTP/1.1" 405 45
+INFO 2019-12-08 16:57:28,098 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 16:57:30,943 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:57:33,602 basehttp 154 "GET /cart/ HTTP/1.1" 200 1002
+INFO 2019-12-08 16:57:42,606 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 16:57:45,788 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:57:51,785 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 16:57:54,434 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:57:56,682 basehttp 154 "GET /cart/ HTTP/1.1" 200 1002
+INFO 2019-12-08 16:58:30,260 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 16:58:33,316 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 16:59:33,376 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 16:59:36,667 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:00:08,820 basehttp 154 "GET /cart/ HTTP/1.1" 200 1002
+INFO 2019-12-08 17:00:10,705 basehttp 154 "GET /cart/ HTTP/1.1" 200 1002
+INFO 2019-12-08 17:01:02,084 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 17:01:05,964 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:02:19,494 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:02:22,913 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:02:48,082 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:02:51,653 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:02:59,308 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:03:03,264 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:03:46,998 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:03:49,872 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:06:47,446 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:06:50,293 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:15:38,259 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:15:41,402 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:16:16,989 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:16:19,929 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:16:45,352 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:16:48,804 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:16:57,174 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:17:00,095 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:17:11,936 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:17:15,171 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:17:27,919 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:17:31,012 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:19:08,400 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 17:19:08,559 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:19:08,563 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:19:08,611 basehttp 154 "GET /cart/ HTTP/1.1" 200 1002
+WARNING 2019-12-08 17:19:10,317 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 17:19:10,318 basehttp 154 "PUT /cart/ HTTP/1.1" 405 45
+WARNING 2019-12-08 17:19:11,310 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 17:19:11,312 basehttp 154 "PUT /cart/ HTTP/1.1" 405 45
+WARNING 2019-12-08 17:19:12,439 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 17:19:12,440 basehttp 154 "PUT /cart/ HTTP/1.1" 405 45
+WARNING 2019-12-08 17:19:16,479 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 17:19:16,480 basehttp 154 "PUT /cart/ HTTP/1.1" 405 45
+WARNING 2019-12-08 17:19:18,504 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 17:19:18,505 basehttp 154 "PUT /cart/ HTTP/1.1" 405 45
+INFO 2019-12-08 17:20:18,398 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 17:20:21,361 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-08 17:20:23,663 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 103, in change_course_status
+    redis_conn.srem("selected_%s" % user_id, course_id)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 2008, in srem
+    return self.execute_command('SREM', name, *values)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 838, in execute_command
+    conn.send_command(*args)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 686, in send_command
+    self.send_packed_command(self.pack_command(*args),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 737, in pack_command
+    for arg in imap(self.encoder.encode, args):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 118, in encode
+    "byte, string or number first." % typename)
+redis.exceptions.DataError: Invalid input of type: 'NoneType'. Convert to a byte, string or number first.
+ERROR 2019-12-08 17:20:23,675 basehttp 154 "PUT /cart/ HTTP/1.1" 500 21845
+ERROR 2019-12-08 17:20:23,726 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 100, in change_course_status
+    redis_conn.sadd("selected_%s" % user_id, course_id)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 1946, in sadd
+    return self.execute_command('SADD', name, *values)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 838, in execute_command
+    conn.send_command(*args)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 686, in send_command
+    self.send_packed_command(self.pack_command(*args),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 737, in pack_command
+    for arg in imap(self.encoder.encode, args):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 118, in encode
+    "byte, string or number first." % typename)
+redis.exceptions.DataError: Invalid input of type: 'NoneType'. Convert to a byte, string or number first.
+ERROR 2019-12-08 17:20:23,733 basehttp 154 "PUT /cart/ HTTP/1.1" 500 21845
+ERROR 2019-12-08 17:20:24,783 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 103, in change_course_status
+    redis_conn.srem("selected_%s" % user_id, course_id)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 2008, in srem
+    return self.execute_command('SREM', name, *values)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 838, in execute_command
+    conn.send_command(*args)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 686, in send_command
+    self.send_packed_command(self.pack_command(*args),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 737, in pack_command
+    for arg in imap(self.encoder.encode, args):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 118, in encode
+    "byte, string or number first." % typename)
+redis.exceptions.DataError: Invalid input of type: 'NoneType'. Convert to a byte, string or number first.
+ERROR 2019-12-08 17:20:24,789 basehttp 154 "PUT /cart/ HTTP/1.1" 500 21845
+ERROR 2019-12-08 17:20:25,586 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 100, in change_course_status
+    redis_conn.sadd("selected_%s" % user_id, course_id)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 1946, in sadd
+    return self.execute_command('SADD', name, *values)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 838, in execute_command
+    conn.send_command(*args)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 686, in send_command
+    self.send_packed_command(self.pack_command(*args),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 737, in pack_command
+    for arg in imap(self.encoder.encode, args):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 118, in encode
+    "byte, string or number first." % typename)
+redis.exceptions.DataError: Invalid input of type: 'NoneType'. Convert to a byte, string or number first.
+ERROR 2019-12-08 17:20:25,591 basehttp 154 "PUT /cart/ HTTP/1.1" 500 21845
+INFO 2019-12-08 17:20:28,126 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:20:28,127 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:20:28,184 basehttp 154 "GET /cart/ HTTP/1.1" 200 1002
+ERROR 2019-12-08 17:20:30,523 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 103, in change_course_status
+    redis_conn.srem("selected_%s" % user_id, course_id)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 2008, in srem
+    return self.execute_command('SREM', name, *values)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 838, in execute_command
+    conn.send_command(*args)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 686, in send_command
+    self.send_packed_command(self.pack_command(*args),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 737, in pack_command
+    for arg in imap(self.encoder.encode, args):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 118, in encode
+    "byte, string or number first." % typename)
+redis.exceptions.DataError: Invalid input of type: 'NoneType'. Convert to a byte, string or number first.
+ERROR 2019-12-08 17:20:30,531 basehttp 154 "PUT /cart/ HTTP/1.1" 500 21845
+ERROR 2019-12-08 17:22:12,828 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 100, in change_course_status
+    redis_conn.sadd("selected_%s" % user_id, course_id)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 1946, in sadd
+    return self.execute_command('SADD', name, *values)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 838, in execute_command
+    conn.send_command(*args)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 686, in send_command
+    self.send_packed_command(self.pack_command(*args),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 737, in pack_command
+    for arg in imap(self.encoder.encode, args):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 118, in encode
+    "byte, string or number first." % typename)
+redis.exceptions.DataError: Invalid input of type: 'NoneType'. Convert to a byte, string or number first.
+ERROR 2019-12-08 17:22:12,835 basehttp 154 "PUT /cart/ HTTP/1.1" 500 21845
+INFO 2019-12-08 17:24:11,682 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:24:14,674 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-08 17:24:20,486 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 104, in change_course_status
+    redis_conn.srem("selected_%s" % user_id, course_id)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 2008, in srem
+    return self.execute_command('SREM', name, *values)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 838, in execute_command
+    conn.send_command(*args)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 686, in send_command
+    self.send_packed_command(self.pack_command(*args),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 737, in pack_command
+    for arg in imap(self.encoder.encode, args):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 118, in encode
+    "byte, string or number first." % typename)
+redis.exceptions.DataError: Invalid input of type: 'NoneType'. Convert to a byte, string or number first.
+ERROR 2019-12-08 17:24:20,493 basehttp 154 "PUT /cart/ HTTP/1.1" 500 21845
+INFO 2019-12-08 17:30:22,633 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 17:30:22,666 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:30:22,668 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:30:22,997 basehttp 154 "GET /cart/ HTTP/1.1" 200 1002
+ERROR 2019-12-08 17:30:38,223 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 104, in change_course_status
+    redis_conn.srem("selected_%s" % user_id, course_id)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 2008, in srem
+    return self.execute_command('SREM', name, *values)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 838, in execute_command
+    conn.send_command(*args)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 686, in send_command
+    self.send_packed_command(self.pack_command(*args),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 737, in pack_command
+    for arg in imap(self.encoder.encode, args):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 118, in encode
+    "byte, string or number first." % typename)
+redis.exceptions.DataError: Invalid input of type: 'NoneType'. Convert to a byte, string or number first.
+ERROR 2019-12-08 17:30:38,229 basehttp 154 "PUT /cart/ HTTP/1.1" 500 21845
+ERROR 2019-12-08 17:33:10,352 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 101, in change_course_status
+    redis_conn.sadd("selected_%s" % user_id, course_id)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 1946, in sadd
+    return self.execute_command('SADD', name, *values)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 838, in execute_command
+    conn.send_command(*args)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 686, in send_command
+    self.send_packed_command(self.pack_command(*args),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 737, in pack_command
+    for arg in imap(self.encoder.encode, args):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 118, in encode
+    "byte, string or number first." % typename)
+redis.exceptions.DataError: Invalid input of type: 'NoneType'. Convert to a byte, string or number first.
+ERROR 2019-12-08 17:33:10,358 basehttp 154 "PUT /cart/ HTTP/1.1" 500 21845
+ERROR 2019-12-08 17:33:19,052 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 104, in change_course_status
+    redis_conn.srem("selected_%s" % user_id, course_id)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 2008, in srem
+    return self.execute_command('SREM', name, *values)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\client.py", line 838, in execute_command
+    conn.send_command(*args)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 686, in send_command
+    self.send_packed_command(self.pack_command(*args),
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 737, in pack_command
+    for arg in imap(self.encoder.encode, args):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\redis\connection.py", line 118, in encode
+    "byte, string or number first." % typename)
+redis.exceptions.DataError: Invalid input of type: 'NoneType'. Convert to a byte, string or number first.
+ERROR 2019-12-08 17:33:19,057 basehttp 154 "PUT /cart/ HTTP/1.1" 500 21845
+INFO 2019-12-08 17:33:31,139 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 17:33:47,965 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:33:47,970 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:33:47,997 basehttp 154 "GET /cart/ HTTP/1.1" 200 1002
+INFO 2019-12-08 17:34:29,485 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:34:32,949 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:35:03,637 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:35:03,643 basehttp 154 "GET /cart/ HTTP/1.1" 200 1030
+INFO 2019-12-08 17:35:03,653 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:35:04,712 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 17:35:15,758 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 17:35:23,880 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 17:35:24,823 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 17:35:40,398 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 18506
+INFO 2019-12-08 17:35:40,921 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:35:47,927 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 31016
+INFO 2019-12-08 17:35:47,978 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:35:49,593 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 33076
+INFO 2019-12-08 17:35:49,622 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:35:50,858 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 31101
+INFO 2019-12-08 17:35:50,885 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:35:51,623 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 33076
+INFO 2019-12-08 17:35:51,657 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:35:53,372 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 31101
+INFO 2019-12-08 17:35:53,402 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:35:54,957 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 65562
+INFO 2019-12-08 17:35:55,007 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:35:58,281 basehttp 154 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 31637
+INFO 2019-12-08 17:35:58,330 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:37:02,499 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 17:37:05,299 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:37:45,756 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\adminx.py changed, reloading.
+INFO 2019-12-08 17:37:49,032 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:38:48,238 basehttp 154 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 32102
+INFO 2019-12-08 17:38:48,317 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:38:51,249 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 71853
+INFO 2019-12-08 17:38:51,288 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:38:54,127 basehttp 154 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 32102
+INFO 2019-12-08 17:38:54,176 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:39:08,245 basehttp 154 "GET /xadmin/course/courseexpire/ HTTP/1.1" 200 32890
+INFO 2019-12-08 17:39:08,304 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-08 17:39:16,921 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:39:16,924 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:39:16,969 basehttp 154 "GET /cart/ HTTP/1.1" 200 1227
+INFO 2019-12-08 17:39:27,053 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 17:39:29,760 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 17:39:30,435 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 17:39:33,892 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 17:50:14,944 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 17:50:18,655 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 17:50:29,733 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 17:50:29,798 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:50:29,799 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:50:29,979 basehttp 154 "GET /cart/ HTTP/1.1" 200 1227
+INFO 2019-12-08 17:53:22,846 basehttp 154 "GET /cart/ HTTP/1.1" 200 1227
+INFO 2019-12-08 17:55:46,328 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:55:46,338 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:55:46,350 basehttp 154 "GET /cart/ HTTP/1.1" 200 1227
+INFO 2019-12-08 17:57:42,163 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 17:57:42,906 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 17:59:48,693 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:59:48,694 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 17:59:48,713 basehttp 154 "GET /cart/ HTTP/1.1" 200 1227
+INFO 2019-12-08 18:00:37,395 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-12-08 18:00:37,412 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 18:00:37,413 basehttp 154 "PATCH /cart/ HTTP/1.1" 405 47
+WARNING 2019-12-08 18:00:40,929 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 18:00:40,930 basehttp 154 "PATCH /cart/ HTTP/1.1" 405 47
+INFO 2019-12-08 18:01:50,713 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 18:01:53,778 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 18:01:55,848 basehttp 154 "PATCH /cart/ HTTP/1.1" 200 50
+INFO 2019-12-08 18:02:04,073 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 18:02:07,848 basehttp 154 "PATCH /cart/ HTTP/1.1" 200 50
+INFO 2019-12-08 18:02:11,784 basehttp 154 "PATCH /cart/ HTTP/1.1" 200 50
+INFO 2019-12-08 19:56:13,979 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 19:56:14,525 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 19:56:14,774 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 19:56:17,935 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 19:56:19,344 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 19:56:20,850 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 19:56:22,011 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 19:56:24,250 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 20:07:36,022 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 20:07:36,140 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:07:36,140 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:07:36,328 basehttp 154 "GET /cart/ HTTP/1.1" 200 1228
+INFO 2019-12-08 20:07:41,682 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:07:41,684 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:07:41,767 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 20:07:41,788 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 20:07:44,371 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:07:44,372 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:07:44,417 basehttp 154 "GET /course/2/ HTTP/1.1" 200 982
+INFO 2019-12-08 20:07:44,419 basehttp 154 "GET /course/chapters/?course=2 HTTP/1.1" 200 2
+INFO 2019-12-08 20:07:46,190 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 20:07:46,880 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 20:07:47,333 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 20:07:47,518 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 20:07:48,862 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 20:07:48,880 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:07:48,897 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:07:48,906 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 20:07:50,409 basehttp 154 "GET /course/?ordering=id&size=2&page=2 HTTP/1.1" 200 844
+INFO 2019-12-08 20:07:51,139 basehttp 154 "GET /course/?ordering=id&size=2&page=3 HTTP/1.1" 200 863
+INFO 2019-12-08 20:07:52,726 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:07:52,726 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:07:52,745 basehttp 154 "GET /course/17/ HTTP/1.1" 200 435
+INFO 2019-12-08 20:07:52,773 basehttp 154 "GET /course/chapters/?course=17 HTTP/1.1" 200 2
+INFO 2019-12-08 20:07:53,882 basehttp 154 "POST /cart/ HTTP/1.1" 200 60
+INFO 2019-12-08 20:07:54,341 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 20:07:54,919 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 20:07:55,120 basehttp 154 "POST /cart/ HTTP/1.1" 204 50
+INFO 2019-12-08 20:08:02,011 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 20:08:02,041 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:08:02,041 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:08:02,047 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 20:08:03,480 basehttp 154 "GET /course/?ordering=id&size=2&page=5 HTTP/1.1" 200 865
+INFO 2019-12-08 20:08:05,708 basehttp 154 "GET /course/chapters/?course=20 HTTP/1.1" 200 2
+INFO 2019-12-08 20:08:05,713 basehttp 154 "GET /course/20/ HTTP/1.1" 200 427
+INFO 2019-12-08 20:08:05,719 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:08:05,722 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:09:18,288 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:09:18,294 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:09:18,320 basehttp 154 "GET /cart/ HTTP/1.1" 200 1511
+INFO 2019-12-08 20:09:27,894 basehttp 154 "PATCH /cart/ HTTP/1.1" 200 50
+INFO 2019-12-08 20:09:52,536 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:09:52,536 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:09:52,576 basehttp 154 "GET /course/19/ HTTP/1.1" 200 415
+INFO 2019-12-08 20:09:52,578 basehttp 154 "GET /course/chapters/?course=19 HTTP/1.1" 200 2
+INFO 2019-12-08 20:09:55,279 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:09:55,282 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:09:55,310 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 20:11:04,375 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:11:04,378 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:11:04,525 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 20:12:19,703 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:12:19,711 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:12:19,724 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 20:12:37,995 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:12:38,020 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:13:01,522 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:13:01,522 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:13:01,566 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 20:13:03,930 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:13:03,931 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:13:06,574 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:13:06,581 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:13:06,617 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 20:13:14,898 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 20:13:14,898 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:15:44,495 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:15:48,329 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:16:07,570 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:16:12,389 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:16:23,192 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:16:27,846 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:16:33,198 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:16:37,023 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:16:51,823 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:16:55,754 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:17:01,886 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:17:05,718 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:17:15,794 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:17:19,046 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:17:26,906 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:17:31,380 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:17:37,388 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:17:41,416 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:17:47,381 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:17:51,858 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:17:59,370 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:18:04,044 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:18:12,722 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:18:16,453 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:18:22,173 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:18:24,942 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:18:46,140 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:18:49,488 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:18:55,962 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:18:59,601 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:19:06,797 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:19:11,274 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:19:17,175 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:19:21,481 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:20:19,098 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:20:21,436 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:22:12,132 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:22:15,301 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:22:32,411 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:22:34,875 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:22:41,227 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:22:43,516 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:22:50,015 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:22:53,303 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:22:56,554 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:23:01,113 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:23:07,640 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:23:10,662 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:23:18,051 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:23:20,409 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:23:22,322 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:23:26,104 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:23:31,283 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:23:35,519 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:23:41,521 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:23:47,790 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:23:53,857 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:23:58,786 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:24:06,617 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:24:11,096 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:24:23,258 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:24:26,335 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:26:26,793 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:26:29,156 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:26:47,667 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:26:51,840 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:28:25,467 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:28:28,971 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:28:58,340 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\course\models.py changed, reloading.
+INFO 2019-12-08 21:29:02,507 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:30:25,982 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 21:30:29,307 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:30:42,882 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 21:30:46,181 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:30:55,025 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 21:30:59,811 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:31:06,542 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 21:31:11,437 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:31:20,621 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 21:31:24,578 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:32:10,028 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 21:32:13,985 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:33:13,988 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:33:17,241 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:33:26,774 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 21:33:26,895 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:33:26,919 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:33:26,934 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 21:33:28,323 basehttp 154 "OPTIONS /cart/?course_id=2 HTTP/1.1" 200 0
+ERROR 2019-12-08 21:33:29,197 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2019-12-08 21:33:29,217 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2019-12-08 21:33:29,217 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2019-12-08 21:33:29,221 basehttp 154 "DELETE /cart/?course_id=2 HTTP/1.1" 500 88908
+ERROR 2019-12-08 21:33:29,228 basehttp 154 "DELETE /cart/?course_id=2 HTTP/1.1" 500 88908
+ERROR 2019-12-08 21:33:29,238 basehttp 154 "DELETE /cart/?course_id=2 HTTP/1.1" 500 88908
+INFO 2019-12-08 21:33:29,468 basehttp 154 "OPTIONS /cart/?course_id=21 HTTP/1.1" 200 0
+ERROR 2019-12-08 21:33:29,601 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2019-12-08 21:33:29,606 basehttp 154 "DELETE /cart/?course_id=21 HTTP/1.1" 500 88917
+ERROR 2019-12-08 21:33:29,716 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2019-12-08 21:33:29,720 basehttp 154 "DELETE /cart/?course_id=21 HTTP/1.1" 500 88917
+ERROR 2019-12-08 21:33:30,589 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2019-12-08 21:33:30,592 basehttp 154 "DELETE /cart/?course_id=2 HTTP/1.1" 500 88908
+ERROR 2019-12-08 21:33:30,975 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2019-12-08 21:33:30,985 basehttp 154 "DELETE /cart/?course_id=2 HTTP/1.1" 500 88908
+ERROR 2019-12-08 21:33:32,609 log 228 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 422, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2019-12-08 21:33:32,619 basehttp 154 "DELETE /cart/?course_id=21 HTTP/1.1" 500 88917
+INFO 2019-12-08 21:33:43,031 basehttp 154 "PATCH /cart/ HTTP/1.1" 200 50
+INFO 2019-12-08 21:34:01,708 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:34:05,333 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:45:05,242 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 21:45:05,350 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:45:05,356 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:45:05,444 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 21:45:22,751 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:45:22,766 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:45:22,790 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 21:45:47,335 basehttp 154 "OPTIONS /cart/order/ HTTP/1.1" 200 0
+ERROR 2019-12-08 21:45:47,953 log 228 Internal Server Error: /cart/order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 133, in get_selected_course
+    expire_time = int(cart_hash.get(course_id_bytes).decode())
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2019-12-08 21:45:47,961 basehttp 154 "GET /cart/order/ HTTP/1.1" 500 21060
+ERROR 2019-12-08 21:45:47,992 basehttp 154 "GET /cart/order/ HTTP/1.1" 500 59
+ERROR 2019-12-08 21:45:50,309 log 228 Internal Server Error: /cart/order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 133, in get_selected_course
+    expire_time = int(cart_hash.get(course_id_bytes).decode())
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2019-12-08 21:45:50,326 basehttp 154 "GET /cart/order/ HTTP/1.1" 500 21060
+INFO 2019-12-08 21:45:52,468 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:45:52,500 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:45:52,539 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 21:46:54,183 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:46:54,193 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:46:54,230 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 21:47:02,033 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 21:47:03,275 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 21:47:08,054 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:47:08,066 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+ERROR 2019-12-08 21:47:08,090 log 228 Internal Server Error: /cart/order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 133, in get_selected_course
+    expire_time = int(cart_hash.get(course_id_bytes).decode())
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2019-12-08 21:47:08,094 basehttp 154 "GET /cart/order/ HTTP/1.1" 500 21060
+INFO 2019-12-08 21:47:09,678 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:47:09,680 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:47:09,730 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 21:47:21,567 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:47:21,573 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:47:21,607 basehttp 154 "GET /cart/ HTTP/1.1" 200 1509
+INFO 2019-12-08 21:47:26,951 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:47:26,991 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+ERROR 2019-12-08 21:47:26,996 log 228 Internal Server Error: /cart/order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 133, in get_selected_course
+    expire_time = int(cart_hash.get(course_id_bytes).decode())
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2019-12-08 21:47:27,013 basehttp 154 "GET /cart/order/ HTTP/1.1" 500 21060
+INFO 2019-12-08 21:50:47,052 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:50:47,060 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:50:47,095 basehttp 154 "GET /cart/ HTTP/1.1" 200 1510
+INFO 2019-12-08 21:50:56,462 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:50:56,468 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+ERROR 2019-12-08 21:50:56,510 log 228 Internal Server Error: /cart/order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 133, in get_selected_course
+    expire_time = int(cart_hash.get(course_id_bytes).decode())
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2019-12-08 21:50:56,515 basehttp 154 "GET /cart/order/ HTTP/1.1" 500 21060
+INFO 2019-12-08 21:51:59,599 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:52:03,636 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:52:14,280 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:52:14,283 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+ERROR 2019-12-08 21:52:14,669 log 228 Internal Server Error: /cart/order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 134, in get_selected_course
+    expire_time = int(cart_hash.get(course_id_bytes).decode())
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2019-12-08 21:52:14,673 basehttp 154 "GET /cart/order/ HTTP/1.1" 500 21060
+INFO 2019-12-08 21:54:06,791 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:54:10,667 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:54:15,000 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:54:15,002 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+ERROR 2019-12-08 21:54:15,420 log 228 Internal Server Error: /cart/order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 134, in get_selected_course
+    expire_time = int(cart_hash.get(course_id_bytes).decode())
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2019-12-08 21:54:15,429 basehttp 154 "GET /cart/order/ HTTP/1.1" 500 21060
+INFO 2019-12-08 21:55:24,051 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:55:28,203 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:55:44,443 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:55:44,505 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+ERROR 2019-12-08 21:55:44,870 log 228 Internal Server Error: /cart/order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 134, in get_selected_course
+    expire_time = int(cart_hash.get(course_id_bytes).decode())
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2019-12-08 21:55:44,875 basehttp 154 "GET /cart/order/ HTTP/1.1" 500 21060
+INFO 2019-12-08 21:56:07,869 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 21:56:11,417 autoreload 597 Watching for file changes with StatReloader
