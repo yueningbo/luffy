@@ -8,6 +8,7 @@ import logging
 
 logger = logging.getLogger('django')
 
+
 def custom_exception_handler(exc, context):
     """
     自定义异常处理
@@ -23,7 +24,6 @@ def custom_exception_handler(exc, context):
         if isinstance(exc, DatabaseError):
             # 数据库异常
             logger.error('[%s] %s' % (view, exc))
-            response = Response({"message":"服务器内部错误"}, status=status.HTTP_507_INSUFFICIENT_STORAGE)
+            response = Response({"message": "服务器内部错误"}, status=status.HTTP_507_INSUFFICIENT_STORAGE)
 
     return response
-

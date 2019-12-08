@@ -5608,3 +5608,560 @@ INFO 2019-12-03 11:11:10,720 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
 INFO 2019-12-03 11:11:10,725 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
 INFO 2019-12-03 11:11:10,729 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
 INFO 2019-12-03 11:11:10,732 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-03 17:58:07,653 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-03 17:58:33,435 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:33,438 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-03 17:58:33,439 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:37,602 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:37,603 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:37,620 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-03 17:58:39,376 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:39,378 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-03 17:58:39,380 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:41,109 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:41,112 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:41,188 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 17:58:41,281 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-03 17:58:41,345 basehttp 154 "GET /media/course/2_1o9BQl9.png HTTP/1.1" 304 0
+INFO 2019-12-03 17:58:41,346 basehttp 154 "GET /media/course/3_viuhQHF.png HTTP/1.1" 304 0
+INFO 2019-12-03 17:58:42,815 basehttp 154 "GET /course/?ordering=id&size=2&page=1&course_category=1 HTTP/1.1" 200 960
+INFO 2019-12-03 17:58:43,774 basehttp 154 "GET /course/?ordering=id&size=2&page=1&course_category=2 HTTP/1.1" 200 803
+INFO 2019-12-03 17:58:43,873 basehttp 154 "GET /media/course/4.png HTTP/1.1" 304 0
+INFO 2019-12-03 17:58:43,873 basehttp 154 "GET /media/course/3.png HTTP/1.1" 304 0
+INFO 2019-12-03 17:58:44,693 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-03 17:58:44,693 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:44,694 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:46,033 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 17:58:46,035 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:46,037 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:46,057 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-03 17:58:48,618 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:48,619 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:48,623 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 17:58:48,648 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-03 17:58:54,881 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:58:54,884 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-03 17:58:54,886 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:59:02,535 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:59:02,541 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-03 17:59:02,545 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:59:03,271 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:59:03,278 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-03 17:59:03,284 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-03 17:59:03,291 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-03 17:59:04,286 basehttp 154 "GET /course/?ordering=id&size=2&page=1&course_category=2 HTTP/1.1" 200 803
+INFO 2019-12-08 12:16:12,575 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 12:20:17,275 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 12:20:17,275 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-08 12:20:17,275 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 12:20:17,470 basehttp 154 "GET /media/banner/alex_BbtJ6nS.jpeg HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:17,470 basehttp 154 "GET /media/banner/banner3_t2zhNtC.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:17,470 basehttp 154 "GET /media/banner/banner2_4RmEdsE.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:19,912 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 12:20:19,945 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 12:20:20,016 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 12:20:20,411 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 12:20:20,456 basehttp 154 "GET /media/course/3_viuhQHF.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:20,493 basehttp 154 "GET /media/course/2_1o9BQl9.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:22,723 basehttp 154 "GET /course/?ordering=id&size=2&page=3 HTTP/1.1" 200 863
+INFO 2019-12-08 12:20:22,778 basehttp 154 "GET /media/course/3_Dz5bsPR.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:22,778 basehttp 154 "GET /media/course/1_pW2sDCP.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,335 basehttp 154 "GET /course/?ordering=id&size=10&page=1 HTTP/1.1" 200 3680
+INFO 2019-12-08 12:20:25,367 basehttp 154 "GET /course/?ordering=id&size=10&page=2 HTTP/1.1" 200 2823
+INFO 2019-12-08 12:20:25,412 basehttp 154 "GET /media/course/4_LEUY4Cl.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,413 basehttp 154 "GET /media/course/4_HqbEPQI.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,425 basehttp 154 "GET /media/course/1_ChBHwAf.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,428 basehttp 154 "GET /media/course/4_FzJm0fX.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,430 basehttp 154 "GET /media/course/2_3SZly6H.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,626 basehttp 154 "GET /media/course/3_GcqCGsh.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,628 basehttp 154 "GET /media/course/4_9Lo4FCl.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,628 basehttp 154 "GET /media/course/2_Xl57XuI.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,653 basehttp 154 "GET /media/course/1_5cePtPY.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,722 basehttp 154 "GET /media/course/2_3qdD71X.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,726 basehttp 154 "GET /course/?ordering=id&size=10&page=1 HTTP/1.1" 200 3680
+INFO 2019-12-08 12:20:25,735 basehttp 154 "GET /media/course/4.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,743 basehttp 154 "GET /media/course/3.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:25,757 basehttp 154 "GET /media/course/1.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:20:28,656 basehttp 154 "GET /course/?ordering=id&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:20:28,727 basehttp 154 "GET /course/?ordering=id&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:20:29,254 basehttp 154 "GET /course/?ordering=id&size=10&page=1&course_category=2 HTTP/1.1" 200 1060
+INFO 2019-12-08 12:20:29,304 basehttp 154 "GET /media/course/2.png HTTP/1.1" 200 64369
+INFO 2019-12-08 12:20:30,762 basehttp 154 "GET /course/?ordering=id&size=10&page=1&course_category=3 HTTP/1.1" 200 2102
+INFO 2019-12-08 12:20:31,169 basehttp 154 "GET /course/?ordering=id&size=10&page=1&course_category=6 HTTP/1.1" 200 731
+INFO 2019-12-08 12:20:32,144 basehttp 154 "GET /course/?ordering=students&size=10&page=1&course_category=6 HTTP/1.1" 200 731
+INFO 2019-12-08 12:20:32,865 basehttp 154 "GET /course/?ordering=-students&size=10&page=1&course_category=6 HTTP/1.1" 200 731
+INFO 2019-12-08 12:20:34,204 basehttp 154 "GET /course/?ordering=students&size=10&page=1&course_category=6 HTTP/1.1" 200 731
+INFO 2019-12-08 12:20:36,182 basehttp 154 "GET /course/?ordering=students&size=10&page=1&course_category=3 HTTP/1.1" 200 2102
+INFO 2019-12-08 12:20:37,610 basehttp 154 "GET /course/?ordering=-students&size=10&page=1&course_category=3 HTTP/1.1" 200 2102
+INFO 2019-12-08 12:20:38,129 basehttp 154 "GET /course/?ordering=students&size=10&page=1&course_category=3 HTTP/1.1" 200 2102
+INFO 2019-12-08 12:20:39,144 basehttp 154 "GET /course/?ordering=-students&size=10&page=1&course_category=3 HTTP/1.1" 200 2102
+INFO 2019-12-08 12:20:39,999 basehttp 154 "GET /course/?ordering=price&size=10&page=1&course_category=3 HTTP/1.1" 200 2102
+INFO 2019-12-08 12:20:40,591 basehttp 154 "GET /course/?ordering=-price&size=10&page=1&course_category=3 HTTP/1.1" 200 2102
+INFO 2019-12-08 12:20:41,296 basehttp 154 "GET /course/?ordering=price&size=10&page=1&course_category=3 HTTP/1.1" 200 2102
+INFO 2019-12-08 12:20:47,618 basehttp 154 "GET /course/?ordering=price&size=10&page=1&course_category=2 HTTP/1.1" 200 1060
+INFO 2019-12-08 12:20:48,476 basehttp 154 "GET /course/?ordering=-price&size=10&page=1&course_category=2 HTTP/1.1" 200 1060
+INFO 2019-12-08 12:20:49,141 basehttp 154 "GET /course/?ordering=price&size=10&page=1&course_category=2 HTTP/1.1" 200 1060
+INFO 2019-12-08 12:20:50,403 basehttp 154 "GET /course/?ordering=students&size=10&page=1&course_category=2 HTTP/1.1" 200 1060
+INFO 2019-12-08 12:20:50,906 basehttp 154 "GET /course/?ordering=-students&size=10&page=1&course_category=2 HTTP/1.1" 200 1060
+INFO 2019-12-08 12:20:51,619 basehttp 154 "GET /course/?ordering=students&size=10&page=1&course_category=2 HTTP/1.1" 200 1060
+INFO 2019-12-08 12:20:52,356 basehttp 154 "GET /course/?ordering=-students&size=10&page=1&course_category=2 HTTP/1.1" 200 1060
+INFO 2019-12-08 12:20:53,185 basehttp 154 "GET /course/?ordering=students&size=10&page=1&course_category=2 HTTP/1.1" 200 1060
+INFO 2019-12-08 12:20:54,233 basehttp 154 "GET /course/?ordering=students&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:20:54,804 basehttp 154 "GET /course/?ordering=-students&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:20:55,499 basehttp 154 "GET /course/?ordering=students&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:20:56,142 basehttp 154 "GET /course/?ordering=-students&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:20:56,388 basehttp 154 "GET /course/?ordering=students&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:20:56,567 basehttp 154 "GET /course/?ordering=-students&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:20:57,654 basehttp 154 "GET /course/?ordering=id&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:20:58,759 basehttp 154 "GET /course/?ordering=-id&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:20:59,391 basehttp 154 "GET /course/?ordering=id&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:21:01,166 basehttp 154 "GET /course/?ordering=students&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:21:02,194 basehttp 154 "GET /course/?ordering=id&size=10&page=1&course_category=1 HTTP/1.1" 200 2595
+INFO 2019-12-08 12:24:50,256 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 12:24:50,314 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 12:24:50,400 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 12:24:50,490 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 12:24:50,603 basehttp 154 "GET /media/teacher/1.png HTTP/1.1" 304 0
+INFO 2019-12-08 12:28:17,240 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2019-12-08 12:28:21,967 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 12:29:18,043 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2019-12-08 12:29:20,908 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 12:29:50,003 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2019-12-08 12:29:54,685 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 12:30:07,868 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2019-12-08 12:30:11,164 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 13:21:57,044 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 13:23:09,306 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 13:23:52,017 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 13:23:54,787 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 13:24:00,512 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:24:00,528 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:24:00,549 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-08 13:24:07,265 basehttp 154 "GET /user/captcha?username=13297489054 HTTP/1.1" 301 0
+WARNING 2019-12-08 13:24:07,427 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:24:07,428 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 400 41
+WARNING 2019-12-08 13:24:09,850 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:24:09,851 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 400 41
+WARNING 2019-12-08 13:24:10,976 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:24:10,977 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 400 41
+WARNING 2019-12-08 13:24:11,173 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:24:11,174 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 400 41
+WARNING 2019-12-08 13:24:11,348 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:24:11,349 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 400 41
+WARNING 2019-12-08 13:24:11,538 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:24:11,539 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 400 41
+WARNING 2019-12-08 13:24:14,099 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:24:14,100 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 400 41
+WARNING 2019-12-08 13:24:36,441 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:24:36,442 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 400 41
+WARNING 2019-12-08 13:24:40,836 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:24:40,837 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 400 41
+WARNING 2019-12-08 13:27:05,696 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:27:05,697 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 400 41
+WARNING 2019-12-08 13:27:09,452 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:27:09,454 basehttp 154 "GET /user/captcha/?username=13297489054 HTTP/1.1" 400 41
+INFO 2019-12-08 13:27:14,816 basehttp 154 "GET /user/captcha?username=root HTTP/1.1" 301 0
+WARNING 2019-12-08 13:27:14,861 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:27:14,863 basehttp 154 "GET /user/captcha/?username=root HTTP/1.1" 400 41
+WARNING 2019-12-08 13:27:19,512 log 228 Bad Request: /user/captcha/
+WARNING 2019-12-08 13:27:19,513 basehttp 154 "GET /user/captcha/?username=root HTTP/1.1" 400 41
+INFO 2019-12-08 13:27:24,193 basehttp 154 "GET /user/captcha?username=pao HTTP/1.1" 301 0
+INFO 2019-12-08 13:27:24,388 basehttp 154 "GET /user/captcha/?username=pao HTTP/1.1" 200 140
+INFO 2019-12-08 13:27:33,379 basehttp 154 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2019-12-08 13:27:33,389 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-12-08 13:27:33,401 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-12-08 13:27:33,699 basehttp 154 "POST /user/login/ HTTP/1.1" 200 195
+INFO 2019-12-08 13:27:35,082 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:27:35,090 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:27:35,219 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-08 13:27:54,620 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:27:54,661 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:27:54,665 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 13:27:54,676 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 13:27:56,651 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:27:56,653 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:27:56,655 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:27:56,657 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:30:21,381 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:30:21,386 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:30:21,389 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:30:21,392 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:30:37,310 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:30:37,313 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:30:37,324 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:30:37,396 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:30:42,972 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:30:42,984 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:30:42,995 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:30:43,032 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:30:49,641 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:30:49,668 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:30:49,684 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:30:49,687 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:32:05,861 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:32:05,862 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:32:05,866 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:32:06,074 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:33:28,754 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:33:28,755 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:33:28,781 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:33:28,787 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:33:40,477 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:33:40,500 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:33:40,574 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:33:40,574 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:33:45,976 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:33:45,990 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:33:46,002 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:33:46,005 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:03,144 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:34:03,146 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:03,148 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:03,171 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:34:13,831 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:13,837 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:13,848 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:34:13,852 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:34:24,167 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:24,170 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:24,189 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:34:24,195 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:34:37,448 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:34:37,852 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:34:39,311 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:39,313 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:39,884 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:39,890 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:34:39,894 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:39,898 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:34:44,641 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:34:44,687 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:44,687 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:44,709 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:34:49,601 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:49,601 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:49,645 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:34:49,650 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:34:55,540 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:34:55,563 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:55,565 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:34:55,575 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:35:08,487 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:08,490 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:08,492 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:35:08,505 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:35:18,112 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:35:18,114 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:18,127 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:18,150 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:35:24,960 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:35:24,964 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:35:25,074 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:25,102 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:34,222 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:35:34,230 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:35:34,245 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:34,257 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:41,381 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:41,393 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:35:41,395 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:41,406 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:35:46,281 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:35:46,309 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:46,309 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:46,313 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:35:47,267 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:47,274 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:35:47,276 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:47,305 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:35:51,780 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:35:51,836 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:51,848 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:35:51,928 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:54,942 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:35:54,989 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:55,017 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:35:55,020 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:36:11,861 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:36:11,862 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:36:11,866 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:36:11,906 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:36:15,882 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:36:15,886 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:36:15,890 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:36:15,906 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:36:34,168 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:36:34,259 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:36:34,261 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:36:34,264 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:37:22,302 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:22,311 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:37:22,311 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:22,317 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:37:30,497 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:37:30,508 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:30,518 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:37:30,561 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:30,807 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:30,823 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:37:30,838 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:37:30,846 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:38,020 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:38,022 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:37:38,024 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:38,050 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:37:38,316 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:38,319 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:38,327 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:37:38,342 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:37:48,532 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:37:48,564 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:48,568 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:48,594 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:37:50,695 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:50,717 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:37:50,722 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:50,729 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:37:57,112 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:37:57,152 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:37:57,732 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:57,753 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:58,955 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:37:58,972 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:37:58,978 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:37:58,985 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:02,474 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:02,478 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:38:02,481 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:02,488 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:38:12,078 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:38:12,114 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:12,120 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:12,142 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:38:39,976 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:39,978 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:38:39,983 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:39,990 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:38:53,632 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:38:53,662 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:53,668 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:38:53,744 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:54,319 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:38:54,327 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:54,330 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:54,334 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:38:54,473 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:54,478 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:38:54,482 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:38:54,489 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:39:00,039 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:39:00,043 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:39:00,047 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:39:00,069 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:39:14,522 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:39:14,593 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:39:14,600 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:39:14,603 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:52:22,181 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:52:22,201 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:52:22,222 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:52:22,225 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:52:24,909 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:52:24,925 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:52:24,932 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:52:24,933 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:52:32,247 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:52:32,272 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:52:32,295 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:52:32,299 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:52:38,003 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:52:38,010 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:52:38,012 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:52:38,017 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:52:46,995 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:52:46,998 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:52:47,002 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:52:47,005 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:53:35,563 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:53:35,569 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:53:35,569 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:53:35,573 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:53:41,916 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:53:41,920 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:53:41,923 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:53:41,954 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:53:49,927 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:53:49,938 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:53:49,939 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:53:49,959 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:53:57,691 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:53:57,708 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:53:57,718 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:53:57,724 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:54:55,157 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:54:55,166 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:54:55,170 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:54:55,171 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:55:22,912 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 13:55:22,917 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:55:22,919 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 13:55:22,935 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 13:55:25,183 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 13:55:26,273 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 13:55:40,404 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 13:56:24,783 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-12-08 13:58:22,004 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 13:58:22,006 basehttp 154 "GET /cart/ HTTP/1.1" 405 5614
+INFO 2019-12-08 13:58:22,566 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2019-12-08 13:58:22,567 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2019-12-08 13:58:22,567 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2019-12-08 13:58:22,568 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2019-12-08 13:58:22,578 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2019-12-08 13:58:22,578 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+INFO 2019-12-08 13:58:22,833 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2019-12-08 13:58:22,838 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2019-12-08 13:58:22,841 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2019-12-08 13:58:22,842 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2019-12-08 13:58:24,042 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2019-12-08 13:58:24,129 log 228 Not Found: /favicon.ico
+WARNING 2019-12-08 13:58:24,130 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3108
+INFO 2019-12-08 13:58:56,192 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:01:37,363 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:01:37,377 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:01:37,413 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:01:37,418 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:01:43,255 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:01:43,257 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:01:43,263 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:01:43,305 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:01:45,644 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:01:47,925 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:02:00,037 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:02:00,045 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:02:00,051 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:02:00,105 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:02:21,531 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:02:27,026 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-12-08 14:02:36,561 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 14:02:36,562 basehttp 154 "GET /cart/ HTTP/1.1" 405 5614
+INFO 2019-12-08 14:06:42,131 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:06:42,134 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:06:42,208 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:06:42,216 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:06:45,040 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:07:01,622 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:07:02,154 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:07:02,166 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:07:02,168 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:07:02,187 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:07:03,951 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:07:07,958 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:07:07,959 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:07:07,971 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:07:07,984 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:07:09,363 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:07:10,874 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:07:19,171 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:07:37,437 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:07:37,879 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:07:37,934 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:07:37,939 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:07:37,943 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:07:43,466 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:07:43,483 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:07:43,484 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:07:43,504 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:07:44,939 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:09:52,848 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:09:52,851 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:09:52,855 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:09:52,917 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:11:40,205 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:12:42,795 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:14:29,079 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 14:14:32,780 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 14:15:12,964 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 14:15:16,121 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 14:15:53,765 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:15:54,936 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:15:58,987 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:15:58,988 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:15:58,989 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:15:59,030 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:16:00,341 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:16:15,718 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 14:16:19,156 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 14:20:30,874 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 14:20:34,458 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 14:20:49,426 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\urls.py changed, reloading.
+INFO 2019-12-08 14:20:52,636 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 14:21:50,980 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:21:50,985 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:21:50,985 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:21:51,043 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+WARNING 2019-12-08 14:21:52,356 log 228 Method Not Allowed: /cart/
+WARNING 2019-12-08 14:21:52,357 basehttp 154 "GET /cart/ HTTP/1.1" 405 5594
+INFO 2019-12-08 14:22:14,046 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:22:25,929 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:22:42,867 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:23:31,691 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:23:48,828 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:24:30,376 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:24:30,383 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:24:30,387 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 14:24:30,391 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 14:24:37,404 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:24:37,406 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:24:37,419 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:24:37,465 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:24:44,372 basehttp 154 "GET /user/captcha/?username=pao HTTP/1.1" 200 140
+INFO 2019-12-08 14:24:50,937 basehttp 154 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:24:50,947 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-12-08 14:24:50,956 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:24:51,137 basehttp 154 "POST /user/login/ HTTP/1.1" 200 195
+INFO 2019-12-08 14:24:52,891 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:24:52,893 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:24:52,935 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:24:52,948 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:24:54,041 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:24:59,503 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 14:25:29,709 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2019-12-08 14:25:32,847 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 14:26:20,076 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2019-12-08 14:26:23,821 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 14:28:29,526 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 14:28:29,527 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:28:29,528 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:28:29,530 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:29:15,613 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+ERROR 2019-12-08 14:29:15,686 views 46 [Redis]购物车数据存储错误!
+ERROR 2019-12-08 14:29:15,702 log 228 Insufficient Storage: /cart/
+ERROR 2019-12-08 14:29:15,702 basehttp 154 "POST /cart/ HTTP/1.1" 507 59
+INFO 2019-12-08 14:29:19,894 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:29:19,899 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 14:29:19,899 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 14:29:19,916 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+ERROR 2019-12-08 14:29:21,121 views 46 [Redis]购物车数据存储错误!
+ERROR 2019-12-08 14:29:21,126 log 228 Insufficient Storage: /cart/
+ERROR 2019-12-08 14:29:21,127 basehttp 154 "POST /cart/ HTTP/1.1" 507 59
+INFO 2019-12-08 14:30:47,956 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-08 14:30:54,914 views 46 [Redis]购物车数据存储错误!
+ERROR 2019-12-08 14:30:54,923 log 228 Insufficient Storage: /cart/
+ERROR 2019-12-08 14:30:54,924 basehttp 154 "POST /cart/ HTTP/1.1" 507 59
+INFO 2019-12-08 14:31:24,759 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 14:31:27,956 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-08 14:31:31,389 views 47 [Redis]购物车数据存储错误!
+ERROR 2019-12-08 14:31:31,400 log 228 Insufficient Storage: /cart/
+ERROR 2019-12-08 14:31:31,401 basehttp 154 "POST /cart/ HTTP/1.1" 507 59
+INFO 2019-12-08 14:32:17,244 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 14:32:20,091 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 14:32:22,472 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
+INFO 2019-12-08 14:32:32,132 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
+INFO 2019-12-08 14:32:34,163 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
+INFO 2019-12-08 14:32:38,913 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
+INFO 2019-12-08 14:32:39,133 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
+INFO 2019-12-08 14:32:39,329 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
+INFO 2019-12-08 14:32:39,514 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
+INFO 2019-12-08 14:32:39,715 basehttp 154 "POST /cart/ HTTP/1.1" 200 55
+INFO 2019-12-08 14:36:09,730 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2019-12-08 14:36:13,230 autoreload 597 Watching for file changes with StatReloader

@@ -103,6 +103,7 @@
             offline: !data.success// 表示用户后台检测极验服务器是否宕机, 一般无需关注
           }, this.handlerPopup);
         }).catch(error => {
+          this.$alert("对不起,用户不存在!", "路飞学城");
           console.log(error.response);
         })
       },

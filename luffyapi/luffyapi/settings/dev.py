@@ -61,6 +61,7 @@ INSTALLED_APPS = [
     'home',
     'user',
     'course',
+    'cart',
 ]
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
@@ -155,7 +156,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
 
 # 日志配置
 LOGGING = {
@@ -219,6 +219,7 @@ AUTH_USER_MODEL = 'user.User'
 # 用户认证功能
 AUTHENTICATION_BACKENDS = [
     'user.utils.UsernameMobileAuthBackend',
+
 ]
 
 import datetime
@@ -256,7 +257,15 @@ CACHES = {
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
-    }
+    },
+    # 购物车缓存
+    "cart": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
 }
 
 # 设置xadmin用户登录时, 登录信息保存到redis

@@ -29,7 +29,7 @@ class CourseChapterModelSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = CourseChapter
-        fields = ["id", "lesson_l ist", "name", "summary", "chapter"]
+        fields = ["id", "lesson_list", "name", "summary", "chapter"]
 
 
 class CourseModelSerializer(serializers.ModelSerializer):
