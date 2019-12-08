@@ -62,6 +62,7 @@ INSTALLED_APPS = [
     'user',
     'course',
     'cart',
+    'order',
 ]
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")

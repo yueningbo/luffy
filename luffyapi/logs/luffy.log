@@ -7879,3 +7879,464 @@ AttributeError: 'NoneType' object has no attribute 'decode'
 ERROR 2019-12-08 21:55:44,875 basehttp 154 "GET /cart/order/ HTTP/1.1" 500 21060
 INFO 2019-12-08 21:56:07,869 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
 INFO 2019-12-08 21:56:11,417 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 21:56:16,748 basehttp 154 "OPTIONS /cart/order/ HTTP/1.1" 200 0
+INFO 2019-12-08 21:56:16,869 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:56:16,883 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+ERROR 2019-12-08 21:56:17,541 log 228 Internal Server Error: /cart/order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\luffy\luffyapi\luffyapi\apps\cart\views.py", line 136, in get_selected_course
+    expire_time = int(cart_hash.get(course_id_bytes).decode())
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2019-12-08 21:56:17,597 basehttp 154 "GET /cart/order/ HTTP/1.1" 500 21060
+INFO 2019-12-08 21:57:12,711 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 21:57:12,731 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:57:12,731 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:57:12,814 basehttp 154 "GET /cart/ HTTP/1.1" 200 1514
+INFO 2019-12-08 21:57:14,974 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 21:57:16,276 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 21:57:18,912 basehttp 154 "PUT /cart/ HTTP/1.1" 200 47
+INFO 2019-12-08 21:57:20,043 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:57:20,046 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 21:57:20,079 basehttp 154 "GET /cart/order/ HTTP/1.1" 200 603
+INFO 2019-12-08 22:04:20,060 autoreload 217 D:\git\luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2019-12-08 22:04:23,054 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:06:15,296 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:06:19,492 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:06:26,307 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:06:30,399 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:06:35,961 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:06:39,093 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:06:43,428 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:06:47,643 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:06:55,975 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:06:58,996 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:07:02,978 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:07:08,194 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:07:18,665 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:07:22,684 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:07:28,785 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:07:33,067 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:07:38,595 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:07:40,742 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:07:56,131 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:07:59,541 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:08:06,144 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:08:09,925 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:08:20,880 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:08:24,944 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:08:29,809 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:08:33,862 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:08:38,970 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:08:42,100 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:08:47,507 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:08:51,595 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:08:59,460 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:09:03,036 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:09:08,835 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:09:10,932 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:09:14,305 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:09:18,250 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:09:24,046 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:09:26,876 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:09:28,686 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:09:32,282 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:09:38,008 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:09:40,892 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:09:45,066 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:09:47,164 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:09:50,070 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:09:53,619 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:09:59,027 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:10:03,405 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:10:10,076 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:10:13,707 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:10:18,665 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:10:21,772 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:10:26,608 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\models.py changed, reloading.
+INFO 2019-12-08 22:10:29,078 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:56:05,071 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:56:34,082 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 22:56:47,070 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 22:56:47,134 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 22:56:47,137 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 22:56:47,189 basehttp 154 "GET /cart/ HTTP/1.1" 200 1511
+INFO 2019-12-08 22:56:49,677 basehttp 154 "OPTIONS /cart/order/ HTTP/1.1" 200 0
+INFO 2019-12-08 22:56:49,709 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 22:56:49,712 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 22:56:49,750 basehttp 154 "GET /cart/order/ HTTP/1.1" 200 603
+INFO 2019-12-08 22:57:28,444 basehttp 154 "OPTIONS /order/ HTTP/1.1" 200 0
+WARNING 2019-12-08 22:57:28,484 log 228 Not Found: /order/
+WARNING 2019-12-08 22:57:28,485 basehttp 154 "POST /order/ HTTP/1.1" 404 3094
+INFO 2019-12-08 22:59:31,090 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 22:59:31,099 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 22:59:31,132 basehttp 154 "GET /cart/ HTTP/1.1" 200 1511
+INFO 2019-12-08 22:59:34,220 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 22:59:34,225 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 22:59:34,271 basehttp 154 "GET /cart/order/ HTTP/1.1" 200 603
+WARNING 2019-12-08 23:00:10,393 log 228 Not Found: /order/
+WARNING 2019-12-08 23:00:10,395 basehttp 154 "POST /order/ HTTP/1.1" 404 3094
+WARNING 2019-12-08 23:00:18,245 log 228 Not Found: /order/
+WARNING 2019-12-08 23:00:18,246 basehttp 154 "POST /order/ HTTP/1.1" 404 3094
+INFO 2019-12-08 23:02:35,436 autoreload 217 D:\git\luffy\luffyapi\luffyapi\urls.py changed, reloading.
+INFO 2019-12-08 23:02:39,469 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 23:02:43,430 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:02:43,433 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:02:43,500 basehttp 154 "GET /cart/ HTTP/1.1" 200 1511
+INFO 2019-12-08 23:02:44,398 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:02:44,399 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:02:44,426 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-12-08 23:02:45,123 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:02:45,136 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 23:02:45,140 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:02:45,351 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 23:03:05,632 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:03:05,633 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:03:05,713 basehttp 154 "GET /course/1/ HTTP/1.1" 200 432
+INFO 2019-12-08 23:03:05,718 basehttp 154 "GET /course/chapters/?course=1 HTTP/1.1" 200 935
+INFO 2019-12-08 23:03:06,841 basehttp 154 "GET /course/category/ HTTP/1.1" 200 143
+INFO 2019-12-08 23:03:06,851 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:03:06,854 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:03:06,858 basehttp 154 "GET /course/?ordering=id&size=2&page=1 HTTP/1.1" 200 943
+INFO 2019-12-08 23:03:07,908 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:03:07,928 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:03:07,946 basehttp 154 "GET /cart/ HTTP/1.1" 200 1511
+INFO 2019-12-08 23:03:11,277 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:03:11,284 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:03:11,312 basehttp 154 "GET /cart/order/ HTTP/1.1" 200 603
+INFO 2019-12-08 23:07:34,204 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 23:07:44,640 basehttp 154 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-12-08 23:07:44,733 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:07:44,734 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:07:44,801 basehttp 154 "GET /cart/ HTTP/1.1" 200 1511
+INFO 2019-12-08 23:07:54,111 basehttp 154 "OPTIONS /cart/order/ HTTP/1.1" 200 0
+INFO 2019-12-08 23:07:54,125 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:07:54,126 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:07:54,182 basehttp 154 "GET /cart/order/ HTTP/1.1" 200 603
+INFO 2019-12-08 23:07:56,325 basehttp 154 "OPTIONS /order/ HTTP/1.1" 200 0
+ERROR 2019-12-08 23:07:56,663 log 228 Internal Server Error: /order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 430, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 483, in to_internal_value
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 366, in _writable_fields
+    for field in self.fields.values():
+AttributeError: 'list' object has no attribute 'values'
+ERROR 2019-12-08 23:07:56,670 basehttp 154 "POST /order/ HTTP/1.1" 500 21829
+ERROR 2019-12-08 23:08:53,309 log 228 Internal Server Error: /order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 430, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 483, in to_internal_value
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 366, in _writable_fields
+    for field in self.fields.values():
+AttributeError: 'list' object has no attribute 'values'
+ERROR 2019-12-08 23:08:53,313 basehttp 154 "POST /order/ HTTP/1.1" 500 21829
+ERROR 2019-12-08 23:09:06,462 log 228 Internal Server Error: /order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 430, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 483, in to_internal_value
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 366, in _writable_fields
+    for field in self.fields.values():
+AttributeError: 'list' object has no attribute 'values'
+ERROR 2019-12-08 23:09:06,466 basehttp 154 "POST /order/ HTTP/1.1" 500 21829
+INFO 2019-12-08 23:11:32,613 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\serializers.py changed, reloading.
+INFO 2019-12-08 23:11:35,559 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 23:11:53,271 autoreload 217 C:\Users\81421\Envs\luffy\Lib\site-packages\rest_framework\serializers.py changed, reloading.
+INFO 2019-12-08 23:11:56,924 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-08 23:12:00,784 log 228 Internal Server Error: /order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 431, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 484, in to_internal_value
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 366, in _writable_fields
+    print(self.fields.values())
+AttributeError: 'list' object has no attribute 'values'
+ERROR 2019-12-08 23:12:00,792 basehttp 154 "POST /order/ HTTP/1.1" 500 21822
+INFO 2019-12-08 23:12:22,049 autoreload 217 C:\Users\81421\Envs\luffy\Lib\site-packages\rest_framework\serializers.py changed, reloading.
+INFO 2019-12-08 23:12:25,846 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-08 23:12:30,239 log 228 Internal Server Error: /order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 431, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 484, in to_internal_value
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 367, in _writable_fields
+    for field in self.fields.values():
+AttributeError: 'list' object has no attribute 'values'
+ERROR 2019-12-08 23:12:30,258 basehttp 154 "POST /order/ HTTP/1.1" 500 21829
+INFO 2019-12-08 23:14:10,877 autoreload 217 C:\Users\81421\Envs\luffy\Lib\site-packages\rest_framework\serializers.py changed, reloading.
+INFO 2019-12-08 23:14:14,359 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 23:14:30,304 autoreload 217 C:\Users\81421\Envs\luffy\Lib\site-packages\rest_framework\serializers.py changed, reloading.
+INFO 2019-12-08 23:14:33,560 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-12-08 23:14:40,552 log 228 Internal Server Error: /order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 432, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 485, in to_internal_value
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 366, in _writable_fields
+    print(self)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 536, in __repr__
+    return representation.serializer_repr(self, indent=1)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\utils\representation.py", line 79, in serializer_repr
+    for field_name, field in fields.items():
+AttributeError: 'list' object has no attribute 'items'
+ERROR 2019-12-08 23:14:40,562 basehttp 154 "POST /order/ HTTP/1.1" 500 22128
+ERROR 2019-12-08 23:14:42,278 log 228 Internal Server Error: /order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 432, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 485, in to_internal_value
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 366, in _writable_fields
+    print(self)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 536, in __repr__
+    return representation.serializer_repr(self, indent=1)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\utils\representation.py", line 79, in serializer_repr
+    for field_name, field in fields.items():
+AttributeError: 'list' object has no attribute 'items'
+ERROR 2019-12-08 23:14:42,286 basehttp 154 "POST /order/ HTTP/1.1" 500 22128
+ERROR 2019-12-08 23:14:59,451 log 228 Internal Server Error: /order/
+Traceback (most recent call last):
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 432, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 485, in to_internal_value
+    for field in fields:
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 366, in _writable_fields
+    print(self)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\serializers.py", line 536, in __repr__
+    return representation.serializer_repr(self, indent=1)
+  File "C:\Users\81421\Envs\luffy\lib\site-packages\rest_framework\utils\representation.py", line 79, in serializer_repr
+    for field_name, field in fields.items():
+AttributeError: 'list' object has no attribute 'items'
+ERROR 2019-12-08 23:14:59,459 basehttp 154 "POST /order/ HTTP/1.1" 500 22128
+INFO 2019-12-08 23:15:39,487 autoreload 217 C:\Users\81421\Envs\luffy\Lib\site-packages\rest_framework\serializers.py changed, reloading.
+INFO 2019-12-08 23:15:42,897 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 23:16:41,572 autoreload 217 D:\git\luffy\luffyapi\luffyapi\apps\order\serializers.py changed, reloading.
+INFO 2019-12-08 23:16:44,593 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-08 23:17:42,846 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:17:42,855 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:17:42,890 basehttp 154 "GET /cart/ HTTP/1.1" 200 1511
+INFO 2019-12-08 23:17:48,826 basehttp 154 "GET /nav/footer/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:17:48,828 basehttp 154 "GET /nav/header/ HTTP/1.1" 200 209
+INFO 2019-12-08 23:17:48,881 basehttp 154 "GET /cart/order/ HTTP/1.1" 200 603
+INFO 2019-12-08 23:17:50,650 basehttp 154 "POST /order/ HTTP/1.1" 201 85
+INFO 2019-12-08 23:17:52,425 basehttp 154 "POST /order/ HTTP/1.1" 201 85
+INFO 2019-12-08 23:17:57,049 basehttp 154 "OPTIONS /order/ HTTP/1.1" 200 0
+INFO 2019-12-08 23:17:57,172 basehttp 154 "POST /order/ HTTP/1.1" 201 85
+INFO 2019-12-08 23:18:27,763 basehttp 154 "POST /order/ HTTP/1.1" 201 85

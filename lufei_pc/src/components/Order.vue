@@ -11,26 +11,31 @@
           <el-col :span="4">价格</el-col>
         </el-row>
       </div>
-       <div class="cart-item" v-for="course in course_list">
+      <div class="cart-item" v-for="course in course_list">
         <el-row>
           <el-col :span="2" class="checkbox">&nbsp;&nbsp;</el-col>
           <el-col :span="10" class="course-info">
-            <img src="/static/image/course-cover.jpeg" alt="">
+            <img :src="course.course_img" alt="">
             <span>{{course.course_name}}</span>
           </el-col>
-          <el-col :span="8"><span>{{course.course_name}}</span></el-col>
-          <el-col :span="4" class="course-price">{{course.price.toFixed(2)}}</el-col>
+          <el-col :span="8"><span>{{course.expire_text}}</span></el-col>
+          <el-col :span="4" class="course-price">¥{{course.price.toFixed(2)}}</el-col>
         </el-row>
       </div>
+
       <div class="calc">
         <el-row class="pay-row">
           <el-col :span="4" class="pay-col"><span class="pay-text">支付方式：</span></el-col>
           <el-col :span="8">
-            <span class="alipay"><img src="/static/image/alipay2.png" alt=""></span>
-            <span class="alipay wechat"><img src="/static/image/wechat.png" alt=""></span>
+            <span class="alipay" v-if="pay_type==1" @click="pay_type=1"><img src="/static/image/alipay2.png"
+                                                                             alt=""></span>
+            <span class="alipay" v-else @click="pay_type=1"><img src="/static/image/alipay.png" alt=""></span>
+            <span class="alipay wechat" v-if="pay_type==2" @click="pay_type=2"><img src="/static/image/wechat2.png"
+                                                                                    alt=""></span>
+            <span class="alipay wechat" v-else @click="pay_type=2"><img src="/static/image/wechat.png" alt=""></span>
           </el-col>
           <el-col :span="8" class="count">实付款： <span>¥99.50</span></el-col>
-          <el-col :span="4" class="cart-pay"><span @click="payhander">支付宝支付</span></el-col>
+          <el-col :span="4" class="cart-pay"><span @click="payhander">{{pay_type===1?'支付宝':'微信'}}支付</span></el-col>
         </el-row>
       </div>
     </div>
@@ -47,6 +52,9 @@
     data() {
       return {
         token: "",
+        pay_type: 1,
+        credit: 0, // 本次订单使用的积分
+        coupon: 0, // 本次订单使用的优惠券ID
         course_list: [],
         total_price: 0,
       }
@@ -83,14 +91,31 @@
           let self = this;
           this.$alert("获取购物车数据失败!请联系客服工作人员!", "路飞学城", {
             callback() {
-              self.$router.go(-1)
+              self.$router.go(-1);
             }
-          })
-        })
+          });
+        });
       },
       payhander() {
+        // 订单生成
+        this.$axios.post(`${this.$settings.Host}/order/`, {
+          pay_type: this.pay_type,
+          coupon: this.coupon,
+          credit: this.credit,
+        }, {
+          headers: {
+            Authorization: "jwt " + this.token,
+          }
+        }).then(response => {
+          // 去支付
+          console.log(response.data);
+        }).catch(error => {
+          // 失败
+          this.$message.error("对不起，下单失败！请联系客服工作人员！");
+        });
 
-      },
+
+      }
     }
   }
 </script>
