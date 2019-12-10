@@ -10,7 +10,8 @@ from .models import CourseExpire
 
 class CourseCategoryModelAdmin(object):
     """课程分类管理模型"""
-    pass
+    list_display = ["id", "name", "is_show"]
+    list_editable = ["is_show"]
 
 
 xadmin.site.register(CourseCategory, CourseCategoryModelAdmin)
@@ -56,3 +57,45 @@ class CourseExpireModelAdmin(object):
 
 
 xadmin.site.register(CourseExpire, CourseExpireModelAdmin)
+
+"""价格优惠相关模型的注册"""
+
+from .models import CourseDiscountType
+
+
+class CourseDiscountTypeModelAdmin(object):
+    """价格优惠类型"""
+    pass
+
+
+xadmin.site.register(CourseDiscountType, CourseDiscountTypeModelAdmin)
+
+from .models import CourseDiscount
+
+
+class CourseDiscountModelAdmin(object):
+    """价格优惠公式"""
+    pass
+
+
+xadmin.site.register(CourseDiscount, CourseDiscountModelAdmin)
+
+from .models import CoursePriceDiscount
+
+
+class CoursePriceDiscountModelAdmin(object):
+    """商品优惠和活动的关系"""
+    pass
+
+
+xadmin.site.register(CoursePriceDiscount, CoursePriceDiscountModelAdmin)
+
+from .models import Activity
+
+
+class ActivityModelAdmin(object):
+    """商品活动模型"""
+    pass
+
+
+xadmin.site.register(Activity, ActivityModelAdmin)

@@ -13,7 +13,9 @@
                    :key="item.expire_time"></el-option>
       </el-select>
     </div>
-    <div class="cart_column column_4">¥{{course.price.toFixed(2)}}</div>
+    <div class="cart_column column_4" style="color:goldenrod;font-weight:bold">¥{{course.real_price.toFixed(2)}}&nbsp;
+      <span style="text-decoration: line-through;color:gray"
+            v-if="course.real_price.toFixed(2) !== course.price.toFixed(2)">¥{{course.price.toFixed(2)}} </span></div>
     <div class="cart_column column_4 delete" @click="deleteHandler">删除</div>
   </div>
 </template>

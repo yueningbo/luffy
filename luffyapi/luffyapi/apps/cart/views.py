@@ -78,7 +78,8 @@ class CartViewSet(ViewSet):
                     "name": course.name,
                     "course_img": constants.SERVER_IMAGE_URL + course.course_img.url,
                     "course_name": course.name,
-                    "price": course.real_price(expire_time),
+                    "price": course.original_price(expire_time),
+                    "real_price": course.real_price(expire_time),
                     "selected": True if course_id_bytes in cart_selected_list else False,
                     "expire_list": course.get_expire_list,  # 当前商品课程所有的有效期选项列表
                     "expire": expire_time,  # 购物车中当前商品的勾选有效期
@@ -141,8 +142,8 @@ class CartViewSet(ViewSet):
                     "course_id": course.id,
                     "course_img": constants.SERVER_IMAGE_URL + course.course_img.url,  # 返回图片的url地址
                     "course_name": course.name,
-                    "price": course.real_price(expire_time),  # 商品原价
-                    "real_price": 0.00,  # 折扣以后的价格
+                    "price": course.original_price(expire_time),  # 商品原价
+                    "real_price": course.real_price(expire_time),  # 折扣以后的价格
                     "selected": True if course_id_bytes in selected_set else False,
                     "expire_text": CourseExpire.get_expire_text(course_id, expire_time)
                 })

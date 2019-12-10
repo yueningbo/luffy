@@ -19,7 +19,7 @@
             <span>{{course.course_name}}</span>
           </el-col>
           <el-col :span="8"><span>{{course.expire_text}}</span></el-col>
-          <el-col :span="4" class="course-price">¥{{course.price.toFixed(2)}}</el-col>
+          <el-col :span="4" class="course-price">¥{{course.real_price.toFixed(2)}}</el-col>
         </el-row>
       </div>
 

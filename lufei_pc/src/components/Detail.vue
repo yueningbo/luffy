@@ -17,12 +17,15 @@
           <h3 class="course-name">{{course_info.name}}</h3>
           <p class="data">{{course_info.students}}人在学&nbsp;&nbsp;&nbsp;&nbsp;课程总时长：{{course_info.lessons}}课时/{{course_info.pub_lessons}}小时&nbsp;&nbsp;&nbsp;&nbsp;难度：{{course_info.level_name}}</p>
           <div class="sale-time">
-            <p class="sale-type">限时免费</p>
-            <p class="expire">距离结束：仅剩 01天 04小时 33分 <span class="second">08</span> 秒</p>
+            <p class="sale-type">{{course_info.discount_name}}</p>
+            <p class="expire">
+              距离结束：仅剩{{parseInt(course_info.activity_time/(3600*24))|pad_0}}天{{parseInt(course_info.activity_time/3600%24)|pad_0}}小时{{parseInt(course_info.activity_time/60%60)|pad_0}}分
+              <span
+                class="second">{{parseInt(course_info.activity_time%60)|pad_0}}</span> 秒</p>
           </div>
           <p class="course-price">
             <span>活动价</span>
-            <span class="discount">¥0.00</span>
+            <span class="discount">¥{{course_info.discount_price}}</span>
             <span class="original">¥{{course_info.price}}</span>
           </p>
           <div class="buy">
@@ -130,6 +133,14 @@
         }
       }
     },
+    filters: {
+      pad_0(num) {
+        if (num < 10) {
+          return "0" + num;
+        }
+        return num;
+      }
+    },
     created() {
       this.get_course_id();
       this.get_course_data();
@@ -161,6 +172,14 @@
         this.$axios.get(`${this.$settings.Host}/course/${this.course_id}/`).then(response => {
           // console.log(response.data);
           this.course_info = response.data;
+          let t = setInterval(() => {
+            if (this.course_info.activity_time > 0) {
+              this.course_info.activity_time--;
+            } else {
+              this.course_info.discount_name = "";
+              clearInterval(t);
+            }
+          }, 1000);
         }).catch(response => {
           this.$message({
             message: "对不起，访问页面出错！请联系客服工作人员！"

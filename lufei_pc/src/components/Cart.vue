@@ -4,7 +4,7 @@
     <div class="cart_info">
       <div class="cart_title">
         <span class="text">我的购物车</span>
-        <span class="total">共4门课程</span>
+        <span class="total">共{{this.course_list.length}}门课程</span>
       </div>
       <div class="cart_table">
         <div class="cart_head_row">
