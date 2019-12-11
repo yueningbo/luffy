@@ -95,7 +95,8 @@ class Course(BaseModel):
             data_list.append({
                 "expire_time": item.expire_time,
                 "expire_text": item.expire_text,
-                "price": item.price,
+                "real_price": float(self.discount_price(item.price)),
+                "price": float(item.price),
             })
 
         # 2. 先获取当前课程的价格
@@ -103,7 +104,8 @@ class Course(BaseModel):
             data_list.append({
                 "expire_time": 0,
                 "expire_text": "永久有效",
-                "price": self.price,
+                "real_price": float(self.discount_price(self.price)),
+                "price": float(self.price),
             })
 
         return data_list
@@ -117,8 +119,8 @@ class Course(BaseModel):
         price = self.price
         # 如果购物车中的有效期选项非0,则表示有其他的有效期选项,则提取对应选项的价格
         if expire_time > 0:
-            courseexpire = self.course_expire.get(expire_time=expire_time)
-            price = courseexpire.price
+            course_expire = self.course_expire.get(expire_time=expire_time)
+            price = course_expire.price
 
         return price
 

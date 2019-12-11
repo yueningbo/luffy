@@ -95,7 +95,7 @@
         // 子组件如果切换勾选状态成功以后, 要通知父组件同步课程的勾选状态并重新计算勾选商品的价格
         for (let key in this.course_list) {
           if (this.course_list[key].course_id === course.course_id) {
-            this.course_list.splice(key, 1, course);
+            this.course_list.splice(key, 1, course);//替换课程对象
           }
         }
         // 同步了父组件中的对应课程的信息哟呼,重新计算总价格
@@ -106,7 +106,7 @@
         this.total_price = 0;
         for (let course of this.course_list) {
           if (course.selected) {
-            this.total_price += course.price;
+            this.total_price += course.real_price;
           }
         }
       }

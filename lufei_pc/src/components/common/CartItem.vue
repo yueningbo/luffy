@@ -62,6 +62,7 @@
         for (let item of this.course.expire_list) {
           if (item.expire_time === this.course.expire) {
             this.course.price = item.price;
+            this.course.real_price = item.real_price;
             // 同步到服务端
             this.$axios.patch(`${this.$settings.Host}/cart/`, {
               course_id: this.course.course_id,
